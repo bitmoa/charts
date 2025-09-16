@@ -14,7 +14,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 2.4.65
-    created: "2025-09-16T06:50:53.025438857Z"
+    created: "2025-09-16T06:51:48.743568258Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -57,7 +57,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 9.0.8
-    created: "2025-09-16T06:50:53.027910473Z"
+    created: "2025-09-16T06:51:48.745857481Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -92,7 +92,7 @@ entries:
       tanzuCategory: clusterUtility
     apiVersion: v2
     appVersion: 0.53.0
-    created: "2025-09-16T06:50:53.030651377Z"
+    created: "2025-09-16T06:51:48.748866777Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -131,7 +131,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 5.0.5
-    created: "2025-09-16T06:50:53.033368325Z"
+    created: "2025-09-16T06:51:48.751606055Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -173,7 +173,7 @@ entries:
       tanzuCategory: clusterUtility
     apiVersion: v2
     appVersion: 1.18.2
-    created: "2025-09-16T06:50:53.038053555Z"
+    created: "2025-09-16T06:51:48.756316305Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -213,7 +213,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 25.7.5
-    created: "2025-09-16T06:50:53.041747529Z"
+    created: "2025-09-16T06:51:48.760142001Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -253,7 +253,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 0.25.3
-    created: "2025-09-16T06:50:53.045992128Z"
+    created: "2025-09-16T06:51:48.764164609Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -281,13 +281,54 @@ entries:
     urls:
     - https://charts.bitmoa.net/bitmoa/clickhouse-operator-0.2.33.tgz
     version: 0.2.33
+  cloudnative-pg:
+  - annotations:
+      category: Infrastructure
+      images: |
+        - name: cloudnative-pg
+          image: ghcr.io/bitmoa/cloudnative-pg:1.27.0-debian-12-r0
+        - name: plugin-barman-cloud
+          image: ghcr.io/bitmoa/plugin-barman-cloud:0.6.0-debian-12-r0
+        - name: plugin-barman-cloud-sidecar
+          image: ghcr.io/bitmoa/plugin-barman-cloud-sidecar:0.6.0-debian-12-r0
+        - name: postgresql
+          image: ghcr.io/bitmoa/postgresql:17.6.0-debian-12-r0
+      licenses: Apache-2.0
+      tanzuCategory: service
+    apiVersion: v2
+    appVersion: 1.27.0
+    created: "2025-09-16T06:51:48.771702934Z"
+    dependencies:
+    - name: common
+      repository: https://charts-dev.bitmoa.net/bitmoa/
+      tags:
+      - bitmoa-common
+      version: 2.x.x
+    description: CloudNativePG is an open-source tool for managing PostgreSQL databases
+      on Kubernetes, from setup to ongoing upkeep.
+    digest: c088da9154b6694693eb3f1a9405d5ef694dece9e3090469a27789ac831583d7
+    home: https://bitmoa.net
+    icon: https://bitmoa.net/assets/stacks/cloudnative-pg/img/cloudnative-pg-stack-220x234.png
+    keywords:
+    - cloudnative-pg
+    - operator
+    - postgresql
+    maintainers:
+    - name: Bitmoa
+      url: https://github.com/bitmoa/charts
+    name: cloudnative-pg
+    sources:
+    - https://github.com/bitmoa/charts/tree/main/bitmoa/cloudnative-pg
+    urls:
+    - https://charts.bitmoa.net/bitmoa/cloudnative-pg-1.0.12.tgz
+    version: 1.0.12
   common:
   - annotations:
       category: Infrastructure
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 2.31.4
-    created: "2025-09-16T06:50:53.046873274Z"
+    created: "2025-09-16T06:51:48.773111156Z"
     description: A Library Helm Chart for grouping common logic between bitmoa charts.
       This chart is not deployable by itself.
     digest: 4c10834db3cdb3f0684463af304a3be99959b63ee04e3d6b5b7b13db6e482cbf
@@ -309,4 +350,4 @@ entries:
     urls:
     - https://charts.bitmoa.net/bitmoa/common-2.31.4.tgz
     version: 2.31.4
-generated: "2025-09-16T06:50:53.022792733Z"
+generated: "2025-09-16T06:51:48.740926593Z"
