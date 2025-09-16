@@ -14,7 +14,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 2.4.65
-    created: "2025-09-16T06:51:48.743568258Z"
+    created: "2025-09-16T06:52:56.075329718Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -57,7 +57,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 9.0.8
-    created: "2025-09-16T06:51:48.745857481Z"
+    created: "2025-09-16T06:52:56.077843402Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -92,7 +92,7 @@ entries:
       tanzuCategory: clusterUtility
     apiVersion: v2
     appVersion: 0.53.0
-    created: "2025-09-16T06:51:48.748866777Z"
+    created: "2025-09-16T06:52:56.080799244Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -131,7 +131,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 5.0.5
-    created: "2025-09-16T06:51:48.751606055Z"
+    created: "2025-09-16T06:52:56.083613022Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -173,7 +173,7 @@ entries:
       tanzuCategory: clusterUtility
     apiVersion: v2
     appVersion: 1.18.2
-    created: "2025-09-16T06:51:48.756316305Z"
+    created: "2025-09-16T06:52:56.088533938Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -213,7 +213,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 25.7.5
-    created: "2025-09-16T06:51:48.760142001Z"
+    created: "2025-09-16T06:52:56.092675967Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -253,7 +253,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 0.25.3
-    created: "2025-09-16T06:51:48.764164609Z"
+    created: "2025-09-16T06:52:56.096863129Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -297,7 +297,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 1.27.0
-    created: "2025-09-16T06:51:48.771702934Z"
+    created: "2025-09-16T06:52:56.104392011Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -328,7 +328,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 2.31.4
-    created: "2025-09-16T06:51:48.773111156Z"
+    created: "2025-09-16T06:52:56.105141918Z"
     description: A Library Helm Chart for grouping common logic between bitmoa charts.
       This chart is not deployable by itself.
     digest: 4c10834db3cdb3f0684463af304a3be99959b63ee04e3d6b5b7b13db6e482cbf
@@ -350,4 +350,43 @@ entries:
     urls:
     - https://charts.bitmoa.net/bitmoa/common-2.31.4.tgz
     version: 2.31.4
-generated: "2025-09-16T06:51:48.740926593Z"
+  consul:
+  - annotations:
+      category: DeveloperTools
+      images: |
+        - name: consul
+          image: ghcr.io/bitmoa/consul:1.21.4-debian-12-r0
+        - name: consul-exporter
+          image: ghcr.io/bitmoa/consul-exporter:0.13.0-debian-12-r0
+        - name: os-shell
+          image: ghcr.io/bitmoa/os-shell:12-debian-12-r0
+      licenses: Apache-2.0
+      tanzuCategory: application
+    apiVersion: v2
+    appVersion: 1.21.4
+    created: "2025-09-16T06:52:56.107666663Z"
+    dependencies:
+    - name: common
+      repository: https://charts-dev.bitmoa.net/bitmoa/
+      tags:
+      - bitmoa-common
+      version: 2.x.x
+    description: HashiCorp Consul is a tool for discovering and configuring services
+      in your infrastructure.
+    digest: a23771f41c53d19164a09d54e61c0a33779417f1460ccaad41f41e1f75777688
+    home: https://bitmoa.net
+    icon: https://dyltqmyl993wv.cloudfront.net/assets/stacks/consul/img/consul-stack-220x234.png
+    keywords:
+    - discovering
+    - configuring
+    - services
+    maintainers:
+    - name: Bitmoa
+      url: https://github.com/bitmoa/charts
+    name: consul
+    sources:
+    - https://github.com/bitmoa/charts/tree/main/bitmoa/consul
+    urls:
+    - https://charts.bitmoa.net/bitmoa/consul-11.4.32.tgz
+    version: 11.4.32
+generated: "2025-09-16T06:52:56.07197963Z"
