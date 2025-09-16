@@ -14,7 +14,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 2.4.65
-    created: "2025-09-16T06:58:07.174810191Z"
+    created: "2025-09-16T06:58:58.057550531Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -57,7 +57,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 9.0.8
-    created: "2025-09-16T06:58:07.177329453Z"
+    created: "2025-09-16T06:58:58.059890101Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -92,7 +92,7 @@ entries:
       tanzuCategory: clusterUtility
     apiVersion: v2
     appVersion: 0.53.0
-    created: "2025-09-16T06:58:07.180210156Z"
+    created: "2025-09-16T06:58:58.06293175Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -131,7 +131,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 5.0.5
-    created: "2025-09-16T06:58:07.182975828Z"
+    created: "2025-09-16T06:58:58.06575636Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -173,7 +173,7 @@ entries:
       tanzuCategory: clusterUtility
     apiVersion: v2
     appVersion: 1.18.2
-    created: "2025-09-16T06:58:07.187718933Z"
+    created: "2025-09-16T06:58:58.070740067Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -213,7 +213,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 25.7.5
-    created: "2025-09-16T06:58:07.191461638Z"
+    created: "2025-09-16T06:58:58.074726387Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -253,7 +253,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 0.25.3
-    created: "2025-09-16T06:58:07.195570716Z"
+    created: "2025-09-16T06:58:58.079674815Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -297,7 +297,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 1.27.0
-    created: "2025-09-16T06:58:07.203028882Z"
+    created: "2025-09-16T06:58:58.088221953Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -328,7 +328,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 2.31.4
-    created: "2025-09-16T06:58:07.203751471Z"
+    created: "2025-09-16T06:58:58.088951312Z"
     description: A Library Helm Chart for grouping common logic between bitmoa charts.
       This chart is not deployable by itself.
     digest: 4c10834db3cdb3f0684463af304a3be99959b63ee04e3d6b5b7b13db6e482cbf
@@ -364,7 +364,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 1.21.4
-    created: "2025-09-16T06:58:07.206959441Z"
+    created: "2025-09-16T06:58:58.092660462Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -403,7 +403,7 @@ entries:
       tanzuCategory: clusterUtility
     apiVersion: v2
     appVersion: 1.32.1
-    created: "2025-09-16T06:58:07.220929209Z"
+    created: "2025-09-16T06:58:58.103133461Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -442,7 +442,7 @@ entries:
       tanzuCategory: clusterUtility
     apiVersion: v2
     appVersion: 0.17.5
-    created: "2025-09-16T06:58:07.225750677Z"
+    created: "2025-09-16T06:58:58.106178795Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -485,7 +485,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 1.5.0
-    created: "2025-09-16T06:58:07.239848935Z"
+    created: "2025-09-16T06:58:58.120668417Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -524,7 +524,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 3.6.4
-    created: "2025-09-16T06:58:07.243184282Z"
+    created: "2025-09-16T06:58:58.124057286Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -562,7 +562,7 @@ entries:
       tanzuCategory: clusterUtility
     apiVersion: v2
     appVersion: 0.18.0
-    created: "2025-09-16T06:58:07.246480225Z"
+    created: "2025-09-16T06:58:58.127384559Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -587,4 +587,39 @@ entries:
     urls:
     - https://charts.bitmoa.net/bitmoa/external-dns-9.0.3.tgz
     version: 9.0.3
-generated: "2025-09-16T06:58:07.172114471Z"
+  flink:
+  - annotations:
+      category: Infrastructure
+      images: |
+        - name: flink
+          image: ghcr.io/bitmoa/flink:2.1.0-debian-12-r0
+      licenses: Apache-2.0
+      tanzuCategory: application
+    apiVersion: v2
+    appVersion: 2.1.0
+    created: "2025-09-16T06:58:58.12981506Z"
+    dependencies:
+    - name: common
+      repository: https://charts-dev.bitmoa.net/bitmoa/
+      tags:
+      - bitmoa-common
+      version: 2.x.x
+    description: Apache Flink is a framework and distributed processing engine for
+      stateful computations over unbounded and bounded data streams.
+    digest: c5d9810784eccc5b5d47ae149485920bace1eda4ef7ea6d43a8726582b7b4c2f
+    home: https://bitmoa.net
+    icon: https://dyltqmyl993wv.cloudfront.net/assets/stacks/flink/img/flink-stack-220x234.png
+    keywords:
+    - flink
+    - stream-processing
+    - batch-processing
+    maintainers:
+    - name: Bitmoa
+      url: https://github.com/bitmoa/charts
+    name: flink
+    sources:
+    - https://github.com/bitmoa/charts/tree/main/bitmoa/flink
+    urls:
+    - https://charts.bitmoa.net/bitmoa/flink-2.0.7.tgz
+    version: 2.0.7
+generated: "2025-09-16T06:58:58.054829004Z"
