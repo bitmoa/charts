@@ -14,7 +14,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 2.4.65
-    created: "2025-09-16T06:56:53.432931448Z"
+    created: "2025-09-16T06:58:07.174810191Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -57,7 +57,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 9.0.8
-    created: "2025-09-16T06:56:53.435223397Z"
+    created: "2025-09-16T06:58:07.177329453Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -92,7 +92,7 @@ entries:
       tanzuCategory: clusterUtility
     apiVersion: v2
     appVersion: 0.53.0
-    created: "2025-09-16T06:56:53.438311246Z"
+    created: "2025-09-16T06:58:07.180210156Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -131,7 +131,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 5.0.5
-    created: "2025-09-16T06:56:53.441054273Z"
+    created: "2025-09-16T06:58:07.182975828Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -173,7 +173,7 @@ entries:
       tanzuCategory: clusterUtility
     apiVersion: v2
     appVersion: 1.18.2
-    created: "2025-09-16T06:56:53.445863773Z"
+    created: "2025-09-16T06:58:07.187718933Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -213,7 +213,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 25.7.5
-    created: "2025-09-16T06:56:53.44962205Z"
+    created: "2025-09-16T06:58:07.191461638Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -253,7 +253,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 0.25.3
-    created: "2025-09-16T06:56:53.453712965Z"
+    created: "2025-09-16T06:58:07.195570716Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -297,7 +297,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 1.27.0
-    created: "2025-09-16T06:56:53.461170467Z"
+    created: "2025-09-16T06:58:07.203028882Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -328,7 +328,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 2.31.4
-    created: "2025-09-16T06:56:53.461936047Z"
+    created: "2025-09-16T06:58:07.203751471Z"
     description: A Library Helm Chart for grouping common logic between bitmoa charts.
       This chart is not deployable by itself.
     digest: 4c10834db3cdb3f0684463af304a3be99959b63ee04e3d6b5b7b13db6e482cbf
@@ -364,7 +364,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 1.21.4
-    created: "2025-09-16T06:56:53.465098669Z"
+    created: "2025-09-16T06:58:07.206959441Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -403,7 +403,7 @@ entries:
       tanzuCategory: clusterUtility
     apiVersion: v2
     appVersion: 1.32.1
-    created: "2025-09-16T06:56:53.47478129Z"
+    created: "2025-09-16T06:58:07.220929209Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -442,7 +442,7 @@ entries:
       tanzuCategory: clusterUtility
     apiVersion: v2
     appVersion: 0.17.5
-    created: "2025-09-16T06:56:53.478493059Z"
+    created: "2025-09-16T06:58:07.225750677Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -485,7 +485,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 1.5.0
-    created: "2025-09-16T06:56:53.492214867Z"
+    created: "2025-09-16T06:58:07.239848935Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -524,7 +524,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 3.6.4
-    created: "2025-09-16T06:56:53.495534138Z"
+    created: "2025-09-16T06:58:07.243184282Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -552,4 +552,39 @@ entries:
     urls:
     - https://charts.bitmoa.net/bitmoa/etcd-12.0.18.tgz
     version: 12.0.18
-generated: "2025-09-16T06:56:53.430217094Z"
+  external-dns:
+  - annotations:
+      category: DeveloperTools
+      images: |
+        - name: external-dns
+          image: ghcr.io/bitmoa/external-dns:0.18.0-debian-12-r0
+      licenses: Apache-2.0
+      tanzuCategory: clusterUtility
+    apiVersion: v2
+    appVersion: 0.18.0
+    created: "2025-09-16T06:58:07.246480225Z"
+    dependencies:
+    - name: common
+      repository: https://charts-dev.bitmoa.net/bitmoa/
+      tags:
+      - bitmoa-common
+      version: 2.x.x
+    description: ExternalDNS is a Kubernetes addon that configures public DNS servers
+      with information about exposed Kubernetes services to make them discoverable.
+    digest: 795ea3eb5998365f2ac185bf3b648be43e6c6fa8c37f5ffb283b89ac2635a69f
+    home: https://bitmoa.net
+    icon: https://dyltqmyl993wv.cloudfront.net/assets/stacks/external-dns/img/external-dns-stack-220x234.png
+    keywords:
+    - external-dns
+    - network
+    - dns
+    maintainers:
+    - name: Bitmoa
+      url: https://github.com/bitmoa/charts
+    name: external-dns
+    sources:
+    - https://github.com/bitmoa/charts/tree/main/bitmoa/external-dns
+    urls:
+    - https://charts.bitmoa.net/bitmoa/external-dns-9.0.3.tgz
+    version: 9.0.3
+generated: "2025-09-16T06:58:07.172114471Z"
