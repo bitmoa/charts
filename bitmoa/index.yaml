@@ -14,7 +14,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 2.4.65
-    created: "2025-09-16T06:55:54.918804608Z"
+    created: "2025-09-16T06:56:53.432931448Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -57,7 +57,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 9.0.8
-    created: "2025-09-16T06:55:54.921284341Z"
+    created: "2025-09-16T06:56:53.435223397Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -92,7 +92,7 @@ entries:
       tanzuCategory: clusterUtility
     apiVersion: v2
     appVersion: 0.53.0
-    created: "2025-09-16T06:55:54.923961638Z"
+    created: "2025-09-16T06:56:53.438311246Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -131,7 +131,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 5.0.5
-    created: "2025-09-16T06:55:54.926741724Z"
+    created: "2025-09-16T06:56:53.441054273Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -173,7 +173,7 @@ entries:
       tanzuCategory: clusterUtility
     apiVersion: v2
     appVersion: 1.18.2
-    created: "2025-09-16T06:55:54.931391004Z"
+    created: "2025-09-16T06:56:53.445863773Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -213,7 +213,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 25.7.5
-    created: "2025-09-16T06:55:54.935188734Z"
+    created: "2025-09-16T06:56:53.44962205Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -253,7 +253,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 0.25.3
-    created: "2025-09-16T06:55:54.939445048Z"
+    created: "2025-09-16T06:56:53.453712965Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -297,7 +297,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 1.27.0
-    created: "2025-09-16T06:55:54.94752476Z"
+    created: "2025-09-16T06:56:53.461170467Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -328,7 +328,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 2.31.4
-    created: "2025-09-16T06:55:54.948935573Z"
+    created: "2025-09-16T06:56:53.461936047Z"
     description: A Library Helm Chart for grouping common logic between bitmoa charts.
       This chart is not deployable by itself.
     digest: 4c10834db3cdb3f0684463af304a3be99959b63ee04e3d6b5b7b13db6e482cbf
@@ -364,7 +364,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 1.21.4
-    created: "2025-09-16T06:55:54.951480929Z"
+    created: "2025-09-16T06:56:53.465098669Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -403,7 +403,7 @@ entries:
       tanzuCategory: clusterUtility
     apiVersion: v2
     appVersion: 1.32.1
-    created: "2025-09-16T06:55:54.962042421Z"
+    created: "2025-09-16T06:56:53.47478129Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -442,7 +442,7 @@ entries:
       tanzuCategory: clusterUtility
     apiVersion: v2
     appVersion: 0.17.5
-    created: "2025-09-16T06:55:54.965017512Z"
+    created: "2025-09-16T06:56:53.478493059Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -485,7 +485,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 1.5.0
-    created: "2025-09-16T06:55:54.982450053Z"
+    created: "2025-09-16T06:56:53.492214867Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -512,4 +512,44 @@ entries:
     urls:
     - https://charts.bitmoa.net/bitmoa/envoy-gateway-2.0.4.tgz
     version: 2.0.4
-generated: "2025-09-16T06:55:54.91611355Z"
+  etcd:
+  - annotations:
+      category: Database
+      images: |
+        - name: etcd
+          image: ghcr.io/bitmoa/etcd:3.6.4-debian-12-r0
+        - name: os-shell
+          image: ghcr.io/bitmoa/os-shell:12-debian-12-r0
+      licenses: Apache-2.0
+      tanzuCategory: service
+    apiVersion: v2
+    appVersion: 3.6.4
+    created: "2025-09-16T06:56:53.495534138Z"
+    dependencies:
+    - name: common
+      repository: https://charts-dev.bitmoa.net/bitmoa/
+      tags:
+      - bitmoa-common
+      version: 2.x.x
+    description: etcd is a distributed key-value store designed to securely store
+      data across a cluster. etcd is widely used in production on account of its reliability,
+      fault-tolerance and ease of use.
+    digest: f516fb6cd642ab2715110de458177c5b3ee3a22f501ea2b27fba28a5b20893ac
+    home: https://bitmoa.net
+    icon: https://dyltqmyl993wv.cloudfront.net/assets/stacks/etcd/img/etcd-stack-220x234.png
+    keywords:
+    - etcd
+    - cluster
+    - database
+    - cache
+    - key-value
+    maintainers:
+    - name: Bitmoa
+      url: https://github.com/bitmoa/charts
+    name: etcd
+    sources:
+    - https://github.com/bitmoa/charts/tree/main/bitmoa/etcd
+    urls:
+    - https://charts.bitmoa.net/bitmoa/etcd-12.0.18.tgz
+    version: 12.0.18
+generated: "2025-09-16T06:56:53.430217094Z"
