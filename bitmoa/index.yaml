@@ -14,7 +14,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 2.4.65
-    created: "2025-09-16T06:45:46.299648687Z"
+    created: "2025-09-16T06:46:52.739809146Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -57,7 +57,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 9.0.8
-    created: "2025-09-16T06:45:46.302143265Z"
+    created: "2025-09-16T06:46:52.742309632Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -82,13 +82,48 @@ entries:
     urls:
     - https://charts.bitmoa.net/bitmoa/aspnet-core-7.0.35.tgz
     version: 7.0.35
+  cadvisor:
+  - annotations:
+      category: Analytics
+      images: |
+        - name: cadvisor
+          image: ghcr.io/bitmoa/cadvisor:0.53.0-debian-12-r0
+      licenses: Apache-2.0
+      tanzuCategory: clusterUtility
+    apiVersion: v2
+    appVersion: 0.53.0
+    created: "2025-09-16T06:46:52.745040354Z"
+    dependencies:
+    - name: common
+      repository: https://charts-dev.bitmoa.net/bitmoa/
+      tags:
+      - bitmoa-common
+      version: 2.x.x
+    description: cAdvisor (Container Advisor) is an open-source tool by Google for
+      monitoring containers, collecting metrics like CPU, memory, and network usage.
+    digest: a61f56d1cdccaa69c724ce0ee088678b45ceb9ee3fc3efd30d29e46c035b6045
+    home: https://bitmoa.net
+    icon: https://dyltqmyl993wv.cloudfront.net/assets/stacks/cadvisor/img/cadvisor-stack-220x234.png
+    keywords:
+    - cadvisor
+    - monitoring
+    - kubernetes
+    maintainers:
+    - name: Bitmoa
+      url: https://github.com/bitmoa/charts
+    name: cadvisor
+    sources:
+    - https://github.com/bitmoa/charts/tree/main/bitmoa/cadvisor
+    urls:
+    - https://charts.bitmoa.net/bitmoa/cadvisor-0.1.13.tgz
+    version: 0.1.13
   common:
   - annotations:
       category: Infrastructure
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 2.31.4
-    created: "2025-09-16T06:45:46.303520458Z"
+    created: "2025-09-16T06:46:52.74578143Z"
     description: A Library Helm Chart for grouping common logic between bitmoa charts.
       This chart is not deployable by itself.
     digest: 4c10834db3cdb3f0684463af304a3be99959b63ee04e3d6b5b7b13db6e482cbf
@@ -110,4 +145,4 @@ entries:
     urls:
     - https://charts.bitmoa.net/bitmoa/common-2.31.4.tgz
     version: 2.31.4
-generated: "2025-09-16T06:45:46.29700495Z"
+generated: "2025-09-16T06:46:52.736962366Z"
