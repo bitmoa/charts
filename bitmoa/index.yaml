@@ -14,7 +14,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 2.4.65
-    created: "2025-09-16T06:48:48.670047194Z"
+    created: "2025-09-16T06:49:51.218100863Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -57,7 +57,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 9.0.8
-    created: "2025-09-16T06:48:48.672532115Z"
+    created: "2025-09-16T06:49:51.221165429Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -92,7 +92,7 @@ entries:
       tanzuCategory: clusterUtility
     apiVersion: v2
     appVersion: 0.53.0
-    created: "2025-09-16T06:48:48.675319919Z"
+    created: "2025-09-16T06:49:51.224330558Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -131,7 +131,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 5.0.5
-    created: "2025-09-16T06:48:48.678027156Z"
+    created: "2025-09-16T06:49:51.22718447Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -173,7 +173,7 @@ entries:
       tanzuCategory: clusterUtility
     apiVersion: v2
     appVersion: 1.18.2
-    created: "2025-09-16T06:48:48.682941268Z"
+    created: "2025-09-16T06:49:51.231838821Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -199,13 +199,52 @@ entries:
     urls:
     - https://charts.bitmoa.net/bitmoa/cert-manager-1.5.14.tgz
     version: 1.5.14
+  clickhouse:
+  - annotations:
+      category: Database
+      images: |
+        - name: clickhouse
+          image: ghcr.io/bitmoa/clickhouse:25.7.5-debian-12-r0
+        - name: clickhouse-keeper
+          image: ghcr.io/bitmoa/clickhouse-keeper:25.7.5-debian-12-r0
+        - name: os-shell
+          image: ghcr.io/bitmoa/os-shell:12-debian-12-r0
+      licenses: Apache-2.0
+      tanzuCategory: service
+    apiVersion: v2
+    appVersion: 25.7.5
+    created: "2025-09-16T06:49:51.235565293Z"
+    dependencies:
+    - name: common
+      repository: https://charts-dev.bitmoa.net/bitmoa/
+      tags:
+      - bitmoa-common
+      version: 2.x.x
+    description: ClickHouse is an open-source column-oriented OLAP database management
+      system. Use it to boost your database performance while providing linear scalability
+      and hardware efficiency.
+    digest: 3782341a2d7792fc2df8bda4a97e1a3e7184eebb9455f3c157eaa9c44241e630
+    home: https://bitmoa.net
+    icon: https://dyltqmyl993wv.cloudfront.net/assets/stacks/clickhouse/img/clickhouse-stack-220x234.png
+    keywords:
+    - database
+    - sharding
+    maintainers:
+    - name: Bitmoa
+      url: https://github.com/bitmoa/charts
+    name: clickhouse
+    sources:
+    - https://github.com/bitmoa/charts/tree/main/bitmoa/clickhouse
+    urls:
+    - https://charts.bitmoa.net/bitmoa/clickhouse-9.4.4.tgz
+    version: 9.4.4
   common:
   - annotations:
       category: Infrastructure
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 2.31.4
-    created: "2025-09-16T06:48:48.683634145Z"
+    created: "2025-09-16T06:49:51.236872125Z"
     description: A Library Helm Chart for grouping common logic between bitmoa charts.
       This chart is not deployable by itself.
     digest: 4c10834db3cdb3f0684463af304a3be99959b63ee04e3d6b5b7b13db6e482cbf
@@ -227,4 +266,4 @@ entries:
     urls:
     - https://charts.bitmoa.net/bitmoa/common-2.31.4.tgz
     version: 2.31.4
-generated: "2025-09-16T06:48:48.667380923Z"
+generated: "2025-09-16T06:49:51.215067185Z"
