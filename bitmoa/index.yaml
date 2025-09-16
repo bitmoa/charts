@@ -14,7 +14,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 2.4.65
-    created: "2025-09-16T06:49:51.218100863Z"
+    created: "2025-09-16T06:50:53.025438857Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -57,7 +57,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 9.0.8
-    created: "2025-09-16T06:49:51.221165429Z"
+    created: "2025-09-16T06:50:53.027910473Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -92,7 +92,7 @@ entries:
       tanzuCategory: clusterUtility
     apiVersion: v2
     appVersion: 0.53.0
-    created: "2025-09-16T06:49:51.224330558Z"
+    created: "2025-09-16T06:50:53.030651377Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -131,7 +131,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 5.0.5
-    created: "2025-09-16T06:49:51.22718447Z"
+    created: "2025-09-16T06:50:53.033368325Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -173,7 +173,7 @@ entries:
       tanzuCategory: clusterUtility
     apiVersion: v2
     appVersion: 1.18.2
-    created: "2025-09-16T06:49:51.231838821Z"
+    created: "2025-09-16T06:50:53.038053555Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -213,7 +213,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 25.7.5
-    created: "2025-09-16T06:49:51.235565293Z"
+    created: "2025-09-16T06:50:53.041747529Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -238,13 +238,56 @@ entries:
     urls:
     - https://charts.bitmoa.net/bitmoa/clickhouse-9.4.4.tgz
     version: 9.4.4
+  clickhouse-operator:
+  - annotations:
+      category: Database
+      images: |
+        - name: clickhouse
+          image: ghcr.io/bitmoa/clickhouse:25.7.5-debian-12-r0
+        - name: clickhouse-keeper
+          image: ghcr.io/bitmoa/clickhouse-keeper:25.7.5-debian-12-r0
+        - name: clickhouse-operator
+          image: ghcr.io/bitmoa/clickhouse-operator:0.25.3-debian-12-r0
+        - name: clickhouse-operator-metrics-exporter
+          image: ghcr.io/bitmoa/clickhouse-operator-metrics-exporter:0.25.3-debian-12-r0
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 0.25.3
+    created: "2025-09-16T06:50:53.045992128Z"
+    dependencies:
+    - name: common
+      repository: https://charts-dev.bitmoa.net/bitmoa/
+      tags:
+      - bitmoa-common
+      version: 2.x.x
+    description: ClickHouse Operator is a production-ready operator that manages ClickHouse
+      databases delivering robust features required for cost-efficient, real-time
+      analytic applications.
+    digest: 4f5dd2e1eb51ddd07ee41bab824d78e60938e09e3d08d75ecae481e4158eb8ab
+    home: https://bitmoa.net
+    icon: https://dyltqmyl993wv.cloudfront.net/assets/stacks/clickhouse-operator/img/clickhouse-operator-stack-220x234.png
+    keywords:
+    - database
+    - sharding
+    - clickhouse
+    - operator
+    maintainers:
+    - name: Bitmoa
+      url: https://github.com/bitmoa/charts
+    name: clickhouse-operator
+    sources:
+    - https://github.com/bitmoa/charts/tree/main/bitmoa/clickhouse-operator
+    - https://github.com/bitmoa/containers/tree/main/bitmoa/clickhouse-operator
+    urls:
+    - https://charts.bitmoa.net/bitmoa/clickhouse-operator-0.2.33.tgz
+    version: 0.2.33
   common:
   - annotations:
       category: Infrastructure
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 2.31.4
-    created: "2025-09-16T06:49:51.236872125Z"
+    created: "2025-09-16T06:50:53.046873274Z"
     description: A Library Helm Chart for grouping common logic between bitmoa charts.
       This chart is not deployable by itself.
     digest: 4c10834db3cdb3f0684463af304a3be99959b63ee04e3d6b5b7b13db6e482cbf
@@ -266,4 +309,4 @@ entries:
     urls:
     - https://charts.bitmoa.net/bitmoa/common-2.31.4.tgz
     version: 2.31.4
-generated: "2025-09-16T06:49:51.215067185Z"
+generated: "2025-09-16T06:50:53.022792733Z"
