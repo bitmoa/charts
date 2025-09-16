@@ -14,7 +14,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 2.4.65
-    created: "2025-09-16T06:53:58.285639843Z"
+    created: "2025-09-16T06:54:56.176280168Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -57,7 +57,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 9.0.8
-    created: "2025-09-16T06:53:58.288819651Z"
+    created: "2025-09-16T06:54:56.178595425Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -92,7 +92,7 @@ entries:
       tanzuCategory: clusterUtility
     apiVersion: v2
     appVersion: 0.53.0
-    created: "2025-09-16T06:53:58.290888201Z"
+    created: "2025-09-16T06:54:56.181406477Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -131,7 +131,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 5.0.5
-    created: "2025-09-16T06:53:58.293677413Z"
+    created: "2025-09-16T06:54:56.184125244Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -173,7 +173,7 @@ entries:
       tanzuCategory: clusterUtility
     apiVersion: v2
     appVersion: 1.18.2
-    created: "2025-09-16T06:53:58.298423561Z"
+    created: "2025-09-16T06:54:56.188884526Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -213,7 +213,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 25.7.5
-    created: "2025-09-16T06:53:58.302860952Z"
+    created: "2025-09-16T06:54:56.192669906Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -253,7 +253,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 0.25.3
-    created: "2025-09-16T06:53:58.306305433Z"
+    created: "2025-09-16T06:54:56.197011918Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -297,7 +297,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 1.27.0
-    created: "2025-09-16T06:53:58.314258154Z"
+    created: "2025-09-16T06:54:56.204122888Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -328,7 +328,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 2.31.4
-    created: "2025-09-16T06:53:58.314980619Z"
+    created: "2025-09-16T06:54:56.204858045Z"
     description: A Library Helm Chart for grouping common logic between bitmoa charts.
       This chart is not deployable by itself.
     digest: 4c10834db3cdb3f0684463af304a3be99959b63ee04e3d6b5b7b13db6e482cbf
@@ -364,7 +364,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 1.21.4
-    created: "2025-09-16T06:53:58.317420336Z"
+    created: "2025-09-16T06:54:56.208026023Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -403,7 +403,7 @@ entries:
       tanzuCategory: clusterUtility
     apiVersion: v2
     appVersion: 1.32.1
-    created: "2025-09-16T06:53:58.326928116Z"
+    created: "2025-09-16T06:54:56.217629047Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -428,4 +428,47 @@ entries:
     urls:
     - https://charts.bitmoa.net/bitmoa/contour-21.1.4.tgz
     version: 21.1.4
-generated: "2025-09-16T06:53:58.282979864Z"
+  deepspeed:
+  - annotations:
+      category: MachineLearning
+      images: |
+        - name: deepspeed
+          image: ghcr.io/bitmoa/deepspeed:0.17.5-debian-12-r0
+        - name: git
+          image: ghcr.io/bitmoa/git:2.51.0-debian-12-r0
+        - name: os-shell
+          image: ghcr.io/bitmoa/os-shell:12-debian-12-r0
+      licenses: Apache-2.0
+      tanzuCategory: clusterUtility
+    apiVersion: v2
+    appVersion: 0.17.5
+    created: "2025-09-16T06:54:56.221283578Z"
+    dependencies:
+    - name: common
+      repository: https://charts-dev.bitmoa.net/bitmoa/
+      tags:
+      - bitmoa-common
+      version: 2.x.x
+    description: DeepSpeed is deep learning software suite for empowering ChatGPT-like
+      model training. Features dense or sparse model inference, high throughput and
+      high compression.
+    digest: f81b3ce33933c95d1e8b21c152a80fb631d3411ddb085a0dfe0f61bbce98a37a
+    home: https://bitmoa.net
+    icon: https://dyltqmyl993wv.cloudfront.net/assets/stacks/deepspeed/img/deepspeed-stack-220x234.png
+    keywords:
+    - deepspeed
+    - pytorch
+    - python
+    - machine
+    - learning
+    maintainers:
+    - name: Bitmoa
+      url: https://github.com/bitmoa/charts
+    name: deepspeed
+    sources:
+    - https://github.com/bitmoa/charts/tree/main/bitmoa/deepspeed
+    - https://github.com/bitmoa/charts/tree/main/bitmoa/pytorch
+    urls:
+    - https://charts.bitmoa.net/bitmoa/deepspeed-2.3.50.tgz
+    version: 2.3.50
+generated: "2025-09-16T06:54:56.173391289Z"
