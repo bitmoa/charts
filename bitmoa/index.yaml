@@ -14,7 +14,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 2.4.65
-    created: "2025-09-16T06:54:56.176280168Z"
+    created: "2025-09-16T06:55:54.918804608Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -57,7 +57,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 9.0.8
-    created: "2025-09-16T06:54:56.178595425Z"
+    created: "2025-09-16T06:55:54.921284341Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -92,7 +92,7 @@ entries:
       tanzuCategory: clusterUtility
     apiVersion: v2
     appVersion: 0.53.0
-    created: "2025-09-16T06:54:56.181406477Z"
+    created: "2025-09-16T06:55:54.923961638Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -131,7 +131,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 5.0.5
-    created: "2025-09-16T06:54:56.184125244Z"
+    created: "2025-09-16T06:55:54.926741724Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -173,7 +173,7 @@ entries:
       tanzuCategory: clusterUtility
     apiVersion: v2
     appVersion: 1.18.2
-    created: "2025-09-16T06:54:56.188884526Z"
+    created: "2025-09-16T06:55:54.931391004Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -213,7 +213,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 25.7.5
-    created: "2025-09-16T06:54:56.192669906Z"
+    created: "2025-09-16T06:55:54.935188734Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -253,7 +253,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 0.25.3
-    created: "2025-09-16T06:54:56.197011918Z"
+    created: "2025-09-16T06:55:54.939445048Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -297,7 +297,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 1.27.0
-    created: "2025-09-16T06:54:56.204122888Z"
+    created: "2025-09-16T06:55:54.94752476Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -328,7 +328,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 2.31.4
-    created: "2025-09-16T06:54:56.204858045Z"
+    created: "2025-09-16T06:55:54.948935573Z"
     description: A Library Helm Chart for grouping common logic between bitmoa charts.
       This chart is not deployable by itself.
     digest: 4c10834db3cdb3f0684463af304a3be99959b63ee04e3d6b5b7b13db6e482cbf
@@ -364,7 +364,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 1.21.4
-    created: "2025-09-16T06:54:56.208026023Z"
+    created: "2025-09-16T06:55:54.951480929Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -403,7 +403,7 @@ entries:
       tanzuCategory: clusterUtility
     apiVersion: v2
     appVersion: 1.32.1
-    created: "2025-09-16T06:54:56.217629047Z"
+    created: "2025-09-16T06:55:54.962042421Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -442,7 +442,7 @@ entries:
       tanzuCategory: clusterUtility
     apiVersion: v2
     appVersion: 0.17.5
-    created: "2025-09-16T06:54:56.221283578Z"
+    created: "2025-09-16T06:55:54.965017512Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -471,4 +471,45 @@ entries:
     urls:
     - https://charts.bitmoa.net/bitmoa/deepspeed-2.3.50.tgz
     version: 2.3.50
-generated: "2025-09-16T06:54:56.173391289Z"
+  envoy-gateway:
+  - annotations:
+      category: Infrastructure
+      images: |
+        - name: envoy
+          image: ghcr.io/bitmoa/envoy:1.35.1-debian-12-r0
+        - name: envoy-gateway
+          image: ghcr.io/bitmoa/envoy-gateway:1.5.0-debian-12-r0
+        - name: envoy-ratelimit
+          image: ghcr.io/bitmoa/envoy-ratelimit:2025.8.15-debian-12-r0
+      licenses: Apache-2.0
+      tanzuCategory: service
+    apiVersion: v2
+    appVersion: 1.5.0
+    created: "2025-09-16T06:55:54.982450053Z"
+    dependencies:
+    - name: common
+      repository: https://charts-dev.bitmoa.net/bitmoa/
+      tags:
+      - bitmoa-common
+      version: 2.x.x
+    description: Envoy Gateway simplifies traffic management by extending Envoy Proxy's
+      features, offering Kubernetes Gateway API integration for secure, scalable,
+      and observable application routing
+    digest: 903fb9ecb527a7d84f707d12521eb182318da3c3f459689159ac4527b4b8ef36
+    home: https://bitmoa.net
+    icon: https://bitmoa.net/assets/stacks/envoy-gateway/img/envoy-gateway-stack-220x234.png
+    keywords:
+    - envoy-gateway
+    - traffic
+    - gateway
+    - ingress
+    maintainers:
+    - name: Bitmoa
+      url: https://github.com/bitmoa/charts
+    name: envoy-gateway
+    sources:
+    - https://github.com/bitmoa/charts/tree/main/bitmoa/envoy-gateway
+    urls:
+    - https://charts.bitmoa.net/bitmoa/envoy-gateway-2.0.4.tgz
+    version: 2.0.4
+generated: "2025-09-16T06:55:54.91611355Z"
