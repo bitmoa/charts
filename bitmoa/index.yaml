@@ -14,7 +14,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 2.4.65
-    created: "2025-09-16T06:46:52.739809146Z"
+    created: "2025-09-16T06:47:48.766262756Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -57,7 +57,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 9.0.8
-    created: "2025-09-16T06:46:52.742309632Z"
+    created: "2025-09-16T06:47:48.768728124Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -92,7 +92,7 @@ entries:
       tanzuCategory: clusterUtility
     apiVersion: v2
     appVersion: 0.53.0
-    created: "2025-09-16T06:46:52.745040354Z"
+    created: "2025-09-16T06:47:48.771430323Z"
     dependencies:
     - name: common
       repository: https://charts-dev.bitmoa.net/bitmoa/
@@ -117,13 +117,53 @@ entries:
     urls:
     - https://charts.bitmoa.net/bitmoa/cadvisor-0.1.13.tgz
     version: 0.1.13
+  cassandra:
+  - annotations:
+      category: Database
+      images: |
+        - name: cassandra
+          image: ghcr.io/bitmoa/cassandra:5.0.5-debian-12-r0
+        - name: cassandra-exporter
+          image: ghcr.io/bitmoa/cassandra-exporter:2.3.8-debian-12-r0
+        - name: os-shell
+          image: ghcr.io/bitmoa/os-shell:12-debian-12-r0
+      licenses: Apache-2.0
+      tanzuCategory: service
+    apiVersion: v2
+    appVersion: 5.0.5
+    created: "2025-09-16T06:47:48.774187448Z"
+    dependencies:
+    - name: common
+      repository: https://charts-dev.bitmoa.net/bitmoa/
+      tags:
+      - bitmoa-common
+      version: 2.x.x
+    description: Apache Cassandra is an open source distributed database management
+      system designed to handle large amounts of data across many servers, providing
+      high availability with no single point of failure.
+    digest: ed12bb9ebd1160787a94c590e874729b1e4d4dfff92e4a838e252908bdcddfca
+    home: https://bitmoa.net
+    icon: https://dyltqmyl993wv.cloudfront.net/assets/stacks/cassandra/img/cassandra-stack-220x234.png
+    keywords:
+    - cassandra
+    - database
+    - nosql
+    maintainers:
+    - name: Bitmoa
+      url: https://github.com/bitmoa/charts
+    name: cassandra
+    sources:
+    - https://github.com/bitmoa/charts/tree/main/bitmoa/cassandra
+    urls:
+    - https://charts.bitmoa.net/bitmoa/cassandra-12.3.11.tgz
+    version: 12.3.11
   common:
   - annotations:
       category: Infrastructure
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 2.31.4
-    created: "2025-09-16T06:46:52.74578143Z"
+    created: "2025-09-16T06:47:48.774896977Z"
     description: A Library Helm Chart for grouping common logic between bitmoa charts.
       This chart is not deployable by itself.
     digest: 4c10834db3cdb3f0684463af304a3be99959b63ee04e3d6b5b7b13db6e482cbf
@@ -145,4 +185,4 @@ entries:
     urls:
     - https://charts.bitmoa.net/bitmoa/common-2.31.4.tgz
     version: 2.31.4
-generated: "2025-09-16T06:46:52.736962366Z"
+generated: "2025-09-16T06:47:48.763626849Z"
