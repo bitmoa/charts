@@ -285,7 +285,7 @@ spec:
                   if [[ -f "${MARIADB_ROOT_PASSWORD_FILE:-}" ]]; then
                       password_aux=$(cat "$MARIADB_ROOT_PASSWORD_FILE")
                   fi
-                  mariadb-admin ping -uroot -p"${password_aux}"
+                  mariadb-admin ping -uroot -p"${password_aux}" --socket /opt/bitmoa/mariadb/tmp/mysql.sock
           {{- end }}
           {{- end }}
           {{- if .Values.primary.resources }}
