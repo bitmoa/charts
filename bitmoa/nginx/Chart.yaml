@@ -7,13 +7,13 @@ annotations:
     - name: git
       image: ghcr.io/bitmoa/git:2.51.0-debian-12-r0
     - name: nginx
-      image: ghcr.io/bitmoa/nginx:1.29.1-debian-12-r0
+      image: ghcr.io/bitmoa/nginx:1.31.0-debian-12-r1
     - name: nginx-exporter
       image: ghcr.io/bitmoa/nginx-exporter:1.4.2-debian-12-r0
   licenses: Apache-2.0
   tanzuCategory: clusterUtility
 apiVersion: v2
-appVersion: 1.29.1
+appVersion: 1.31.0
 dependencies:
 - name: common
   repository: https://charts.bitmoa.net/bitmoa/
@@ -37,4 +37,4 @@ maintainers:
 name: nginx
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/nginx
-version: 21.1.23
+version: 21.1.24
