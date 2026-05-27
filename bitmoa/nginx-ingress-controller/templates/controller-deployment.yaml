@@ -120,6 +120,7 @@ spec:
           args: {{- include "common.tplvalues.render" (dict "value" .Values.args "context" $) | nindent 12 }}
           {{- else }}
           args:
+            - /nginx-ingress-controller
             - --default-backend-service={{ ternary (printf "$(POD_NAMESPACE)/%s" (include "nginx-ingress-controller.defaultBackend.fullname" .)) .Values.defaultBackendService .Values.defaultBackend.enabled }}
           {{- if .Values.publishService.enabled }}
             - --publish-service={{ include "nginx-ingress-controller.publishServicePath" . }}
