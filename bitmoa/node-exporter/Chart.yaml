@@ -5,11 +5,11 @@ annotations:
   category: Analytics
   images: |
     - name: node-exporter
-      image: ghcr.io/bitmoa/node-exporter:1.9.1-debian-12-r0
+      image: ghcr.io/bitmoa/node-exporter:1.12.1-debian-12-r6
   licenses: Apache-2.0
   tanzuCategory: clusterUtility
 apiVersion: v2
-appVersion: 1.9.1
+appVersion: 1.12.1
 dependencies:
 - name: common
   repository: https://charts.bitmoa.net/bitmoa/
@@ -30,4 +30,4 @@ maintainers:
 name: node-exporter
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/node-exporter
-version: 4.5.19
+version: 4.6.0
