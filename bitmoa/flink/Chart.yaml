@@ -5,11 +5,11 @@ annotations:
   category: Infrastructure
   images: |
     - name: flink
-      image: ghcr.io/bitmoa/flink:2.1.0-debian-12-r0
+      image: ghcr.io/bitmoa/flink:2.3.0-debian-12-r4
   licenses: Apache-2.0
   tanzuCategory: application
 apiVersion: v2
-appVersion: 2.1.0
+appVersion: 2.3.0
 dependencies:
 - name: common
   repository: https://charts.bitmoa.net/bitmoa/
@@ -30,4 +30,4 @@ maintainers:
 name: flink
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/flink
-version: 2.0.7
+version: 2.1.0

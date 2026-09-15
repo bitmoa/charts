@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.1.0 (2026-09-15)
+
+* Bump `flink` image to `2.3.0-debian-12-r4` (was `2.1.0-debian-12-r0`)
+
 ## 2.0.7 (2025-08-07)
 
 * [bitnami/flink] :zap: :arrow_up: Update dependency references ([#35554](https://github.com/bitnami/charts/pull/35554))
