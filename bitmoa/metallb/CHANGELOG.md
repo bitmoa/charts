@@ -1,5 +1,9 @@
 # Changelog
 
+## 6.5.0 (2026-09-15)
+
+* Bump `metallb-speaker` image to `0.16.1-debian-12-r10` (was `0.15.2-debian-12-r0`)
+
 ## 6.4.22 (2025-08-14)
 
 * [bitnami/metallb] :zap: :arrow_up: Update dependency references ([#35880](https://github.com/bitnami/charts/pull/35880))
