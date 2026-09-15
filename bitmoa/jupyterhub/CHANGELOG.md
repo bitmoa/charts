@@ -1,5 +1,9 @@
 # Changelog
 
+## 10.0.6 (2026-09-15)
+
+* Bump `configurable-http-proxy` image to `5.3.0-debian-12-r3` (was `5.0.1-debian-12-r0`)
+
 ## 10.0.5 (2025-08-07)
 
 * [bitnami/jupyterhub] :zap: :arrow_up: Update dependency references ([#35614](https://github.com/bitnami/charts/pull/35614))
