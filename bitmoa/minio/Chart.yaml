@@ -11,7 +11,7 @@ annotations:
     - name: minio-object-browser
       image: ghcr.io/bitmoa/minio-object-browser:2.0.4-debian-12-r21
     - name: os-shell
-      image: ghcr.io/bitmoa/os-shell:12-debian-12-r0
+      image: ghcr.io/bitmoa/os-shell:12-debian-12-r73
   licenses: Apache-2.0
   tanzuCategory: service
 apiVersion: v2
@@ -39,4 +39,4 @@ maintainers:
 name: minio
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/minio
-version: 17.1.0
+version: 17.1.1

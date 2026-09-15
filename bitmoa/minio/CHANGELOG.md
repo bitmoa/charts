@@ -1,5 +1,9 @@
 # Changelog
 
+## 17.1.1 (2026-09-15)
+
+* Bump `os-shell` image to `12-debian-12-r73` (was `12-debian-12-r0`)
+
 ## 17.1.0 (2026-09-15)
 
 * Bump `minio` image to `2026.7.17-debian-12-r5` (was `2025.7.23-debian-12-r0`)
