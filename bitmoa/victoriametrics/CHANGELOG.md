@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.1 (2026-09-15)
+
+* Bump `victoriametrics-vmselect` image to `1.151.0-debian-12-r1` (was `1.124.0-debian-12-r0`)
+
 ## 0.2.0 (2026-09-15)
 
 * Bump `victoriametrics-vmagent` image to `1.151.0-debian-12-r0` (was `1.124.0-debian-12-r0`)
