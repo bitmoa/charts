@@ -1,5 +1,9 @@
 # Changelog
 
+## 17.0.22 (2026-09-15)
+
+* Bump `minio-client` image to `2025.8.13-debian-12-r29` (was `2025.7.21-debian-12-r0`)
+
 ## 17.0.21 (2025-08-14)
 
 * [bitnami/minio] :zap: :arrow_up: Update dependency references ([#35907](https://github.com/bitnami/charts/pull/35907))
