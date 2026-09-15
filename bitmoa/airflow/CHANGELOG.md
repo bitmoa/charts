@@ -1,5 +1,9 @@
 # Changelog
 
+## 25.1.0 (2026-09-15)
+
+* Bump `airflow` image to `3.3.1-debian-12-r3` (was `3.0.5-debian-12-r0`)
+
 ## 25.0.2 (2025-08-21)
 
 * [bitnami/airflow] :zap: :arrow_up: Update dependency references ([#36158](https://github.com/bitnami/charts/pull/36158))
