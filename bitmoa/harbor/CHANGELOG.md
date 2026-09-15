@@ -1,5 +1,9 @@
 # Changelog
 
+## 27.1.4 (2026-09-15)
+
+* Bump `nginx` image to `1.31.6-debian-12-r0` (was `1.31.5-debian-12-r2`)
+
 ## 27.1.3 (2026-09-15)
 
 * Bump `os-shell` image to `12-debian-12-r73` (was `12-debian-12-r0`)
