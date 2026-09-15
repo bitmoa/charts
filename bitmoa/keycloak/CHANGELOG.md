@@ -1,5 +1,9 @@
 # Changelog
 
+## 25.3.0 (2026-09-15)
+
+* Bump `keycloak` image to `26.7.3-debian-12-r1` (was `26.3.3-debian-12-r0`)
+
 ## 25.2.0 (2025-08-21)
 
 * [bitnami/keycloak] Add externalDatabase.extraParams for custom JDBC connection parameters ([#35770](https://github.com/bitnami/charts/pull/35770))
