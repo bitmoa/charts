@@ -1,5 +1,9 @@
 # Changelog
 
+## 13.6.18 (2026-09-15)
+
+* Bump `jenkins-agent` image to `0.3391.0-debian-12-r2` (was `0.3327.0-debian-12-r0`)
+
 ## 13.6.17 (2025-08-20)
 
 * [bitnami/jenkins] :zap: :arrow_up: Update dependency references ([#36155](https://github.com/bitnami/charts/pull/36155))
