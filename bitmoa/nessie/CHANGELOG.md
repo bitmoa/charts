@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.1.0 (2026-09-15)
+
+* Bump `nessie` image to `0.108.8-debian-12-r0` (was `0.104.10-debian-12-r0`)
+
 ## 2.0.34 (2025-08-27)
 
 * [bitnami/nessie] :zap: :arrow_up: Update dependency references ([#36214](https://github.com/bitnami/charts/pull/36214))
