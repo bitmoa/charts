@@ -1,5 +1,9 @@
 # Changelog
 
+## 25.2.1 (2026-09-15)
+
+* Bump `os-shell` image to `12-debian-12-r73` (was `12-debian-12-r0`)
+
 ## 25.2.0 (2026-09-15)
 
 * Bump `parse` image to `9.10.0-debian-12-r2` (was `8.2.3-debian-12-r0`)
