@@ -9,7 +9,7 @@ annotations:
     - name: jmx-exporter
       image: ghcr.io/bitmoa/jmx-exporter:1.4.0-debian-12-r0
     - name: os-shell
-      image: ghcr.io/bitmoa/os-shell:12-debian-12-r0
+      image: ghcr.io/bitmoa/os-shell:12-debian-12-r73
   licenses: Apache-2.0
   tanzuCategory: service
 apiVersion: v2
@@ -41,4 +41,4 @@ sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/janusgraph
 - https://github.com/bitmoa/containers/tree/main/bitmoa/janusgraph
 - https://github.com/janusgraph/janusgraph
-version: 1.4.11
+version: 1.4.12
