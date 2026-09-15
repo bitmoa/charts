@@ -1,5 +1,9 @@
 # Changelog
 
+## 19.1.0 (2026-09-15)
+
+* Bump `ejbca` image to `9.3.7-debian-12-r21` (was `9.1.1-debian-12-r0`)
+
 ## 19.0.0 (2025-08-18)
 
 * [bitnami/ejbca] Upgrade to MariaDB 12.0 ([#36114](https://github.com/bitnami/charts/pull/36114))
