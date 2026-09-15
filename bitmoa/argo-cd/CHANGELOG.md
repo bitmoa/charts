@@ -1,5 +1,9 @@
 # Changelog
 
+## 11.1.1 (2026-09-15)
+
+* Bump `os-shell` image to `12-debian-12-r73` (was `12-debian-12-r0`)
+
 ## 11.1.0 (2026-09-15)
 
 * Bump `argo-cd` image to `3.5.2-debian-12-r2` (was `3.1.1-debian-12-r0`)
