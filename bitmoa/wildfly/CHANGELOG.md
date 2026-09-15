@@ -1,5 +1,9 @@
 # Changelog
 
+## 25.0.1 (2026-09-15)
+
+* Bump `os-shell` image to `12-debian-12-r73` (was `12-debian-12-r0`)
+
 ## 25.0.0 (2025-08-11)
 
 * [bitnami/wildfly] :zap: :arrow_up: Update dependency references ([#35732](https://github.com/bitnami/charts/pull/35732))
