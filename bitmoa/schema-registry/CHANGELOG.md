@@ -1,5 +1,9 @@
 # Changelog
 
+## 26.1.0 (2026-09-15)
+
+* Bump `schema-registry` image to `8.3.1-debian-12-r1` (was `8.0.0-debian-12-r0`)
+
 ## 26.0.5 (2025-08-13)
 
 * [bitnami/schema-registry] Fix Schema Registry with SCRAM-SHA-512 and external MSK fails due to mandatory jksSecret ([#35772](https://github.com/bitnami/charts/pull/35772))
