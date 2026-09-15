@@ -5,7 +5,7 @@ annotations:
   category: Infrastructure
   images: |
     - name: cilium
-      image: ghcr.io/bitmoa/cilium:1.20.1-debian-12-r4
+      image: ghcr.io/bitmoa/cilium:1.20.2-debian-12-r0
     - name: cilium-operator
       image: ghcr.io/bitmoa/cilium-operator:1.20.1-debian-12-r3
     - name: cilium-proxy
@@ -19,7 +19,7 @@ annotations:
   licenses: Apache-2.0
   tanzuCategory: clusterUtility
 apiVersion: v2
-appVersion: 1.20.1
+appVersion: 1.20.2
 dependencies:
 - condition: etcd.enabled
   name: etcd
@@ -54,4 +54,4 @@ sources:
 - https://github.com/bitmoa/containers/tree/main/bitmoa/hubble-relay
 - https://github.com/bitmoa/containers/tree/main/bitmoa/hubble-ui
 - https://github.com/bitmoa/containers/tree/main/bitmoa/hubble-ui-backend
-version: 3.2.1
+version: 3.3.0
