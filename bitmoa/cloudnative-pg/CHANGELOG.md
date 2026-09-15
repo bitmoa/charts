@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.0 (2026-09-15)
+
+* Bump `cloudnative-pg` image to `1.30.0-debian-12-r6` (was `1.27.0-debian-12-r0`)
+
 ## 1.0.12 (2025-08-28)
 
 * [bitnami/cloudnative-pg] :zap: :arrow_up: Update dependency references ([#35765](https://github.com/bitnami/charts/pull/35765))
