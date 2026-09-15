@@ -1,5 +1,9 @@
 # Changelog
 
+## 6.0.4 (2026-09-15)
+
+* Bump `postgresql` image to `18.6.0-debian-12-r8` (was `18.6.0-debian-12-r6`)
+
 ## 6.0.3 (2026-09-15)
 
 * Bump `mariadb` image to `13.0.1-debian-12-r2` (was `12.0.2-debian-12-r0`)
