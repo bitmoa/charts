@@ -5,7 +5,7 @@ annotations:
   category: Infrastructure
   images: |
     - name: concourse
-      image: ghcr.io/bitmoa/concourse:8.3.0-debian-12-r6
+      image: ghcr.io/bitmoa/concourse:8.3.0-debian-12-r7
     - name: os-shell
       image: ghcr.io/bitmoa/os-shell:12-debian-12-r0
   licenses: Apache-2.0
@@ -40,4 +40,4 @@ maintainers:
 name: concourse
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/concourse
-version: 5.2.0
+version: 5.2.1
