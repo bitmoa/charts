@@ -1,5 +1,9 @@
 # Changelog
 
+## 16.2.0 (2026-09-15)
+
+* Bump `mariadb-galera` image to `13.0.2-debian-12-r0` (was `13.0.1-debian-12-r2`)
+
 ## 16.1.0 (2026-09-15)
 
 * Bump `mariadb-galera` image to `13.0.1-debian-12-r2` (was `12.0.2-debian-12-r0`)
