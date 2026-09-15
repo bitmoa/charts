@@ -9,13 +9,13 @@ annotations:
     - name: jupyter-base-notebook
       image: ghcr.io/bitmoa/jupyter-base-notebook:5.3.0-debian-12-r0
     - name: jupyterhub
-      image: ghcr.io/bitmoa/jupyterhub:5.3.0-debian-12-r0
+      image: ghcr.io/bitmoa/jupyterhub:6.0.0-debian-12-r1
     - name: os-shell
       image: ghcr.io/bitmoa/os-shell:12-debian-12-r0
   licenses: Apache-2.0
   tanzuCategory: application
 apiVersion: v2
-appVersion: 5.3.0
+appVersion: 6.0.0
 dependencies:
 - condition: postgresql.enabled
   name: postgresql
@@ -40,4 +40,4 @@ maintainers:
 name: jupyterhub
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/jupyterhub
-version: 10.0.6
+version: 10.1.0

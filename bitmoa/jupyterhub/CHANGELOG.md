@@ -1,5 +1,9 @@
 # Changelog
 
+## 10.1.0 (2026-09-15)
+
+* Bump `jupyterhub` image to `6.0.0-debian-12-r1` (was `5.3.0-debian-12-r0`)
+
 ## 10.0.6 (2026-09-15)
 
 * Bump `configurable-http-proxy` image to `5.3.0-debian-12-r3` (was `5.0.1-debian-12-r0`)
