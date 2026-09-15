@@ -1,5 +1,9 @@
 # Changelog
 
+## 27.1.0 (2026-09-15)
+
+* Bump `harbor-exporter` image to `2.15.2-debian-12-r18` (was `2.13.2-debian-12-r0`)
+
 ## 27.0.2 (2025-08-13)
 
 * [bitnami/harbor] :zap: :arrow_up: Update dependency references ([#35850](https://github.com/bitnami/charts/pull/35850))
