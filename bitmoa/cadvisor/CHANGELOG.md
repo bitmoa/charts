@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.0 (2026-09-15)
+
+* Bump `cadvisor` image to `0.60.5-debian-12-r9` (was `0.53.0-debian-12-r0`)
+
 ## 0.1.13 (2025-08-13)
 
 * [bitnami/cadvisor] :zap: :arrow_up: Update dependency references ([#35790](https://github.com/bitnami/charts/pull/35790))
