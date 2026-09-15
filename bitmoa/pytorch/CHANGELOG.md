@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.4.1 (2026-09-15)
+
+* Bump `git` image to `2.55.0-debian-12-r9` (was `2.51.0-debian-12-r0`)
+
 ## 4.4.0 (2026-09-15)
 
 * Bump `pytorch` image to `2.14.0-debian-12-r0` (was `2.8.0-debian-12-r0`)
