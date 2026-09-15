@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.10.0 (2026-09-15)
+
+* Bump `vault` image to `2.1.0-debian-12-r1` (was `1.20.2-debian-12-r0`)
+
 ## 1.9.0 (2025-08-14)
 
 * [bitnami/vault] Add ability to disable the cluster role binding for server rbac ([#35861](https://github.com/bitnami/charts/pull/35861))
