@@ -1,5 +1,9 @@
 # Changelog
 
+## 16.5.46 (2026-09-15)
+
+* Bump `kubectl` image to `1.37.0-debian-12-r2` (was `1.33.4-debian-12-r0`)
+
 ## 16.5.45 (2025-08-21)
 
 * [bitnami/mongodb] :zap: :arrow_up: Update dependency references ([#36166](https://github.com/bitnami/charts/pull/36166))
