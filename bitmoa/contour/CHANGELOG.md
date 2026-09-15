@@ -1,5 +1,9 @@
 # Changelog
 
+## 21.2.0 (2026-09-15)
+
+* Bump `contour` image to `1.33.7-debian-12-r0` (was `1.32.1-debian-12-r0`)
+
 ## 21.1.4 (2025-08-19)
 
 * [bitnami/contour] :zap: :arrow_up: Update dependency references ([#36144](https://github.com/bitnami/charts/pull/36144))
