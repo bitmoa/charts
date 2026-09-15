@@ -1,5 +1,9 @@
 # Changelog
 
+## 14.1.0 (2026-09-15)
+
+* Bump `mastodon` image to `4.7.1-debian-12-r2` (was `4.4.3-debian-12-r0`)
+
 ## 14.0.0 (2025-08-11)
 
 * [bitnami/mastodon] Upgrade to Redis subchart 22 ([#35721](https://github.com/bitnami/charts/pull/35721))
