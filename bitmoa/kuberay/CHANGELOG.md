@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.5.0 (2026-09-15)
+
+* Bump `kuberay-operator` image to `1.7.0-debian-12-r2` (was `1.4.2-debian-12-r0`)
+
 ## 1.4.29 (2025-08-26)
 
 * [bitnami/kuberay] :zap: :arrow_up: Update dependency references ([#36203](https://github.com/bitnami/charts/pull/36203))

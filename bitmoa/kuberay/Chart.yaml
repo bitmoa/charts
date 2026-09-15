@@ -7,13 +7,13 @@ annotations:
     - name: kuberay-apiserver
       image: ghcr.io/bitmoa/kuberay-apiserver:1.4.2-debian-12-r0
     - name: kuberay-operator
-      image: ghcr.io/bitmoa/kuberay-operator:1.4.2-debian-12-r0
+      image: ghcr.io/bitmoa/kuberay-operator:1.7.0-debian-12-r2
     - name: ray
       image: ghcr.io/bitmoa/ray:2.49.0-debian-12-r0
   licenses: Apache-2.0
   tanzuCategory: application
 apiVersion: v2
-appVersion: 1.4.2
+appVersion: 1.7.0
 dependencies:
 - name: common
   repository: https://charts.bitmoa.net/bitmoa/
@@ -34,4 +34,4 @@ maintainers:
 name: kuberay
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/kuberay
-version: 1.4.29
+version: 1.5.0
