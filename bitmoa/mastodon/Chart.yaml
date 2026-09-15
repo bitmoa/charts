@@ -5,13 +5,13 @@ annotations:
   category: CMS
   images: |
     - name: mastodon
-      image: ghcr.io/bitmoa/mastodon:4.7.1-debian-12-r2
+      image: ghcr.io/bitmoa/mastodon:4.7.2-debian-12-r0
     - name: os-shell
       image: ghcr.io/bitmoa/os-shell:12-debian-12-r73
   licenses: Apache-2.0
   tanzuCategory: application
 apiVersion: v2
-appVersion: 4.7.1
+appVersion: 4.7.2
 dependencies:
 - condition: redis.enabled
   name: redis
@@ -51,4 +51,4 @@ maintainers:
 name: mastodon
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/mastodon
-version: 14.1.1
+version: 14.2.0
