@@ -5,7 +5,7 @@ annotations:
   category: Infrastructure
   images: |
     - name: argo-cd
-      image: ghcr.io/bitmoa/argo-cd:3.5.2-debian-12-r2
+      image: ghcr.io/bitmoa/argo-cd:3.5.3-debian-12-r0
     - name: dex
       image: ghcr.io/bitmoa/dex:2.43.1-debian-12-r0
     - name: os-shell
@@ -15,7 +15,7 @@ annotations:
   licenses: Apache-2.0
   tanzuCategory: application
 apiVersion: v2
-appVersion: 3.5.2
+appVersion: 3.5.3
 dependencies:
 - condition: redis.enabled
   name: redis
@@ -40,4 +40,4 @@ maintainers:
 name: argo-cd
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/argo-cd
-version: 11.1.1
+version: 11.2.0
