@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.0.25 (2026-09-15)
+
+* Bump `redis-exporter` image to `1.91.1-debian-12-r0` (was `1.76.0-debian-12-r0`)
+
 ## 3.0.24 (2025-08-23)
 
 * [bitnami/valkey-cluster] :zap: :arrow_up: Update dependency references ([#36175](https://github.com/bitnami/charts/pull/36175))
