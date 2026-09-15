@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.1.0 (2026-09-15)
+
+* Bump `opensearch` image to `3.8.0-debian-12-r1` (was `3.2.0-debian-12-r0`)
+
 ## 2.0.10 (2025-08-20)
 
 * [bitnami/opensearch] :zap: :arrow_up: Update dependency references ([#36148](https://github.com/bitnami/charts/pull/36148))
