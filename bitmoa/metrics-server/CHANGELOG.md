@@ -1,5 +1,9 @@
 # Changelog
 
+## 7.5.0 (2026-09-15)
+
+* Bump `metrics-server` image to `0.9.0-debian-12-r6` (was `0.8.0-debian-12-r0`)
+
 ## 7.4.12 (2025-08-14)
 
 * [bitnami/metrics-server] :zap: :arrow_up: Update dependency references ([#35879](https://github.com/bitnami/charts/pull/35879))
