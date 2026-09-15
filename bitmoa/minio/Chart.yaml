@@ -5,7 +5,7 @@ annotations:
   category: Infrastructure
   images: |
     - name: minio
-      image: ghcr.io/bitmoa/minio:2025.7.23-debian-12-r0
+      image: ghcr.io/bitmoa/minio:2026.7.17-debian-12-r5
     - name: minio-client
       image: ghcr.io/bitmoa/minio-client:2025.8.13-debian-12-r29
     - name: minio-object-browser
@@ -15,7 +15,7 @@ annotations:
   licenses: Apache-2.0
   tanzuCategory: service
 apiVersion: v2
-appVersion: 2025.7.23
+appVersion: 2026.7.17
 dependencies:
 - name: common
   repository: https://charts.bitmoa.net/bitmoa/
@@ -39,4 +39,4 @@ maintainers:
 name: minio
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/minio
-version: 17.0.23
+version: 17.1.0
