@@ -11,11 +11,11 @@ annotations:
     - name: postgres-exporter
       image: ghcr.io/bitmoa/postgres-exporter:0.17.1-debian-12-r0
     - name: postgresql-repmgr
-      image: ghcr.io/bitmoa/postgresql-repmgr:17.6.0-debian-12-r0
+      image: ghcr.io/bitmoa/postgresql-repmgr:18.6.0-debian-12-r7
   licenses: Apache-2.0
   tanzuCategory: service
 apiVersion: v2
-appVersion: 17.6.0
+appVersion: 18.6.0
 dependencies:
 - name: common
   repository: https://charts.bitmoa.net/bitmoa/
@@ -43,4 +43,4 @@ maintainers:
 name: postgresql-ha
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/postgresql-ha
-version: 16.3.2
+version: 16.4.0
