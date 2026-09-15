@@ -1,5 +1,9 @@
 # Changelog
 
+## 12.2.0 (2026-09-15)
+
+* Bump `kibana` image to `9.5.3-debian-12-r3` (was `9.1.2-debian-12-r0`)
+
 ## 12.1.10 (2025-08-21)
 
 * [bitnami/kibana] add revisionHistoryLimit for deployments ([#35298](https://github.com/bitnami/charts/pull/35298))
