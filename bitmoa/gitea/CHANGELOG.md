@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.3.0 (2026-09-15)
+
+* Bump `gitea` image to `1.27.3-debian-12-r2` (was `1.24.5-debian-12-r0`)
+
 ## 3.2.22 (2025-08-13)
 
 * [bitnami/gitea] :zap: :arrow_up: Update dependency references ([#35846](https://github.com/bitnami/charts/pull/35846))
