@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.6.0 (2026-09-15)
+
+* Bump `sealed-secrets-controller` image to `0.40.0-debian-12-r0` (was `0.31.0-debian-12-r0`)
+
 ## 2.5.19 (2025-08-18)
 
 * [bitnami/sealed-secrets] :zap: :arrow_up: Update dependency references ([#36096](https://github.com/bitnami/charts/pull/36096))

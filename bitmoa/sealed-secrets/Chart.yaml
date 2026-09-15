@@ -5,11 +5,11 @@ annotations:
   category: DeveloperTools
   images: |
     - name: sealed-secrets-controller
-      image: ghcr.io/bitmoa/sealed-secrets-controller:0.31.0-debian-12-r0
+      image: ghcr.io/bitmoa/sealed-secrets-controller:0.40.0-debian-12-r0
   licenses: Apache-2.0
   tanzuCategory: clusterUtility
 apiVersion: v2
-appVersion: 0.31.0
+appVersion: 0.40.0
 dependencies:
 - name: common
   repository: https://charts.bitmoa.net/bitmoa/
@@ -32,4 +32,4 @@ name: sealed-secrets
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/sealed-secrets
 - https://github.com/bitmoa-labs/sealed-secrets
-version: 2.5.19
+version: 2.6.0
