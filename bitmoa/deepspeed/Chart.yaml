@@ -9,7 +9,7 @@ annotations:
     - name: git
       image: ghcr.io/bitmoa/git:2.55.0-debian-12-r9
     - name: os-shell
-      image: ghcr.io/bitmoa/os-shell:12-debian-12-r0
+      image: ghcr.io/bitmoa/os-shell:12-debian-12-r73
   licenses: Apache-2.0
   tanzuCategory: clusterUtility
 apiVersion: v2
@@ -38,4 +38,4 @@ name: deepspeed
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/deepspeed
 - https://github.com/bitmoa/charts/tree/main/bitmoa/pytorch
-version: 2.3.51
+version: 2.3.52
