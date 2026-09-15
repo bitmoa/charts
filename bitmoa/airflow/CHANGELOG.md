@@ -1,5 +1,9 @@
 # Changelog
 
+## 25.1.1 (2026-09-15)
+
+* Bump `statsd-exporter` image to `0.31.0-debian-12-r1` (was `0.28.0-debian-12-r0`)
+
 ## 25.1.0 (2026-09-15)
 
 * Bump `airflow` image to `3.3.1-debian-12-r3` (was `3.0.5-debian-12-r0`)
