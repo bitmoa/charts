@@ -1,5 +1,9 @@
 # Changelog
 
+## 25.1.16 (2026-09-15)
+
+* Bump `parse-dashboard` image to `9.2.0-debian-12-r2` (was `7.3.0-debian-12-r0`)
+
 ## 25.1.15 (2025-08-07)
 
 * [bitnami/parse] :zap: :arrow_up: Update dependency references ([#35647](https://github.com/bitnami/charts/pull/35647))
