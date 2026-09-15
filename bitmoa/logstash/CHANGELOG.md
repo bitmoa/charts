@@ -1,5 +1,9 @@
 # Changelog
 
+## 7.0.12 (2026-09-15)
+
+* Bump `os-shell` image to `12-debian-12-r73` (was `12-debian-12-r0`)
+
 ## 7.0.11 (2025-08-13)
 
 * [bitnami/logstash] :zap: :arrow_up: Update dependency references ([#35778](https://github.com/bitnami/charts/pull/35778))
