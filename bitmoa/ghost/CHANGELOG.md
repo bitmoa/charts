@@ -1,5 +1,9 @@
 # Changelog
 
+## 25.1.0 (2026-09-15)
+
+* Bump `ghost` image to `6.63.0-debian-12-r0` (was `6.0.5-debian-12-r0`)
+
 ## 25.0.4 (2025-08-22)
 
 * [bitnami/ghost] :zap: :arrow_up: Update dependency references ([#36171](https://github.com/bitnami/charts/pull/36171))
