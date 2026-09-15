@@ -1,5 +1,9 @@
 # Changelog
 
+## 16.2.0 (2026-09-15)
+
+* Bump `rabbitmq` image to `4.3.6-debian-12-r0` (was `4.3.5-debian-12-r1`)
+
 ## 16.1.0 (2026-09-15)
 
 * Bump `rabbitmq` image to `4.3.5-debian-12-r1` (was `4.1.3-debian-12-r0`)
