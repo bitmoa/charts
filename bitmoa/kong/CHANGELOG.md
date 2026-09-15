@@ -1,5 +1,9 @@
 # Changelog
 
+## 15.5.0 (2026-09-15)
+
+* Bump `kong` image to `3.9.3-debian-12-r12` (was `3.9.1-debian-12-r0`)
+
 ## 15.4.22 (2025-08-27)
 
 * [bitnami/kong] :zap: :arrow_up: Update dependency references ([#36206](https://github.com/bitnami/charts/pull/36206))

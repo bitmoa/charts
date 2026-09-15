@@ -5,13 +5,13 @@ annotations:
   category: Infrastructure
   images: |
     - name: kong
-      image: ghcr.io/bitmoa/kong:3.9.1-debian-12-r0
+      image: ghcr.io/bitmoa/kong:3.9.3-debian-12-r12
     - name: kong-ingress-controller
       image: ghcr.io/bitmoa/kong-ingress-controller:3.5.1-debian-12-r0
   licenses: Apache-2.0
   tanzuCategory: application
 apiVersion: v2
-appVersion: 3.9.1
+appVersion: 3.9.3
 dependencies:
 - condition: postgresql.enabled
   name: postgresql
@@ -46,4 +46,4 @@ maintainers:
 name: kong
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/kong
-version: 15.4.22
+version: 15.5.0
