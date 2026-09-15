@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.3.0 (2026-09-15)
+
+* Bump `haproxy` image to `3.4.4-debian-12-r3` (was `3.2.4-debian-12-r0`)
+
 ## 2.2.34 (2025-08-13)
 
 * [bitnami/haproxy] :zap: :arrow_up: Update dependency references ([#35817](https://github.com/bitnami/charts/pull/35817))
