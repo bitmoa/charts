@@ -9,7 +9,7 @@ annotations:
     - name: mysqld-exporter
       image: ghcr.io/bitmoa/mysqld-exporter:0.17.2-debian-12-r0
     - name: os-shell
-      image: ghcr.io/bitmoa/os-shell:12-debian-12-r0
+      image: ghcr.io/bitmoa/os-shell:12-debian-12-r73
   licenses: Apache-2.0
   tanzuCategory: service
 apiVersion: v2
@@ -36,4 +36,4 @@ maintainers:
 name: mysql
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/mysql
-version: 14.1.0
+version: 14.1.1
