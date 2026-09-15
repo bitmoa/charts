@@ -1,5 +1,9 @@
 # Changelog
 
+## 16.1.0 (2026-09-15)
+
+* Bump `rabbitmq` image to `4.3.5-debian-12-r1` (was `4.1.3-debian-12-r0`)
+
 ## 16.0.14 (2025-08-13)
 
 * [bitnami/rabbitmq] Migrate deprecated queue_leader_locator configuration ([#35748](https://github.com/bitnami/charts/pull/35748))
