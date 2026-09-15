@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.4.38 (2026-09-15)
+
+* Bump `fluxcd-image-reflector-controller` image to `1.2.5-debian-12-r2` (was `0.35.2-debian-12-r0`)
+
 ## 2.4.37 (2026-09-15)
 
 * Bump `fluxcd-kustomize-controller` image to `1.9.5-debian-12-r2` (was `1.6.1-debian-12-r0`)
