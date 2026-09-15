@@ -1,5 +1,9 @@
 # Changelog
 
+## 6.0.6 (2026-09-15)
+
+* Bump `cassandra` image to `5.0.9-debian-12-r2` (was `5.0.5-debian-12-r0`)
+
 ## 6.0.5 (2025-08-13)
 
 * [bitnami/jaeger] :zap: :arrow_up: Update dependency references ([#35815](https://github.com/bitnami/charts/pull/35815))
