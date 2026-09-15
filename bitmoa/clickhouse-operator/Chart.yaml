@@ -7,7 +7,7 @@ annotations:
     - name: clickhouse
       image: ghcr.io/bitmoa/clickhouse:25.7.5-debian-12-r0
     - name: clickhouse-keeper
-      image: ghcr.io/bitmoa/clickhouse-keeper:25.7.5-debian-12-r0
+      image: ghcr.io/bitmoa/clickhouse-keeper:26.8.3-debian-12-r0
     - name: clickhouse-operator
       image: ghcr.io/bitmoa/clickhouse-operator:0.25.3-debian-12-r0
     - name: clickhouse-operator-metrics-exporter
@@ -38,4 +38,4 @@ name: clickhouse-operator
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/clickhouse-operator
 - https://github.com/bitmoa/containers/tree/main/bitmoa/clickhouse-operator
-version: 0.3.0
+version: 0.3.1
