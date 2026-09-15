@@ -7,7 +7,7 @@ annotations:
     - name: jmx-exporter
       image: ghcr.io/bitmoa/jmx-exporter:1.4.0-debian-12-r0
     - name: kafka
-      image: ghcr.io/bitmoa/kafka:4.0.0-debian-12-r0
+      image: ghcr.io/bitmoa/kafka:4.3.1-debian-12-r4
     - name: kubectl
       image: ghcr.io/bitmoa/kubectl:1.33.4-debian-12-r0
     - name: os-shell
@@ -15,7 +15,7 @@ annotations:
   licenses: Apache-2.0
   tanzuCategory: service
 apiVersion: v2
-appVersion: 4.0.0
+appVersion: 4.3.1
 dependencies:
 - name: common
   repository: https://charts.bitmoa.net/bitmoa/
@@ -38,4 +38,4 @@ maintainers:
 name: kafka
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/kafka
-version: 32.4.3
+version: 32.5.0

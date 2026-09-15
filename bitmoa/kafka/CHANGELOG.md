@@ -1,5 +1,9 @@
 # Changelog
 
+## 32.5.0 (2026-09-15)
+
+* Bump `kafka` image to `4.3.1-debian-12-r4` (was `4.0.0-debian-12-r0`)
+
 ## 32.4.3 (2025-08-26)
 
 * [bitnami/kafka] :zap: :arrow_up: Update dependency references ([#36189](https://github.com/bitnami/charts/pull/36189))
