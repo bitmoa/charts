@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.5.0 (2026-09-15)
+
+* Bump `pinniped` image to `0.47.0-debian-12-r5` (was `0.40.0-debian-12-r0`)
+
 ## 2.4.23 (2025-08-13)
 
 * [bitnami/pinniped] :zap: :arrow_up: Update dependency references ([#35822](https://github.com/bitnami/charts/pull/35822))
