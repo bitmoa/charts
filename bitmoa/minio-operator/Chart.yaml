@@ -5,7 +5,7 @@ annotations:
   category: Infrastructure
   images: |
     - name: minio
-      image: ghcr.io/bitmoa/minio:2025.7.23-debian-12-r0
+      image: ghcr.io/bitmoa/minio:2026.7.17-debian-12-r5
     - name: minio-operator
       image: ghcr.io/bitmoa/minio-operator:7.1.1-debian-12-r29
     - name: minio-operator-sidecar
@@ -34,4 +34,4 @@ maintainers:
 name: minio-operator
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/minio-operator
-version: 0.2.11
+version: 0.2.12
