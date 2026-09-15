@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.3.51 (2026-09-15)
+
+* Bump `git` image to `2.55.0-debian-12-r9` (was `2.51.0-debian-12-r0`)
+
 ## 2.3.50 (2025-08-21)
 
 * [bitnami/deepspeed] :zap: :arrow_up: Update dependency references ([#36157](https://github.com/bitnami/charts/pull/36157))
