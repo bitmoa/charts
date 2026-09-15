@@ -1,5 +1,9 @@
 # Changelog
 
+## 11.5.0 (2026-09-15)
+
+* Bump `apache` image to `2.4.68-debian-12-r9` (was `2.4.65-debian-12-r0`)
+
 ## 11.4.30 (2026-09-15)
 
 * Bump `git` image to `2.55.0-debian-12-r9` (was `2.51.0-debian-12-r0`)
