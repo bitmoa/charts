@@ -5,11 +5,11 @@ annotations:
   category: Analytics
   images: |
     - name: multus-cni
-      image: ghcr.io/bitmoa/multus-cni:4.2.2-debian-12-r0
+      image: ghcr.io/bitmoa/multus-cni:4.3.1-debian-12-r0
   licenses: Apache-2.0
   tanzuCategory: clusterUtility
 apiVersion: v2
-appVersion: 4.2.2
+appVersion: 4.3.1
 dependencies:
 - name: common
   repository: https://charts.bitmoa.net/bitmoa/
@@ -31,4 +31,4 @@ maintainers:
 name: multus-cni
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/multus-cni
-version: 2.2.21
+version: 2.3.0

@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.3.0 (2026-09-15)
+
+* Bump `multus-cni` image to `4.3.1-debian-12-r0` (was `4.2.2-debian-12-r0`)
+
 ## 2.2.21 (2025-08-14)
 
 * [bitnami/multus-cni] :zap: :arrow_up: Update dependency references ([#35886](https://github.com/bitnami/charts/pull/35886))
