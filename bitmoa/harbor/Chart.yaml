@@ -19,7 +19,7 @@ annotations:
     - name: harbor-registryctl
       image: ghcr.io/bitmoa/harbor-registryctl:2.13.2-debian-12-r0
     - name: nginx
-      image: ghcr.io/bitmoa/nginx:1.29.1-debian-12-r0
+      image: ghcr.io/bitmoa/nginx:1.31.5-debian-12-r2
     - name: os-shell
       image: ghcr.io/bitmoa/os-shell:12-debian-12-r0
   licenses: Apache-2.0
@@ -56,4 +56,4 @@ maintainers:
 name: harbor
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/harbor
-version: 27.1.0
+version: 27.1.1

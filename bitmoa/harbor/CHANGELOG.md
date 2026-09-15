@@ -1,5 +1,9 @@
 # Changelog
 
+## 27.1.1 (2026-09-15)
+
+* Bump `nginx` image to `1.31.5-debian-12-r2` (was `1.29.1-debian-12-r0`)
+
 ## 27.1.0 (2026-09-15)
 
 * Bump `harbor-exporter` image to `2.15.2-debian-12-r18` (was `2.13.2-debian-12-r0`)
