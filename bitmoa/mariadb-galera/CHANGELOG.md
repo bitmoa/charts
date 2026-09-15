@@ -1,5 +1,9 @@
 # Changelog
 
+## 16.1.0 (2026-09-15)
+
+* Bump `mariadb-galera` image to `13.0.1-debian-12-r2` (was `12.0.2-debian-12-r0`)
+
 ## 16.0.1 (2025-08-22)
 
 * [bitnami/mariadb-galera] Only require mariadb-password key in secret when creating a user on first run ([#36141](https://github.com/bitnami/charts/pull/36141))
