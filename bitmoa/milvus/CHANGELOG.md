@@ -1,5 +1,9 @@
 # Changelog
 
+## 16.1.0 (2026-09-15)
+
+* Bump `pymilvus` image to `3.0.1-debian-12-r2` (was `2.6.0-debian-12-r0`)
+
 ## 16.0.1 (2025-08-13)
 
 * [bitnami/milvus] :zap: :arrow_up: Update dependency references ([#35787](https://github.com/bitnami/charts/pull/35787))
