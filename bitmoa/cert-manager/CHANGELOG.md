@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.6.0 (2026-09-15)
+
+* Bump `acmesolver` image to `1.21.2-debian-12-r0` (was `1.18.2-debian-12-r0`)
+
 ## 1.5.14 (2025-08-14)
 
 * [bitnami/cert-manager] :zap: :arrow_up: Update dependency references ([#35867](https://github.com/bitnami/charts/pull/35867))
