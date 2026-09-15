@@ -5,11 +5,11 @@ annotations:
   category: Analytics
   images: |
     - name: superset
-      image: ghcr.io/bitmoa/superset:5.0.0-debian-12-r0
+      image: ghcr.io/bitmoa/superset:6.1.0-debian-12-r11
   licenses: Apache-2.0
   tanzuCategory: application
 apiVersion: v2
-appVersion: 5.0.0
+appVersion: 6.1.0
 dependencies:
 - condition: redis.enabled
   name: redis
@@ -38,4 +38,4 @@ sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/superset
 - https://github.com/bitmoa/containers/tree/main/bitmoa/superset
 - https://github.com/apache/superset
-version: 5.0.0
+version: 5.1.0

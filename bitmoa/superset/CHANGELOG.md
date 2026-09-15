@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.1.0 (2026-09-15)
+
+* Bump `superset` image to `6.1.0-debian-12-r11` (was `5.0.0-debian-12-r0`)
+
 ## 5.0.0 (2025-08-11)
 
 * [bitnami/superset] Upgrade to Redis subchart 22 ([#35723](https://github.com/bitnami/charts/pull/35723))
