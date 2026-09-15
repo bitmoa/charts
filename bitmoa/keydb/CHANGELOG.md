@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.5.23 (2026-09-15)
+
+* Bump `keydb` image to `6.3.4-debian-12-r47` (was `6.3.4-debian-12-r0`)
+
 ## 0.5.22 (2025-08-23)
 
 * [bitnami/keydb] :zap: :arrow_up: Update dependency references ([#36176](https://github.com/bitnami/charts/pull/36176))

@@ -5,7 +5,7 @@ annotations:
   category: Database
   images: |
     - name: keydb
-      image: ghcr.io/bitmoa/keydb:6.3.4-debian-12-r0
+      image: ghcr.io/bitmoa/keydb:6.3.4-debian-12-r47
     - name: os-shell
       image: ghcr.io/bitmoa/os-shell:12-debian-12-r0
     - name: redis-exporter
@@ -36,4 +36,4 @@ name: keydb
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/keydb
 - https://github.com/bitmoa/containers/tree/main/bitmoa/keydb
-version: 0.5.22
+version: 0.5.23
