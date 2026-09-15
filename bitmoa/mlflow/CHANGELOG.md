@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.2.0 (2026-09-15)
+
+* Bump `mlflow` image to `3.16.0-debian-12-r1` (was `3.3.2-debian-12-r0`)
+
 ## 5.1.17 (2025-08-27)
 
 * [bitnami/mlflow] :zap: :arrow_up: Update dependency references ([#36208](https://github.com/bitnami/charts/pull/36208))
