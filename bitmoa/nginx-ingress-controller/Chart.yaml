@@ -5,7 +5,7 @@ annotations:
   category: Infrastructure
   images: |
     - name: nginx
-      image: ghcr.io/bitmoa/nginx:1.31.3-debian-12-r0
+      image: ghcr.io/bitmoa/nginx:1.31.5-debian-12-r2
     - name: nginx-ingress-controller
       image: ghcr.io/bitmoa/bitmoa-nginx-ingress-controller:v1.15.7
   licenses: Apache-2.0
@@ -36,4 +36,4 @@ maintainers:
 name: nginx-ingress-controller
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/nginx-ingress-controller
-version: 12.1.1
+version: 12.1.2

@@ -1,5 +1,9 @@
 # Changelog
 
+## 12.1.2 (2026-09-15)
+
+* Bump `nginx` image to `1.31.5-debian-12-r2` (was `1.31.3-debian-12-r0`)
+
 ## 12.0.7 (2025-08-13)
 
 * [bitnami/nginx-ingress-controller] :zap: :arrow_up: Update dependency references ([#35851](https://github.com/bitnami/charts/pull/35851))
