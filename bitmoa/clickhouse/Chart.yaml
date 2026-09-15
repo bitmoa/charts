@@ -7,13 +7,13 @@ annotations:
     - name: clickhouse
       image: ghcr.io/bitmoa/clickhouse:26.8.4-debian-12-r1
     - name: clickhouse-keeper
-      image: ghcr.io/bitmoa/clickhouse-keeper:26.8.4-debian-12-r0
+      image: ghcr.io/bitmoa/clickhouse-keeper:26.8.5-debian-12-r0
     - name: os-shell
       image: ghcr.io/bitmoa/os-shell:12-debian-12-r73
   licenses: Apache-2.0
   tanzuCategory: service
 apiVersion: v2
-appVersion: 26.8.4
+appVersion: 26.8.5
 dependencies:
 - name: common
   repository: https://charts.bitmoa.net/bitmoa/
@@ -34,4 +34,4 @@ maintainers:
 name: clickhouse
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/clickhouse
-version: 9.6.1
+version: 9.7.0
