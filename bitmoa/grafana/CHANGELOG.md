@@ -1,5 +1,9 @@
 # Changelog
 
+## 12.2.0 (2026-09-15)
+
+* Bump `grafana` image to `13.2.1-debian-12-r2` (was `12.1.1-debian-12-r0`)
+
 ## 12.1.8 (2025-08-18)
 
 * [bitnami/grafana] :zap: :arrow_up: Update dependency references ([#36101](https://github.com/bitnami/charts/pull/36101))
