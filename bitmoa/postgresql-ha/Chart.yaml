@@ -5,7 +5,7 @@ annotations:
   category: Database
   images: |
     - name: os-shell
-      image: ghcr.io/bitmoa/os-shell:12-debian-12-r0
+      image: ghcr.io/bitmoa/os-shell:12-debian-12-r73
     - name: pgpool
       image: ghcr.io/bitmoa/pgpool:4.7.2-debian-12-r4
     - name: postgres-exporter
@@ -43,4 +43,4 @@ maintainers:
 name: postgresql-ha
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/postgresql-ha
-version: 16.4.1
+version: 16.4.2
