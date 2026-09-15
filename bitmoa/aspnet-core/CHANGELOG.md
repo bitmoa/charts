@@ -1,5 +1,9 @@
 # Changelog
 
+## 7.0.36 (2026-09-15)
+
+* Bump `git` image to `2.55.0-debian-12-r9` (was `2.51.0-debian-12-r0`)
+
 ## 7.0.35 (2025-08-18)
 
 * [bitnami/aspnet-core] :zap: :arrow_up: Update dependency references ([#36123](https://github.com/bitnami/charts/pull/36123))
