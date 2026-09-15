@@ -1,5 +1,9 @@
 # Changelog
 
+## 9.4.5 (2026-09-15)
+
+* Bump `os-shell` image to `12-debian-12-r73` (was `12-debian-12-r0`)
+
 ## 9.4.4 (2025-08-26)
 
 * [bitnami/clickhouse] :zap: :arrow_up: Update dependency references ([#36201](https://github.com/bitnami/charts/pull/36201))
