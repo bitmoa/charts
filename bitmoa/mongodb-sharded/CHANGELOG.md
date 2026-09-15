@@ -1,5 +1,9 @@
 # Changelog
 
+## 9.5.0 (2026-09-15)
+
+* Bump `mongodb-sharded` image to `8.3.11-debian-12-r0` (was `8.0.13-debian-12-r0`)
+
 ## 9.4.12 (2025-08-21)
 
 * [bitnami/mongodb-sharded] :zap: :arrow_up: Update dependency references ([#36167](https://github.com/bitnami/charts/pull/36167))
