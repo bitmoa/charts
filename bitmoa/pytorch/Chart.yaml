@@ -9,11 +9,11 @@ annotations:
     - name: os-shell
       image: ghcr.io/bitmoa/os-shell:12-debian-12-r0
     - name: pytorch
-      image: ghcr.io/bitmoa/pytorch:2.8.0-debian-12-r0
+      image: ghcr.io/bitmoa/pytorch:2.14.0-debian-12-r0
   licenses: Apache-2.0
   tanzuCategory: application
 apiVersion: v2
-appVersion: 2.8.0
+appVersion: 2.14.0
 dependencies:
 - name: common
   repository: https://charts.bitmoa.net/bitmoa/
@@ -36,4 +36,4 @@ maintainers:
 name: pytorch
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/pytorch
-version: 4.3.31
+version: 4.4.0

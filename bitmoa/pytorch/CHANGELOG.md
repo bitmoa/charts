@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.4.0 (2026-09-15)
+
+* Bump `pytorch` image to `2.14.0-debian-12-r0` (was `2.8.0-debian-12-r0`)
+
 ## 4.3.31 (2025-08-18)
 
 * [bitnami/pytorch] :zap: :arrow_up: Update dependency references ([#36125](https://github.com/bitnami/charts/pull/36125))
