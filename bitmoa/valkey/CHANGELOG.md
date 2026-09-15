@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.1.0 (2026-09-15)
+
+* Bump `valkey-sentinel` image to `9.1.2-debian-12-r1` (was `8.1.3-debian-12-r0`)
+
 ## 3.0.33 (2026-09-15)
 
 * Bump `redis-exporter` image to `1.91.1-debian-12-r0` (was `1.76.0-debian-12-r0`)
