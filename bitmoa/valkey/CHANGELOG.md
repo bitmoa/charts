@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.0.32 (2026-09-15)
+
+* Bump `kubectl` image to `1.37.0-debian-12-r2` (was `1.33.4-debian-12-r0`)
+
 ## 3.0.31 (2025-08-23)
 
 * [bitnami/valkey] :zap: :arrow_up: Update dependency references ([#36174](https://github.com/bitnami/charts/pull/36174))
