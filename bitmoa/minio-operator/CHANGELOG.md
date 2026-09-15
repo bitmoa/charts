@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.11 (2026-09-15)
+
+* Bump `minio-operator` image to `7.1.1-debian-12-r29` (was `7.1.1-debian-12-r0`)
+
 ## 0.2.10 (2026-09-15)
 
 * Bump `minio-operator-sidecar` image to `7.1.1-debian-12-r29` (was `7.1.1-debian-12-r0`)
