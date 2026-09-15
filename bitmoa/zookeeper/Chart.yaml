@@ -7,11 +7,11 @@ annotations:
     - name: os-shell
       image: ghcr.io/bitmoa/os-shell:12-debian-12-r73
     - name: zookeeper
-      image: ghcr.io/bitmoa/zookeeper:3.9.3-debian-12-r0
+      image: ghcr.io/bitmoa/zookeeper:3.9.6-debian-12-r0
   licenses: Apache-2.0
   tanzuCategory: clusterUtility
 apiVersion: v2
-appVersion: 3.9.3
+appVersion: 3.9.6
 dependencies:
 - name: common
   repository: https://charts.bitmoa.net/bitmoa/
@@ -30,4 +30,4 @@ maintainers:
 name: zookeeper
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/zookeeper
-version: 13.8.8
+version: 13.9.0
