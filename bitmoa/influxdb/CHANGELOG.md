@@ -1,5 +1,9 @@
 # Changelog
 
+## 7.2.0 (2026-09-15)
+
+* Bump `influxdb` image to `3.11.4-debian-12-r1` (was `3.4.1-debian-12-r0`)
+
 ## 7.1.20 (2025-08-28)
 
 * [bitnami/influxdb] :zap: :arrow_up: Update dependency references ([#36217](https://github.com/bitnami/charts/pull/36217))
