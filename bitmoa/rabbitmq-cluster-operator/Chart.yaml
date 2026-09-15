@@ -9,7 +9,7 @@ annotations:
     - name: rabbitmq-cluster-operator
       image: ghcr.io/bitmoa/rabbitmq-cluster-operator:2.16.1-debian-12-r0
     - name: rmq-default-credential-updater
-      image: ghcr.io/bitmoa/rmq-default-credential-updater:1.0.8-debian-12-r0
+      image: ghcr.io/bitmoa/rmq-default-credential-updater:1.0.17-debian-12-r1
     - name: rmq-messaging-topology-operator
       image: ghcr.io/bitmoa/rmq-messaging-topology-operator:1.17.4-debian-12-r0
   licenses: Apache-2.0
@@ -39,4 +39,4 @@ maintainers:
 name: rabbitmq-cluster-operator
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/rabbitmq-cluster-operator
-version: 4.4.34
+version: 4.4.35

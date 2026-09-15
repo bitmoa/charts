@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.4.35 (2026-09-15)
+
+* Bump `rmq-default-credential-updater` image to `1.0.17-debian-12-r1` (was `1.0.8-debian-12-r0`)
+
 ## 4.4.34 (2025-08-21)
 
 * [bitnami/rabbitmq-cluster-operator] :zap: :arrow_up: Update dependency references ([#36162](https://github.com/bitnami/charts/pull/36162))
