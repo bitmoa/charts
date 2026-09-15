@@ -1,5 +1,9 @@
 # Changelog
 
+## 17.1.0 (2026-09-15)
+
+* Bump `discourse` image to `2026.9.0-debian-12-r3` (was `3.5.0-debian-12-r0`)
+
 ## 17.0.1 (2025-08-25)
 
 * [bitnami/discourse] :zap: :arrow_up: Update dependency references ([#36154](https://github.com/bitnami/charts/pull/36154))
