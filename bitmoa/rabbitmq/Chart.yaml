@@ -5,7 +5,7 @@ annotations:
   category: Infrastructure
   images: |
     - name: os-shell
-      image: ghcr.io/bitmoa/os-shell:12-debian-12-r0
+      image: ghcr.io/bitmoa/os-shell:12-debian-12-r73
     - name: rabbitmq
       image: ghcr.io/bitmoa/rabbitmq:4.3.6-debian-12-r0
   licenses: Apache-2.0
@@ -32,4 +32,4 @@ maintainers:
 name: rabbitmq
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/rabbitmq
-version: 16.2.0
+version: 16.2.1
