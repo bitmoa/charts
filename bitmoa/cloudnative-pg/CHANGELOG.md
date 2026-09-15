@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.1 (2026-09-15)
+
+* Bump `plugin-barman-cloud` image to `0.15.0-debian-12-r0` (was `0.6.0-debian-12-r0`)
+
 ## 1.1.0 (2026-09-15)
 
 * Bump `cloudnative-pg` image to `1.30.0-debian-12-r6` (was `1.27.0-debian-12-r0`)
