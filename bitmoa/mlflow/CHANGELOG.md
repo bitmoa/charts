@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.2.2 (2026-09-15)
+
+* Bump `os-shell` image to `12-debian-12-r73` (was `12-debian-12-r0`)
+
 ## 5.2.1 (2026-09-15)
 
 * Bump `git` image to `2.55.0-debian-12-r9` (was `2.51.0-debian-12-r0`)
