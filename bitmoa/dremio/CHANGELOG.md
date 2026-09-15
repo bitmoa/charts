@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.0.14 (2026-09-15)
+
+* Bump `jmx-exporter` image to `1.6.0-debian-12-r3` (was `1.4.0-debian-12-r0`)
+
 ## 3.0.13 (2025-08-26)
 
 * [bitnami/dremio] :zap: :arrow_up: Update dependency references ([#36188](https://github.com/bitnami/charts/pull/36188))
