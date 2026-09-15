@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.5.1 (2026-09-15)
+
+* Bump `ray` image to `2.58.0-debian-12-r1` (was `2.49.0-debian-12-r0`)
+
 ## 1.5.0 (2026-09-15)
 
 * Bump `kuberay-operator` image to `1.7.0-debian-12-r2` (was `1.4.2-debian-12-r0`)
