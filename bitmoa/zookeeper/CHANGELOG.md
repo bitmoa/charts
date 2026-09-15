@@ -1,5 +1,9 @@
 # Changelog
 
+## 13.8.8 (2026-09-15)
+
+* Bump `os-shell` image to `12-debian-12-r73` (was `12-debian-12-r0`)
+
 ## 13.8.7 (2025-08-07)
 
 * [bitnami/zookeeper] :zap: :arrow_up: Update dependency references ([#35687](https://github.com/bitnami/charts/pull/35687))
