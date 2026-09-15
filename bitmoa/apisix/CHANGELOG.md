@@ -1,5 +1,9 @@
 # Changelog
 
+## 6.0.1 (2026-09-15)
+
+* Bump `apisix-ingress-controller` image to `2.2.0-debian-12-r2` (was `1.8.4-debian-12-r0`)
+
 ## 6.0.0 (2025-08-20)
 
 * [bitnami/apisix] major: Integrate apisix-dashboard into apisix ([#36136](https://github.com/bitnami/charts/pull/36136))

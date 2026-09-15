@@ -7,7 +7,7 @@ annotations:
     - name: apisix
       image: ghcr.io/bitmoa/apisix:3.13.0-debian-12-r0
     - name: apisix-ingress-controller
-      image: ghcr.io/bitmoa/apisix-ingress-controller:1.8.4-debian-12-r0
+      image: ghcr.io/bitmoa/apisix-ingress-controller:2.2.0-debian-12-r2
     - name: os-shell
       image: ghcr.io/bitmoa/os-shell:12-debian-12-r0
   licenses: Apache-2.0
@@ -46,4 +46,4 @@ sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/apisix
 - https://github.com/bitmoa/charts/tree/main/bitmoa/apisix-dashboard
 - https://github.com/bitmoa/charts/tree/main/bitmoa/apisix-ingress-controller
-version: 6.0.0
+version: 6.0.1
