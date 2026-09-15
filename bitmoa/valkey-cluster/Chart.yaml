@@ -5,7 +5,7 @@ annotations:
   category: Database
   images: |
     - name: os-shell
-      image: ghcr.io/bitmoa/os-shell:12-debian-12-r0
+      image: ghcr.io/bitmoa/os-shell:12-debian-12-r73
     - name: redis-exporter
       image: ghcr.io/bitmoa/redis-exporter:1.91.1-debian-12-r0
     - name: valkey-cluster
@@ -36,4 +36,4 @@ name: valkey-cluster
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/valkey-cluster
 - https://github.com/bitmoa/containers/tree/main/bitmoa/vakey-cluster
-version: 3.1.0
+version: 3.1.1
