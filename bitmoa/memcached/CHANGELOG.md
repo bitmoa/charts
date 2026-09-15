@@ -1,5 +1,9 @@
 # Changelog
 
+## 7.9.8 (2026-09-15)
+
+* Bump `memcached-exporter` image to `0.17.0-debian-12-r4` (was `0.15.3-debian-12-r0`)
+
 ## 7.9.7 (2025-08-14)
 
 * [bitnami/memcached] :zap: :arrow_up: Update dependency references ([#35878](https://github.com/bitnami/charts/pull/35878))
