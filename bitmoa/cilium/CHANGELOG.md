@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.2.0 (2026-09-15)
+
+* Bump `cilium` image to `1.20.1-debian-12-r4` (was `1.18.1-debian-12-r0`)
+
 ## 3.1.10 (2026-09-15)
 
 * Bump `hubble-ui` image to `0.13.6-debian-12-r0` (was `0.13.3-debian-12-r0`)
