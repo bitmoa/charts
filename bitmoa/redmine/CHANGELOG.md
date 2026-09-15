@@ -1,5 +1,9 @@
 # Changelog
 
+## 34.1.0 (2026-09-15)
+
+* Bump `redmine` image to `7.0.1-debian-12-r3` (was `6.0.6-debian-12-r0`)
+
 ## 34.0.0 (2025-08-18)
 
 * [bitnami/redmine] Upgrade to MariaDB 12.0 ([#36119](https://github.com/bitnami/charts/pull/36119))

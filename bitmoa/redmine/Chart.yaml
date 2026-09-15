@@ -7,11 +7,11 @@ annotations:
     - name: os-shell
       image: ghcr.io/bitmoa/os-shell:12-debian-12-r0
     - name: redmine
-      image: ghcr.io/bitmoa/redmine:6.0.6-debian-12-r0
+      image: ghcr.io/bitmoa/redmine:7.0.1-debian-12-r3
   licenses: Apache-2.0
   tanzuCategory: application
 apiVersion: v2
-appVersion: 6.0.6
+appVersion: 7.0.1
 dependencies:
 - condition: postgresql.enabled
   name: postgresql
@@ -46,4 +46,4 @@ maintainers:
 name: redmine
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/redmine
-version: 34.0.0
+version: 34.1.0
