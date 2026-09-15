@@ -1,5 +1,9 @@
 # Changelog
 
+## 21.2.0 (2026-09-15)
+
+* Bump `nginx` image to `1.31.5-debian-12-r2` (was `1.31.0-debian-12-r1`)
+
 ## 21.1.23 (2025-08-18)
 
 * [bitnami/nginx] :zap: :arrow_up: Update dependency references ([#36127](https://github.com/bitnami/charts/pull/36127))
