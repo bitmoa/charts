@@ -1,5 +1,9 @@
 # Changelog
 
+## 9.1.0 (2026-09-15)
+
+* Bump `nats` image to `2.14.6-debian-12-r1` (was `2.11.8-debian-12-r0`)
+
 ## 9.0.28 (2025-08-14)
 
 * [bitnami/nats] :zap: :arrow_up: Update dependency references ([#35918](https://github.com/bitnami/charts/pull/35918))

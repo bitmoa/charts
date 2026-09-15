@@ -5,13 +5,13 @@ annotations:
   category: Infrastructure
   images: |
     - name: nats
-      image: ghcr.io/bitmoa/nats:2.11.8-debian-12-r0
+      image: ghcr.io/bitmoa/nats:2.14.6-debian-12-r1
     - name: nats-exporter
       image: ghcr.io/bitmoa/nats-exporter:0.17.3-debian-12-r0
   licenses: Apache-2.0
   tanzuCategory: clusterUtility
 apiVersion: v2
-appVersion: 2.11.8
+appVersion: 2.14.6
 dependencies:
 - name: common
   repository: https://charts.bitmoa.net/bitmoa/
@@ -34,4 +34,4 @@ maintainers:
 name: nats
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/nats
-version: 9.0.28
+version: 9.1.0
