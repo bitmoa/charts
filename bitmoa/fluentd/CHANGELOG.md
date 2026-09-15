@@ -1,5 +1,9 @@
 # Changelog
 
+## 7.3.0 (2026-09-15)
+
+* Bump `fluentd` image to `1.19.3-debian-12-r6` (was `1.19.0-debian-12-r0`)
+
 ## 7.2.5 (2025-08-08)
 
 * [bitnami/fluentd] Remove hardcoded references to image repository ([#35693](https://github.com/bitnami/charts/pull/35693))
