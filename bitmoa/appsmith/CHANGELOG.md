@@ -1,5 +1,9 @@
 # Changelog
 
+## 7.1.0 (2026-09-15)
+
+* Bump `appsmith` image to `2.4.0-debian-12-r0` (was `1.85.0-debian-12-r0`)
+
 ## 7.0.4 (2026-09-15)
 
 * Bump `os-shell` image to `12-debian-12-r73` (was `12-debian-12-r0`)
