@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.4.37 (2026-09-15)
+
+* Bump `fluxcd-kustomize-controller` image to `1.9.5-debian-12-r2` (was `1.6.1-debian-12-r0`)
+
 ## 2.4.35 (2025-08-07)
 
 * [bitnami/flux] :zap: :arrow_up: Update dependency references ([#35606](https://github.com/bitnami/charts/pull/35606))
