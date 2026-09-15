@@ -7,13 +7,13 @@ annotations:
     - name: grafana-k6
       image: ghcr.io/bitmoa/grafana-k6:1.2.3-debian-12-r0
     - name: grafana-k6-operator
-      image: ghcr.io/bitmoa/grafana-k6-operator:0.0.23-debian-12-r0
+      image: ghcr.io/bitmoa/grafana-k6-operator:1.6.0-debian-12-r1
     - name: os-shell
       image: ghcr.io/bitmoa/os-shell:12-debian-12-r0
   licenses: Apache-2.0
   tanzuCategory: service
 apiVersion: v2
-appVersion: 0.0.23
+appVersion: 1.6.0
 dependencies:
 - name: common
   repository: https://charts.bitmoa.net/bitmoa/
@@ -35,4 +35,4 @@ maintainers:
 name: grafana-k6-operator
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/grafana-k6-operator
-version: 1.0.11
+version: 1.1.0

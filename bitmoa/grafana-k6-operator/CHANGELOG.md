@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.0 (2026-09-15)
+
+* Bump `grafana-k6-operator` image to `1.6.0-debian-12-r1` (was `0.0.23-debian-12-r0`)
+
 ## 1.0.11 (2025-08-27)
 
 * [bitnami/grafana-k6-operator] :zap: :arrow_up: Update dependency references ([#36204](https://github.com/bitnami/charts/pull/36204))
