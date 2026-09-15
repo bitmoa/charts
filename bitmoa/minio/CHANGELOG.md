@@ -1,5 +1,9 @@
 # Changelog
 
+## 17.0.23 (2026-09-15)
+
+* Bump `minio-object-browser` image to `2.0.4-debian-12-r21` (was `2.0.2-debian-12-r0`)
+
 ## 17.0.22 (2026-09-15)
 
 * Bump `minio-client` image to `2025.8.13-debian-12-r29` (was `2025.7.21-debian-12-r0`)
