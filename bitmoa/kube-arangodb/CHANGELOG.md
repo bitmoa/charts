@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.24 (2026-09-15)
+
+* Bump `arangodb` image to `3.11.14-debian-12-r35` (was `3.11.14-debian-12-r0`)
+
 ## 0.1.23 (2025-08-14)
 
 * [bitnami/kube-arangodb] :zap: :arrow_up: Update dependency references ([#35874](https://github.com/bitnami/charts/pull/35874))
