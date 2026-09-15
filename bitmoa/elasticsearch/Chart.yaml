@@ -5,7 +5,7 @@ annotations:
   category: Analytics
   images: |
     - name: elasticsearch
-      image: ghcr.io/bitmoa/elasticsearch:9.1.2-debian-12-r0
+      image: ghcr.io/bitmoa/elasticsearch:9.5.4-debian-12-r0
     - name: elasticsearch-exporter
       image: ghcr.io/bitmoa/elasticsearch-exporter:1.11.0-debian-12-r7
     - name: os-shell
@@ -13,7 +13,7 @@ annotations:
   licenses: Apache-2.0
   tanzuCategory: service
 apiVersion: v2
-appVersion: 9.1.2
+appVersion: 9.5.4
 dependencies:
 - condition: global.kibanaEnabled
   name: kibana
@@ -36,4 +36,4 @@ maintainers:
 name: elasticsearch
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/elasticsearch
-version: 22.1.7
+version: 22.2.0
