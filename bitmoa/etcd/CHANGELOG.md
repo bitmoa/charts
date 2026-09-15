@@ -1,5 +1,9 @@
 # Changelog
 
+## 12.1.0 (2026-09-15)
+
+* Bump `etcd` image to `3.7.1-debian-12-r4` (was `3.6.4-debian-12-r0`)
+
 ## 12.0.18 (2025-08-14)
 
 * [bitnami/etcd] :zap: :arrow_up: Update dependency references ([#35870](https://github.com/bitnami/charts/pull/35870))
