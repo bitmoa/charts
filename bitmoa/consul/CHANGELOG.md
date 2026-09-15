@@ -1,5 +1,9 @@
 # Changelog
 
+## 11.5.0 (2026-09-15)
+
+* Bump `consul` image to `2.0.4-debian-12-r0` (was `1.21.4-debian-12-r0`)
+
 ## 11.4.32 (2025-08-14)
 
 * [bitnami/consul] :zap: :arrow_up: Update dependency references ([#35905](https://github.com/bitnami/charts/pull/35905))
