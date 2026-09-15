@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.4.15 (2026-09-15)
+
+* Bump `os-shell` image to `12-debian-12-r73` (was `12-debian-12-r0`)
+
 ## 0.4.14 (2025-08-27)
 
 * [bitnami/neo4j] :zap: :arrow_up: Update dependency references ([#36213](https://github.com/bitnami/charts/pull/36213))
