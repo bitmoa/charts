@@ -1,5 +1,9 @@
 # Changelog
 
+## 9.1.0 (2026-09-15)
+
+* Bump `external-dns` image to `0.22.0-debian-12-r2` (was `0.18.0-debian-12-r0`)
+
 ## 9.0.3 (2025-08-13)
 
 * [bitnami/external-dns] :zap: :arrow_up: Update dependency references ([#35803](https://github.com/bitnami/charts/pull/35803))
