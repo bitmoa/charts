@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.2.0 (2026-09-15)
+
+* Bump `gitlab-runner-helper` image to `19.3.2-debian-12-r0` (was `18.3.0-debian-12-r0`)
+
 ## 1.1.8 (2025-08-21)
 
 * [bitnami/gitlab-runner] :zap: :arrow_up: Update dependency references ([#36163](https://github.com/bitnami/charts/pull/36163))
