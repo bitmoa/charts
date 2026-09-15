@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.1.0 (2026-09-15)
+
+* Bump `envoy-gateway` image to `1.9.1-debian-12-r2` (was `1.5.0-debian-12-r0`)
+
 ## 2.0.4 (2025-08-19)
 
 * [bitnami/envoy-gateway] :zap: :arrow_up: Update dependency references ([#36146](https://github.com/bitnami/charts/pull/36146))
