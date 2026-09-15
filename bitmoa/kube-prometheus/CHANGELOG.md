@@ -1,5 +1,9 @@
 # Changelog
 
+## 11.3.11 (2026-09-15)
+
+* Bump `prometheus` image to `3.14.0-debian-12-r3` (was `3.5.0-debian-12-r0`)
+
 ## 11.3.10 (2025-08-21)
 
 * [bitnami/kube-prometheus] :zap: :arrow_up: Update dependency references ([#36164](https://github.com/bitnami/charts/pull/36164))
