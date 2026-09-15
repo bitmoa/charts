@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.3.0 (2026-09-15)
+
+* Bump `whereabouts` image to `0.9.4-debian-12-r9` (was `0.9.2-debian-12-r0`)
+
 ## 1.2.19 (2025-08-13)
 
 * [bitnami/whereabouts] :zap: :arrow_up: Update dependency references ([#35842](https://github.com/bitnami/charts/pull/35842))
