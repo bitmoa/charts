@@ -1,5 +1,9 @@
 # Changelog
 
+## 22.1.7 (2026-09-15)
+
+* Bump `elasticsearch-exporter` image to `1.11.0-debian-12-r7` (was `1.9.0-debian-12-r0`)
+
 ## 22.1.6 (2025-08-14)
 
 * [bitnami/elasticsearch] :zap: :arrow_up: Update dependency references ([#35863](https://github.com/bitnami/charts/pull/35863))
