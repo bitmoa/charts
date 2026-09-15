@@ -5,7 +5,7 @@ annotations:
   category: Infrastructure
   images: |
     - name: jmx-exporter
-      image: ghcr.io/bitmoa/jmx-exporter:1.4.0-debian-12-r0
+      image: ghcr.io/bitmoa/jmx-exporter:1.6.0-debian-12-r3
     - name: kafka
       image: ghcr.io/bitmoa/kafka:4.3.1-debian-12-r4
     - name: kubectl
@@ -38,4 +38,4 @@ maintainers:
 name: kafka
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/kafka
-version: 32.5.0
+version: 32.5.1
