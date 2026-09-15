@@ -5,7 +5,7 @@ annotations:
   category: Infrastructure
   images: |
     - name: gitlab-runner
-      image: ghcr.io/bitmoa/gitlab-runner:18.3.0-debian-12-r0
+      image: ghcr.io/bitmoa/gitlab-runner:19.3.2-debian-12-r0
     - name: gitlab-runner-helper
       image: ghcr.io/bitmoa/gitlab-runner-helper:19.3.2-debian-12-r0
   licenses: Apache-2.0
@@ -32,4 +32,4 @@ maintainers:
 name: gitlab-runner
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/gitlab-runner
-version: 1.2.0
+version: 1.2.1
