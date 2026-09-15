@@ -1,5 +1,9 @@
 # Changelog
 
+## 10.1.2 (2026-09-15)
+
+* Bump `jupyter-base-notebook` image to `6.0.1-debian-12-r0` (was `5.3.0-debian-12-r0`)
+
 ## 10.1.1 (2026-09-15)
 
 * Bump `os-shell` image to `12-debian-12-r73` (was `12-debian-12-r0`)
