@@ -1,5 +1,9 @@
 # Changelog
 
+## 13.1.0 (2026-09-15)
+
+* Bump `argo-workflow-controller` image to `4.1.3-debian-12-r0` (was `3.7.1-debian-12-r0`)
+
 ## 13.0.6 (2025-08-13)
 
 * [bitnami/argo-workflows] :zap: :arrow_up: Update dependency references ([#35824](https://github.com/bitnami/charts/pull/35824))
