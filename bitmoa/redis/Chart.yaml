@@ -11,7 +11,7 @@ annotations:
     - name: redis
       image: ghcr.io/bitmoa/redis:8.2.1-debian-12-r0
     - name: redis-exporter
-      image: ghcr.io/bitmoa/redis-exporter:1.76.0-debian-12-r0
+      image: ghcr.io/bitmoa/redis-exporter:1.91.1-debian-12-r0
     - name: redis-sentinel
       image: ghcr.io/bitmoa/redis-sentinel:8.2.1-debian-12-r0
   licenses: Apache-2.0
@@ -39,4 +39,4 @@ maintainers:
 name: redis
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/redis
-version: 22.0.7
+version: 22.0.8

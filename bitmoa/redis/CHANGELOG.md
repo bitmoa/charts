@@ -1,5 +1,9 @@
 # Changelog
 
+## 22.0.8 (2026-09-15)
+
+* Bump `redis-exporter` image to `1.91.1-debian-12-r0` (was `1.76.0-debian-12-r0`)
+
 ## 22.0.7 (2025-08-27)
 
 * [bitnami/redis] Fix Redis sentinel initialization with single replica ([#35667](https://github.com/bitnami/charts/pull/35667))
