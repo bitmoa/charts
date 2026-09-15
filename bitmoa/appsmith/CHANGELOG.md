@@ -1,5 +1,9 @@
 # Changelog
 
+## 7.0.4 (2026-09-15)
+
+* Bump `os-shell` image to `12-debian-12-r73` (was `12-debian-12-r0`)
+
 ## 7.0.3 (2025-08-13)
 
 * [bitnami/appsmith] :zap: :arrow_up: Update dependency references ([#35849](https://github.com/bitnami/charts/pull/35849))
