@@ -1,5 +1,9 @@
 # Changelog
 
+## 9.7.0 (2026-09-15)
+
+* Bump `solr` image to `10.0.0-debian-12-r16` (was `9.9.0-debian-12-r0`)
+
 ## 9.6.10 (2025-08-07)
 
 * [bitnami/solr] :zap: :arrow_up: Update dependency references ([#35677](https://github.com/bitnami/charts/pull/35677))
