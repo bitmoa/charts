@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.1.0 (2026-09-15)
+
+* Bump `scylladb` image to `2026.3.1-debian-12-r0` (was `2025.2.2-debian-12-r0`)
+
 ## 5.0.5 (2025-08-19)
 
 * [bitnami/scylladb] :zap: :arrow_up: Update dependency references ([#36145](https://github.com/bitnami/charts/pull/36145))
