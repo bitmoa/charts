@@ -1,5 +1,9 @@
 # Changelog
 
+## 26.1.0 (2026-09-15)
+
+* Bump `wordpress` image to `7.1.0-debian-12-r3` (was `6.8.2-debian-12-r0`)
+
 ## 26.0.0 (2025-08-18)
 
 * [bitnami/wordpress] Upgrade to MariaDB 12.0 ([#36121](https://github.com/bitnami/charts/pull/36121))
