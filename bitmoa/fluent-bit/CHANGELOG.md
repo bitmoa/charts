@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.2.0 (2026-09-15)
+
+* Bump `fluent-bit` image to `5.1.2-debian-12-r0` (was `4.0.8-debian-12-r0`)
+
 ## 3.1.13 (2025-08-15)
 
 * [bitnami/fluent-bit] :zap: :arrow_up: Update dependency references ([#36031](https://github.com/bitnami/charts/pull/36031))
