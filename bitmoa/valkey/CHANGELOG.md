@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.1.1 (2026-09-15)
+
+* Bump `valkey` image to `9.1.2-debian-12-r1` (was `8.1.3-debian-12-r0`)
+
 ## 3.1.0 (2026-09-15)
 
 * Bump `valkey-sentinel` image to `9.1.2-debian-12-r1` (was `8.1.3-debian-12-r0`)
