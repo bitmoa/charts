@@ -1,5 +1,9 @@
 # Changelog
 
+## 8.1.0 (2026-09-15)
+
+* Bump `oauth2-proxy` image to `7.15.4-debian-12-r2` (was `7.12.0-debian-12-r0`)
+
 ## 8.0.2 (2025-08-19)
 
 * [bitnami/oauth2-proxy] :zap: :arrow_up: Update dependency references ([#36132](https://github.com/bitnami/charts/pull/36132))
