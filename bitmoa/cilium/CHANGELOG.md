@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.2.1 (2026-09-15)
+
+* Bump `cilium-operator` image to `1.20.1-debian-12-r3` (was `1.18.1-debian-12-r0`)
+
 ## 3.2.0 (2026-09-15)
 
 * Bump `cilium` image to `1.20.1-debian-12-r4` (was `1.18.1-debian-12-r0`)
