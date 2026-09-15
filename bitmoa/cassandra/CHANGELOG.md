@@ -1,5 +1,9 @@
 # Changelog
 
+## 12.3.12 (2026-09-15)
+
+* Bump `os-shell` image to `12-debian-12-r73` (was `12-debian-12-r0`)
+
 ## 12.3.11 (2025-08-13)
 
 * [bitnami/cassandra] Authentication failures when connecting to Cassandra from non-seed (secondary) nodes in multi-replica deployments.   ([#35768](https://github.com/bitnami/charts/pull/35768))

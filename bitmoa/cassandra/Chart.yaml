@@ -9,7 +9,7 @@ annotations:
     - name: cassandra-exporter
       image: ghcr.io/bitmoa/cassandra-exporter:2.3.8-debian-12-r0
     - name: os-shell
-      image: ghcr.io/bitmoa/os-shell:12-debian-12-r0
+      image: ghcr.io/bitmoa/os-shell:12-debian-12-r73
   licenses: Apache-2.0
   tanzuCategory: service
 apiVersion: v2
@@ -35,4 +35,4 @@ maintainers:
 name: cassandra
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/cassandra
-version: 12.3.11
+version: 12.3.12
