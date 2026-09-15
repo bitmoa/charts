@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.1.1 (2026-09-15)
+
+* Bump `postgresql` image to `18.6.0-debian-12-r6` (was `17.6.0-debian-12-r0`)
+
 ## 2.1.0 (2026-09-15)
 
 * Bump `nessie` image to `0.108.8-debian-12-r0` (was `0.104.10-debian-12-r0`)
