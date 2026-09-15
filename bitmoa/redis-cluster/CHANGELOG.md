@@ -1,5 +1,9 @@
 # Changelog
 
+## 13.0.5 (2026-09-15)
+
+* Bump `redis-exporter` image to `1.91.1-debian-12-r0` (was `1.76.0-debian-12-r0`)
+
 ## 13.0.4 (2025-08-23)
 
 * [bitnami/redis-cluster] :zap: :arrow_up: Update dependency references ([#36172](https://github.com/bitnami/charts/pull/36172))
