@@ -1,5 +1,9 @@
 # Changelog
 
+## 14.1.0 (2026-09-15)
+
+* Bump `mysql` image to `26.7.0-debian-12-r2` (was `9.4.0-debian-12-r0`)
+
 ## 14.0.3 (2025-08-14)
 
 * [bitnami/mysql] :zap: :arrow_up: Update dependency references ([#35892](https://github.com/bitnami/charts/pull/35892))
