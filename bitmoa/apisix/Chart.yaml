@@ -5,7 +5,7 @@ annotations:
   category: Infrastructure
   images: |
     - name: apisix
-      image: ghcr.io/bitmoa/apisix:3.13.0-debian-12-r0
+      image: ghcr.io/bitmoa/apisix:3.18.0-debian-12-r1
     - name: apisix-ingress-controller
       image: ghcr.io/bitmoa/apisix-ingress-controller:2.2.0-debian-12-r2
     - name: os-shell
@@ -13,7 +13,7 @@ annotations:
   licenses: Apache-2.0
   tanzuCategory: application
 apiVersion: v2
-appVersion: 3.13.0
+appVersion: 3.18.0
 dependencies:
 - condition: etcd.enabled
   name: etcd
@@ -46,4 +46,4 @@ sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/apisix
 - https://github.com/bitmoa/charts/tree/main/bitmoa/apisix-dashboard
 - https://github.com/bitmoa/charts/tree/main/bitmoa/apisix-ingress-controller
-version: 6.0.1
+version: 6.1.0
