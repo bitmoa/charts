@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.1.10 (2026-09-15)
+
+* Bump `hubble-ui` image to `0.13.6-debian-12-r0` (was `0.13.3-debian-12-r0`)
+
 ## 3.1.8 (2025-08-23)
 
 * [bitnami/cilium] :zap: :arrow_up: Update dependency references ([#36177](https://github.com/bitnami/charts/pull/36177))
