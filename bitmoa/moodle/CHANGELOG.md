@@ -1,5 +1,9 @@
 # Changelog
 
+## 28.1.0 (2026-09-15)
+
+* Bump `moodle` image to `5.2.3-debian-12-r0` (was `5.0.2-debian-12-r0`)
+
 ## 28.0.0 (2025-08-18)
 
 * [bitnami/moodle] Upgrade to MariaDB 12.0 ([#36117](https://github.com/bitnami/charts/pull/36117))
