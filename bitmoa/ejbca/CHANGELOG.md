@@ -1,5 +1,9 @@
 # Changelog
 
+## 19.2.0 (2026-09-15)
+
+* Bump `ejbca` image to `9.6.3-debian-12-r0` (was `9.3.7-debian-12-r21`)
+
 ## 19.1.0 (2026-09-15)
 
 * Bump `ejbca` image to `9.3.7-debian-12-r21` (was `9.1.1-debian-12-r0`)
