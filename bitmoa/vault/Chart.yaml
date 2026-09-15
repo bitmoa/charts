@@ -5,7 +5,7 @@ annotations:
   category: Infrastructure
   images: |
     - name: os-shell
-      image: ghcr.io/bitmoa/os-shell:12-debian-12-r0
+      image: ghcr.io/bitmoa/os-shell:12-debian-12-r73
     - name: vault
       image: ghcr.io/bitmoa/vault:2.1.0-debian-12-r1
     - name: vault-csi-provider
@@ -37,4 +37,4 @@ maintainers:
 name: vault
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/vault
-version: 1.10.1
+version: 1.10.2
