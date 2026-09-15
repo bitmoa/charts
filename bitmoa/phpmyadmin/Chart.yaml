@@ -7,11 +7,11 @@ annotations:
     - name: apache-exporter
       image: ghcr.io/bitmoa/apache-exporter:1.0.10-debian-12-r0
     - name: phpmyadmin
-      image: ghcr.io/bitmoa/phpmyadmin:5.2.2-debian-12-r0
+      image: ghcr.io/bitmoa/phpmyadmin:5.2.3-debian-12-r46
   licenses: Apache-2.0
   tanzuCategory: application
 apiVersion: v2
-appVersion: 5.2.2
+appVersion: 5.2.3
 dependencies:
 - condition: db.bundleTestDB
   name: mariadb
@@ -39,4 +39,4 @@ maintainers:
 name: phpmyadmin
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/phpmyadmin
-version: 20.0.0
+version: 20.1.0

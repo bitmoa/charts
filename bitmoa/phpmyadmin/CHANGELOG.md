@@ -1,5 +1,9 @@
 # Changelog
 
+## 20.1.0 (2026-09-15)
+
+* Bump `phpmyadmin` image to `5.2.3-debian-12-r46` (was `5.2.2-debian-12-r0`)
+
 ## 20.0.0 (2025-08-18)
 
 * [bitnami/phpmyadmin] Upgrade to MariaDB 12.0 ([#36118](https://github.com/bitnami/charts/pull/36118))
