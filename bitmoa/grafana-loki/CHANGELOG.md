@@ -1,5 +1,9 @@
 # Changelog
 
+## 6.0.7 (2026-09-15)
+
+* Bump `nginx` image to `1.31.5-debian-12-r2` (was `1.29.1-debian-12-r0`)
+
 ## 6.0.6 (2025-08-13)
 
 * [bitnami/grafana-loki] :zap: :arrow_up: Update dependency references ([#35847](https://github.com/bitnami/charts/pull/35847))
