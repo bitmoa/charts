@@ -1,5 +1,9 @@
 # Changelog
 
+## 28.3.0 (2026-09-15)
+
+* Bump `odoo` image to `19.0.20260901-debian-12-r1` (was `18.0.20250805-debian-12-r0`)
+
 ## 28.2.10 (2025-08-07)
 
 * [bitnami/odoo] :zap: :arrow_up: Update dependency references ([#35663](https://github.com/bitnami/charts/pull/35663))
