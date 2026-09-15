@@ -1,5 +1,9 @@
 # Changelog
 
+## 12.1.0 (2026-09-15)
+
+* Bump `tomcat` image to `11.0.26-debian-12-r1` (was `11.0.10-debian-12-r0`)
+
 ## 12.0.8 (2025-08-26)
 
 * [bitnami/tomcat] :zap: :arrow_up: Update dependency references ([#36190](https://github.com/bitnami/charts/pull/36190))
