@@ -1,5 +1,9 @@
 # Changelog
 
+## 17.3.2 (2026-09-15)
+
+* Bump `os-shell` image to `12-debian-12-r73` (was `12-debian-12-r0`)
+
 ## 17.3.1 (2025-08-13)
 
 * [bitnami/thanos] :zap: :arrow_up: Update dependency references ([#35837](https://github.com/bitnami/charts/pull/35837))
