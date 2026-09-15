@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.8 (2026-09-15)
+
+* Bump `configmap-reload` image to `0.15.0-debian-12-r43` (was `0.15.0-debian-12-r0`)
+
 ## 1.0.7 (2025-08-21)
 
 * [bitnami/grafana-alloy] fix quote prometheus.io/port annotation to avoid decoding error ([#35289](https://github.com/bitnami/charts/pull/35289))
