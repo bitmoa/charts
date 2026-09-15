@@ -1,5 +1,9 @@
 # Changelog
 
+## 10.1.0 (2026-09-15)
+
+* Bump `spark` image to `4.2.0-debian-12-r3` (was `4.0.0-debian-12-r0`)
+
 ## 10.0.3 (2025-08-07)
 
 * [bitnami/spark] :zap: :arrow_up: Update dependency references ([#35680](https://github.com/bitnami/charts/pull/35680))
