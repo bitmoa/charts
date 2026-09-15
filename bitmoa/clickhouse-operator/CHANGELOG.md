@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.3.0 (2026-09-15)
+
+* Bump `clickhouse-operator-metrics-exporter` image to `0.27.3-debian-12-r4` (was `0.25.3-debian-12-r0`)
+
 ## 0.2.33 (2025-08-26)
 
 * [bitnami/clickhouse-operator] :zap: :arrow_up: Update dependency references ([#36202](https://github.com/bitnami/charts/pull/36202))
