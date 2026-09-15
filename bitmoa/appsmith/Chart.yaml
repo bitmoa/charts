@@ -7,7 +7,7 @@ annotations:
     - name: appsmith
       image: ghcr.io/bitmoa/appsmith:2.4.0-debian-12-r0
     - name: haproxy
-      image: ghcr.io/bitmoa/haproxy:3.2.4-debian-12-r0
+      image: ghcr.io/bitmoa/haproxy:3.4.4-debian-12-r3
     - name: os-shell
       image: ghcr.io/bitmoa/os-shell:12-debian-12-r73
   licenses: Apache-2.0
@@ -41,4 +41,4 @@ maintainers:
 name: appsmith
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/appsmith
-version: 7.1.0
+version: 7.1.1
