@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.0 (2026-09-15)
+
+* Bump `victoriametrics-vmagent` image to `1.151.0-debian-12-r0` (was `1.124.0-debian-12-r0`)
+
 ## 0.1.31 (2025-08-19)
 
 * [bitnami/victoriametrics] Fix prometheus.io/scrape label ([#36142](https://github.com/bitnami/charts/pull/36142))
