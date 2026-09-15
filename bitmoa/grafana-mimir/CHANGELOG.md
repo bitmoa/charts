@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.1.0 (2026-09-15)
+
+* Bump `grafana-mimir` image to `3.2.1-debian-12-r0` (was `2.17.0-debian-12-r0`)
+
 ## 3.0.18 (2025-08-14)
 
 * [bitnami/grafana-mimir] :zap: :arrow_up: Update dependency references ([#35954](https://github.com/bitnami/charts/pull/35954))
