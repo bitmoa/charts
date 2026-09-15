@@ -5,7 +5,7 @@ annotations:
   category: Infrastructure
   images: |
     - name: grafana-tempo
-      image: ghcr.io/bitmoa/grafana-tempo:2.8.2-debian-12-r0
+      image: ghcr.io/bitmoa/grafana-tempo:3.0.3-debian-12-r3
     - name: grafana-tempo-query
       image: ghcr.io/bitmoa/grafana-tempo-query:2.8.2-debian-12-r0
     - name: grafana-tempo-vulture
@@ -42,4 +42,4 @@ maintainers:
 name: grafana-tempo
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/grafana-tempo
-version: 5.1.0
+version: 5.1.1

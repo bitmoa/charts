@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.1.1 (2026-09-15)
+
+* Bump `grafana-tempo` image to `3.0.3-debian-12-r3` (was `2.8.2-debian-12-r0`)
+
 ## 5.1.0 (2026-09-15)
 
 * Bump `grafana-tempo-vulture` image to `3.0.3-debian-12-r3` (was `2.8.2-debian-12-r0`)
