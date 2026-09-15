@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.0.76 (2026-09-15)
+
+* Bump `dex` image to `2.45.1-debian-12-r18` (was `2.43.1-debian-12-r0`)
+
 ## 4.0.75 (2025-08-27)
 
 * [bitnami/chainloop] :zap: :arrow_up: Update dependency references ([#36212](https://github.com/bitnami/charts/pull/36212))
