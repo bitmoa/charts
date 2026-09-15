@@ -5,7 +5,7 @@ annotations:
   category: Infrastructure
   images: |
     - name: mariadb
-      image: ghcr.io/bitmoa/mariadb:13.0.2-debian-12-r0
+      image: ghcr.io/bitmoa/mariadb:13.1.1-debian-12-r0
     - name: os-shell
       image: ghcr.io/bitmoa/os-shell:12-debian-12-r0
     - name: postgresql
@@ -51,4 +51,4 @@ name: seaweedfs
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/seawwedfs
 - https://github.com/bitmoa/containers/tree/main/bitmoa/seaweedfs
-version: 6.0.5
+version: 6.0.6

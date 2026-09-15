@@ -1,5 +1,9 @@
 # Changelog
 
+## 6.0.6 (2026-09-15)
+
+* Bump `mariadb` image to `13.1.1-debian-12-r0` (was `13.0.2-debian-12-r0`)
+
 ## 6.0.5 (2026-09-15)
 
 * Bump `mariadb` image to `13.0.2-debian-12-r0` (was `13.0.1-debian-12-r2`)
