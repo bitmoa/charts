@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.2.0 (2026-09-15)
+
+* Bump `prometheus` image to `3.14.0-debian-12-r3` (was `3.5.0-debian-12-r0`)
+
 ## 2.1.23 (2025-08-14)
 
 * [bitnami/prometheus] :zap: :arrow_up: Update dependency references ([#35906](https://github.com/bitnami/charts/pull/35906))
