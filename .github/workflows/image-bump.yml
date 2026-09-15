@@ -113,6 +113,7 @@ jobs:
         with:
           ref: main
           fetch-depth: 0
+          persist-credentials: false
 
       - name: 'Install helm, yq and kubectl'
         run: |
