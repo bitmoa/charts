@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.3.4 (2026-09-15)
+
+* Bump `clickhouse` image to `26.8.5-debian-12-r0` (was `26.8.4-debian-12-r1`)
+
 ## 0.3.3 (2026-09-15)
 
 * Bump `clickhouse` image to `26.8.4-debian-12-r1` (was `25.7.5-debian-12-r0`)
