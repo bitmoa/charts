@@ -5,7 +5,7 @@ annotations:
   category: Analytics
   images: |
     - name: apache-exporter
-      image: ghcr.io/bitmoa/apache-exporter:1.0.10-debian-12-r0
+      image: ghcr.io/bitmoa/apache-exporter:1.1.1-debian-12-r9
     - name: matomo
       image: ghcr.io/bitmoa/matomo:5.13.0-debian-12-r2
     - name: os-shell
@@ -41,4 +41,4 @@ maintainers:
 name: matomo
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/matomo
-version: 11.1.0
+version: 11.1.1
