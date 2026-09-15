@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.2.0 (2026-09-15)
+
+* Bump `concourse` image to `8.3.0-debian-12-r6` (was `7.13.2-debian-12-r0`)
+
 ## 5.1.45 (2025-08-07)
 
 * [bitnami/concourse] :zap: :arrow_up: Update dependency references ([#35598](https://github.com/bitnami/charts/pull/35598))
