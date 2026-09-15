@@ -1,5 +1,9 @@
 # Changelog
 
+## 23.1.0 (2026-09-15)
+
+* Bump `drupal` image to `11.4.6-debian-12-r3` (was `11.2.3-debian-12-r0`)
+
 ## 23.0.0 (2025-08-18)
 
 * [bitnami/drupal] Upgrade to MariaDB 12.0 ([#36113](https://github.com/bitnami/charts/pull/36113))
