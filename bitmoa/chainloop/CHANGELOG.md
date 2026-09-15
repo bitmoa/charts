@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.1.0 (2026-09-15)
+
+* Bump `chainloop-control-plane` image to `1.109.3-debian-12-r0` (was `1.43.1-debian-12-r0`)
+
 ## 4.0.76 (2026-09-15)
 
 * Bump `dex` image to `2.45.1-debian-12-r18` (was `2.43.1-debian-12-r0`)
