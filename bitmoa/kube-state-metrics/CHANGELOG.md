@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.2.0 (2026-09-15)
+
+* Bump `kube-state-metrics` image to `2.20.0-debian-12-r3` (was `2.16.0-debian-12-r0`)
+
 ## 5.1.0 (2025-08-14)
 
 * [bitnami/kube-state-metrics] fix: OOM Killed ([#35785](https://github.com/bitnami/charts/pull/35785))
