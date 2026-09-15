@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.4.36 (2026-09-15)
+
+* Bump `rabbitmq` image to `4.3.5-debian-12-r1` (was `4.1.3-debian-12-r0`)
+
 ## 4.4.35 (2026-09-15)
 
 * Bump `rmq-default-credential-updater` image to `1.0.17-debian-12-r1` (was `1.0.8-debian-12-r0`)
