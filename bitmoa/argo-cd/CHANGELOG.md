@@ -1,5 +1,9 @@
 # Changelog
 
+## 11.1.0 (2026-09-15)
+
+* Bump `argo-cd` image to `3.5.2-debian-12-r2` (was `3.1.1-debian-12-r0`)
+
 ## 11.0.0 (2025-08-26)
 
 * [bitnami/argo-cd] :zap: :arrow_up: Update dependency references ([#36194](https://github.com/bitnami/charts/pull/36194))
