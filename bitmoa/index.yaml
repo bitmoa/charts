@@ -12,7 +12,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 3.0.5
-    created: "2026-09-15T01:19:14.068631403Z"
+    created: "2026-09-15T01:19:57.597309064Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -61,7 +61,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 2.4.65
-    created: "2026-09-15T01:19:14.07110484Z"
+    created: "2026-09-15T01:19:57.599691526Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -104,7 +104,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 3.13.0
-    created: "2026-09-15T01:19:14.081255693Z"
+    created: "2026-09-15T01:19:57.609236506Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -155,7 +155,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 1.85.0
-    created: "2026-09-15T01:19:14.098033358Z"
+    created: "2026-09-15T01:19:57.625890601Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -203,7 +203,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 3.1.1
-    created: "2026-09-15T01:19:14.114973619Z"
+    created: "2026-09-15T01:19:57.641740504Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -246,7 +246,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 3.7.1
-    created: "2026-09-15T01:19:14.127754156Z"
+    created: "2026-09-15T01:19:57.655361644Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -295,7 +295,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 9.0.8
-    created: "2026-09-15T01:19:14.130922365Z"
+    created: "2026-09-15T01:19:57.657614994Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -330,7 +330,7 @@ entries:
       tanzuCategory: clusterUtility
     apiVersion: v2
     appVersion: 0.53.0
-    created: "2026-09-15T01:19:14.133073467Z"
+    created: "2026-09-15T01:19:57.659710216Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -369,7 +369,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 5.0.5
-    created: "2026-09-15T01:19:14.135905957Z"
+    created: "2026-09-15T01:19:57.662510044Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -411,7 +411,7 @@ entries:
       tanzuCategory: clusterUtility
     apiVersion: v2
     appVersion: 1.18.2
-    created: "2026-09-15T01:19:14.140893821Z"
+    created: "2026-09-15T01:19:57.667286429Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -453,7 +453,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 1.43.1
-    created: "2026-09-15T01:19:14.156109299Z"
+    created: "2026-09-15T01:19:57.6822459Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -528,7 +528,7 @@ entries:
       tanzuCategory: clusterUtility
     apiVersion: v2
     appVersion: 1.18.1
-    created: "2026-09-15T01:19:14.167567728Z"
+    created: "2026-09-15T01:19:57.693362871Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -581,7 +581,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 25.7.5
-    created: "2026-09-15T01:19:14.171509367Z"
+    created: "2026-09-15T01:19:57.697301932Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -621,7 +621,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 0.27.3
-    created: "2026-09-15T01:19:14.17929206Z"
+    created: "2026-09-15T01:19:57.704718318Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -663,7 +663,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 0.25.3
-    created: "2026-09-15T01:19:14.175812687Z"
+    created: "2026-09-15T01:19:57.701299915Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -698,6 +698,46 @@ entries:
         - name: cloudnative-pg
           image: ghcr.io/bitmoa/cloudnative-pg:1.30.0-debian-12-r6
         - name: plugin-barman-cloud
+          image: ghcr.io/bitmoa/plugin-barman-cloud:0.15.0-debian-12-r0
+        - name: plugin-barman-cloud-sidecar
+          image: ghcr.io/bitmoa/plugin-barman-cloud-sidecar:0.6.0-debian-12-r0
+        - name: postgresql
+          image: ghcr.io/bitmoa/postgresql:17.6.0-debian-12-r0
+      licenses: Apache-2.0
+      tanzuCategory: service
+    apiVersion: v2
+    appVersion: 1.30.0
+    created: "2026-09-15T01:19:57.727855803Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitmoa.net/bitmoa/
+      tags:
+      - bitmoa-common
+      version: 2.x.x
+    description: CloudNativePG is an open-source tool for managing PostgreSQL databases
+      on Kubernetes, from setup to ongoing upkeep.
+    digest: ac4f1dc1d4c68ed95dd5d52dec4e30f7acd3bcf035f70bfe2960a1b263f3df3e
+    home: https://bitmoa.net
+    icon: https://bitmoa.net/assets/stacks/cloudnative-pg/img/cloudnative-pg-stack-220x234.png
+    keywords:
+    - cloudnative-pg
+    - operator
+    - postgresql
+    maintainers:
+    - name: Bitmoa
+      url: https://github.com/bitmoa/charts
+    name: cloudnative-pg
+    sources:
+    - https://github.com/bitmoa/charts/tree/main/bitmoa/cloudnative-pg
+    urls:
+    - https://charts.bitmoa.net/bitmoa/cloudnative-pg-1.1.1.tgz
+    version: 1.1.1
+  - annotations:
+      category: Infrastructure
+      images: |
+        - name: cloudnative-pg
+          image: ghcr.io/bitmoa/cloudnative-pg:1.30.0-debian-12-r6
+        - name: plugin-barman-cloud
           image: ghcr.io/bitmoa/plugin-barman-cloud:0.6.0-debian-12-r0
         - name: plugin-barman-cloud-sidecar
           image: ghcr.io/bitmoa/plugin-barman-cloud-sidecar:0.6.0-debian-12-r0
@@ -707,7 +747,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 1.30.0
-    created: "2026-09-15T01:19:14.197746209Z"
+    created: "2026-09-15T01:19:57.720178705Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -747,7 +787,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 1.27.0
-    created: "2026-09-15T01:19:14.187348838Z"
+    created: "2026-09-15T01:19:57.712237162Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -778,7 +818,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 2.31.4
-    created: "2026-09-15T01:19:14.198554424Z"
+    created: "2026-09-15T01:19:57.728595305Z"
     description: A Library Helm Chart for grouping common logic between bitmoa charts.
       This chart is not deployable by itself.
     digest: b35e5625720b47aebd5517f48356d0a40b67170e1193a14850e9906743db7279
@@ -812,7 +852,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 7.13.2
-    created: "2026-09-15T01:19:14.208201832Z"
+    created: "2026-09-15T01:19:57.737741589Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -859,7 +899,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 1.21.4
-    created: "2026-09-15T01:19:14.210979388Z"
+    created: "2026-09-15T01:19:57.740398388Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -898,7 +938,7 @@ entries:
       tanzuCategory: clusterUtility
     apiVersion: v2
     appVersion: 1.32.1
-    created: "2026-09-15T01:19:14.221148186Z"
+    created: "2026-09-15T01:19:57.74989461Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -937,7 +977,7 @@ entries:
       tanzuCategory: clusterUtility
     apiVersion: v2
     appVersion: 0.17.5
-    created: "2026-09-15T01:19:14.224226346Z"
+    created: "2026-09-15T01:19:57.753089972Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -978,7 +1018,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 3.5.0
-    created: "2026-09-15T01:19:14.247382207Z"
+    created: "2026-09-15T01:19:57.767327208Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -1029,7 +1069,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 26.0.0
-    created: "2026-09-15T01:19:14.261240961Z"
+    created: "2026-09-15T01:19:57.780252064Z"
     dependencies:
     - condition: minio.enabled
       name: minio
@@ -1077,7 +1117,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 11.2.3
-    created: "2026-09-15T01:19:14.268652263Z"
+    created: "2026-09-15T01:19:57.787698292Z"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -1121,7 +1161,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 9.1.1
-    created: "2026-09-15T01:19:14.275240483Z"
+    created: "2026-09-15T01:19:57.794802807Z"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -1167,7 +1207,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 9.1.2
-    created: "2026-09-15T01:19:14.284254371Z"
+    created: "2026-09-15T01:19:57.803372938Z"
     dependencies:
     - condition: global.kibanaEnabled
       name: kibana
@@ -1209,7 +1249,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 1.5.0
-    created: "2026-09-15T01:19:14.297909987Z"
+    created: "2026-09-15T01:19:57.816304538Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -1248,7 +1288,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 3.6.4
-    created: "2026-09-15T01:19:14.301267281Z"
+    created: "2026-09-15T01:19:57.819533504Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -1286,7 +1326,7 @@ entries:
       tanzuCategory: clusterUtility
     apiVersion: v2
     appVersion: 0.18.0
-    created: "2026-09-15T01:19:14.304830762Z"
+    created: "2026-09-15T01:19:57.822750918Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -1321,7 +1361,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 2.3.0
-    created: "2026-09-15T01:19:14.310489102Z"
+    created: "2026-09-15T01:19:57.828285785Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -1355,7 +1395,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 2.1.0
-    created: "2026-09-15T01:19:14.308053707Z"
+    created: "2026-09-15T01:19:57.825909814Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -1390,7 +1430,7 @@ entries:
       tanzuCategory: clusterUtility
     apiVersion: v2
     appVersion: 4.0.8
-    created: "2026-09-15T01:19:14.312976345Z"
+    created: "2026-09-15T01:19:57.830634985Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -1426,7 +1466,7 @@ entries:
       tanzuCategory: clusterUtility
     apiVersion: v2
     appVersion: 1.19.0
-    created: "2026-09-15T01:19:14.317290061Z"
+    created: "2026-09-15T01:19:57.834860323Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -1475,7 +1515,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 1.6.2
-    created: "2026-09-15T01:19:14.326309273Z"
+    created: "2026-09-15T01:19:57.843592146Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -1515,7 +1555,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 6.0.5
-    created: "2026-09-15T01:19:14.333506044Z"
+    created: "2026-09-15T01:19:57.850623997Z"
     dependencies:
     - condition: mysql.enabled
       name: mysql
@@ -1563,7 +1603,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 1.24.5
-    created: "2026-09-15T01:19:14.341486403Z"
+    created: "2026-09-15T01:19:57.858324845Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1607,7 +1647,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 18.3.0
-    created: "2026-09-15T01:19:14.344085896Z"
+    created: "2026-09-15T01:19:57.860860105Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -1644,7 +1684,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 12.1.1
-    created: "2026-09-15T01:19:14.346992213Z"
+    created: "2026-09-15T01:19:57.863643984Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -1681,7 +1721,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 1.10.2
-    created: "2026-09-15T01:19:14.350597623Z"
+    created: "2026-09-15T01:19:57.86717833Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -1726,7 +1766,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 1.6.0
-    created: "2026-09-15T01:19:14.356564167Z"
+    created: "2026-09-15T01:19:57.872867128Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -1765,7 +1805,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 0.0.23
-    created: "2026-09-15T01:19:14.353202205Z"
+    created: "2026-09-15T01:19:57.869699624Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -1805,7 +1845,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 3.5.3
-    created: "2026-09-15T01:19:14.37034472Z"
+    created: "2026-09-15T01:19:57.886239712Z"
     dependencies:
     - alias: grafanaalloy
       condition: grafanaalloy.enabled
@@ -1873,7 +1913,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 2.17.0
-    created: "2026-09-15T01:19:14.387211872Z"
+    created: "2026-09-15T01:19:57.902520515Z"
     dependencies:
     - condition: minio.enabled
       name: minio
@@ -1935,7 +1975,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 5.19.4
-    created: "2026-09-15T01:19:14.390789027Z"
+    created: "2026-09-15T01:19:57.906012645Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -1976,7 +2016,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 2.8.2
-    created: "2026-09-15T01:19:14.399891846Z"
+    created: "2026-09-15T01:19:57.915545956Z"
     dependencies:
     - condition: memcached.enabled
       name: memcached
@@ -2017,7 +2057,7 @@ entries:
       tanzuCategory: clusterUtility
     apiVersion: v2
     appVersion: 3.2.4
-    created: "2026-09-15T01:19:14.402009064Z"
+    created: "2026-09-15T01:19:57.917624206Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -2069,7 +2109,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 2.13.2
-    created: "2026-09-15T01:19:14.422372196Z"
+    created: "2026-09-15T01:19:57.937447647Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -2118,7 +2158,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 3.11.4
-    created: "2026-09-15T01:19:14.43007183Z"
+    created: "2026-09-15T01:19:57.943602508Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -2157,7 +2197,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 3.4.1
-    created: "2026-09-15T01:19:14.425600407Z"
+    created: "2026-09-15T01:19:57.940529906Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -2195,7 +2235,7 @@ entries:
       tanzuCategory: clusterUtility
     apiVersion: v2
     appVersion: 2.9.0
-    created: "2026-09-15T01:19:14.435919382Z"
+    created: "2026-09-15T01:19:57.950428469Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -2238,7 +2278,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 1.1.0
-    created: "2026-09-15T01:19:14.442346758Z"
+    created: "2026-09-15T01:19:57.955744852Z"
     dependencies:
     - condition: storageBackend.cassandra.enabled
       name: cassandra
@@ -2284,7 +2324,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 2.516.2
-    created: "2026-09-15T01:19:14.445343917Z"
+    created: "2026-09-15T01:19:57.959440797Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -2329,7 +2369,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 5.3.0
-    created: "2026-09-15T01:19:14.456162817Z"
+    created: "2026-09-15T01:19:57.968840149Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2374,7 +2414,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 4.0.0
-    created: "2026-09-15T01:19:14.462044933Z"
+    created: "2026-09-15T01:19:57.974496192Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -2413,7 +2453,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 26.3.3
-    created: "2026-09-15T01:19:14.471152802Z"
+    created: "2026-09-15T01:19:57.984249374Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2456,7 +2496,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 6.3.4
-    created: "2026-09-15T01:19:14.479734875Z"
+    created: "2026-09-15T01:19:57.991442939Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -2496,7 +2536,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 6.3.4
-    created: "2026-09-15T01:19:14.47598756Z"
+    created: "2026-09-15T01:19:57.987850189Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -2533,7 +2573,7 @@ entries:
       tanzuCategory: clusterUtility
     apiVersion: v2
     appVersion: 4.2.0
-    created: "2026-09-15T01:19:14.483887854Z"
+    created: "2026-09-15T01:19:57.995365363Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -2570,7 +2610,7 @@ entries:
       tanzuCategory: clusterUtility
     apiVersion: v2
     appVersion: 9.1.2
-    created: "2026-09-15T01:19:14.486608844Z"
+    created: "2026-09-15T01:19:57.998016171Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -2610,7 +2650,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 3.9.1
-    created: "2026-09-15T01:19:14.498711045Z"
+    created: "2026-09-15T01:19:58.00950202Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2661,7 +2701,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 1.3.0
-    created: "2026-09-15T01:19:14.503012043Z"
+    created: "2026-09-15T01:19:58.013374139Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -2705,7 +2745,7 @@ entries:
       tanzuCategory: clusterUtility
     apiVersion: v2
     appVersion: 0.85.0
-    created: "2026-09-15T01:19:14.576486889Z"
+    created: "2026-09-15T01:19:58.084660664Z"
     dependencies:
     - condition: exporters.enabled,exporters.node-exporter.enabled
       name: node-exporter
@@ -2760,7 +2800,7 @@ entries:
       tanzuCategory: clusterUtility
     apiVersion: v2
     appVersion: 0.85.0
-    created: "2026-09-15T01:19:14.541885232Z"
+    created: "2026-09-15T01:19:58.048864661Z"
     dependencies:
     - condition: exporters.enabled,exporters.node-exporter.enabled
       name: node-exporter
@@ -2808,7 +2848,7 @@ entries:
       tanzuCategory: clusterUtility
     apiVersion: v2
     appVersion: 2.16.0
-    created: "2026-09-15T01:19:14.578670212Z"
+    created: "2026-09-15T01:19:58.086840866Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -2847,7 +2887,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 1.4.2
-    created: "2026-09-15T01:19:14.586252455Z"
+    created: "2026-09-15T01:19:58.094583054Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -2882,7 +2922,7 @@ entries:
       tanzuCategory: clusterUtility
     apiVersion: v2
     appVersion: 1.7.0
-    created: "2026-09-15T01:19:14.588341361Z"
+    created: "2026-09-15T01:19:58.096670421Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -2923,7 +2963,7 @@ entries:
       tanzuCategory: clusterUtility
     apiVersion: v2
     appVersion: 9.1.2
-    created: "2026-09-15T01:19:14.590594384Z"
+    created: "2026-09-15T01:19:58.098935443Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -2963,7 +3003,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 12.0.2
-    created: "2026-09-15T01:19:14.604686149Z"
+    created: "2026-09-15T01:19:58.113199082Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -3004,7 +3044,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 12.3.2
-    created: "2026-09-15T01:19:14.599651683Z"
+    created: "2026-09-15T01:19:58.109039144Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -3045,7 +3085,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 12.0.2
-    created: "2026-09-15T01:19:14.595449506Z"
+    created: "2026-09-15T01:19:58.104049583Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -3085,7 +3125,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 12.0.2
-    created: "2026-09-15T01:19:14.607622102Z"
+    created: "2026-09-15T01:19:58.116619538Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -3125,7 +3165,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 4.4.3
-    created: "2026-09-15T01:19:14.639086764Z"
+    created: "2026-09-15T01:19:58.147205842Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -3184,7 +3224,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 5.3.2
-    created: "2026-09-15T01:19:14.646176634Z"
+    created: "2026-09-15T01:19:58.154947974Z"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -3230,7 +3270,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 1.6.39
-    created: "2026-09-15T01:19:14.652494688Z"
+    created: "2026-09-15T01:19:58.159999269Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -3268,7 +3308,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 1.6.39
-    created: "2026-09-15T01:19:14.648813186Z"
+    created: "2026-09-15T01:19:58.157457256Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -3305,7 +3345,7 @@ entries:
       tanzuCategory: clusterUtility
     apiVersion: v2
     appVersion: 0.15.2
-    created: "2026-09-15T01:19:14.655763686Z"
+    created: "2026-09-15T01:19:58.16398578Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -3345,7 +3385,7 @@ entries:
       tanzuCategory: clusterUtility
     apiVersion: v2
     appVersion: 0.8.0
-    created: "2026-09-15T01:19:14.657753757Z"
+    created: "2026-09-15T01:19:58.1663296Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -3387,7 +3427,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 2.6.0
-    created: "2026-09-15T01:19:14.680245839Z"
+    created: "2026-09-15T01:19:58.188344257Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -3443,7 +3483,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 2026.7.17
-    created: "2026-09-15T01:19:14.69879606Z"
+    created: "2026-09-15T01:19:58.205900621Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -3486,7 +3526,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 2025.7.23
-    created: "2026-09-15T01:19:14.694715241Z"
+    created: "2026-09-15T01:19:58.201976337Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -3529,7 +3569,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 2025.7.23
-    created: "2026-09-15T01:19:14.689703067Z"
+    created: "2026-09-15T01:19:58.197376268Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -3572,7 +3612,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 2025.7.23
-    created: "2026-09-15T01:19:14.685692478Z"
+    created: "2026-09-15T01:19:58.193459428Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -3614,7 +3654,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 7.1.1
-    created: "2026-09-15T01:19:14.707525285Z"
+    created: "2026-09-15T01:19:58.214169591Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -3653,7 +3693,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 7.1.1
-    created: "2026-09-15T01:19:14.704797652Z"
+    created: "2026-09-15T01:19:58.211753234Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -3692,7 +3732,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 7.1.1
-    created: "2026-09-15T01:19:14.701554812Z"
+    created: "2026-09-15T01:19:58.209249703Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -3731,7 +3771,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 7.1.1
-    created: "2026-09-15T01:19:14.710963909Z"
+    created: "2026-09-15T01:19:58.217318712Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -3771,7 +3811,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 3.3.2
-    created: "2026-09-15T01:19:14.723946998Z"
+    created: "2026-09-15T01:19:58.230119124Z"
     dependencies:
     - condition: minio.enabled
       name: minio
@@ -3827,7 +3867,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 8.0.13
-    created: "2026-09-15T01:19:14.730523415Z"
+    created: "2026-09-15T01:19:58.23573469Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -3870,7 +3910,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 8.0.13
-    created: "2026-09-15T01:19:14.734634352Z"
+    created: "2026-09-15T01:19:58.240732993Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -3913,7 +3953,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 5.0.2
-    created: "2026-09-15T01:19:14.742084135Z"
+    created: "2026-09-15T01:19:58.248498705Z"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -3953,7 +3993,7 @@ entries:
       tanzuCategory: clusterUtility
     apiVersion: v2
     appVersion: 4.2.2
-    created: "2026-09-15T01:19:14.743910178Z"
+    created: "2026-09-15T01:19:58.250352022Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -3993,7 +4033,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 9.4.0
-    created: "2026-09-15T01:19:14.748328671Z"
+    created: "2026-09-15T01:19:58.254212245Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -4033,7 +4073,7 @@ entries:
       tanzuCategory: clusterUtility
     apiVersion: v2
     appVersion: 2.14.6
-    created: "2026-09-15T01:19:14.753742008Z"
+    created: "2026-09-15T01:19:58.26063425Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -4071,7 +4111,7 @@ entries:
       tanzuCategory: clusterUtility
     apiVersion: v2
     appVersion: 2.11.8
-    created: "2026-09-15T01:19:14.751042037Z"
+    created: "2026-09-15T01:19:58.257900436Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -4110,7 +4150,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 5.26.11
-    created: "2026-09-15T01:19:14.757007761Z"
+    created: "2026-09-15T01:19:58.263089019Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -4154,7 +4194,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 0.104.10
-    created: "2026-09-15T01:19:14.765082768Z"
+    created: "2026-09-15T01:19:58.2711572Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -4199,7 +4239,7 @@ entries:
       tanzuCategory: clusterUtility
     apiVersion: v2
     appVersion: 1.31.0
-    created: "2026-09-15T01:19:14.770789566Z"
+    created: "2026-09-15T01:19:58.2777811Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -4240,7 +4280,7 @@ entries:
       tanzuCategory: clusterUtility
     apiVersion: v2
     appVersion: 1.29.1
-    created: "2026-09-15T01:19:14.767956805Z"
+    created: "2026-09-15T01:19:58.274922932Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -4280,7 +4320,7 @@ entries:
       tanzuCategory: clusterUtility
     apiVersion: v2
     appVersion: 1.15.7
-    created: "2026-09-15T01:19:14.784654174Z"
+    created: "2026-09-15T01:19:58.291546575Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -4320,7 +4360,7 @@ entries:
       tanzuCategory: clusterUtility
     apiVersion: v2
     appVersion: 1.15.6
-    created: "2026-09-15T01:19:14.781586033Z"
+    created: "2026-09-15T01:19:58.287658922Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -4360,7 +4400,7 @@ entries:
       tanzuCategory: clusterUtility
     apiVersion: v2
     appVersion: 1.13.1
-    created: "2026-09-15T01:19:14.77757267Z"
+    created: "2026-09-15T01:19:58.284573497Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -4400,7 +4440,7 @@ entries:
       tanzuCategory: clusterUtility
     apiVersion: v2
     appVersion: 1.13.1
-    created: "2026-09-15T01:19:14.774514056Z"
+    created: "2026-09-15T01:19:58.280802625Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -4439,7 +4479,7 @@ entries:
       tanzuCategory: clusterUtility
     apiVersion: v2
     appVersion: 1.9.1
-    created: "2026-09-15T01:19:14.78671133Z"
+    created: "2026-09-15T01:19:58.293583838Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -4474,7 +4514,7 @@ entries:
       tanzuCategory: clusterUtility
     apiVersion: v2
     appVersion: 7.12.0
-    created: "2026-09-15T01:19:14.795152694Z"
+    created: "2026-09-15T01:19:58.302113978Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -4517,7 +4557,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 18.0.20250805
-    created: "2026-09-15T01:19:14.803044668Z"
+    created: "2026-09-15T01:19:58.310123973Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -4563,7 +4603,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 3.2.0
-    created: "2026-09-15T01:19:14.810503871Z"
+    created: "2026-09-15T01:19:58.317714189Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -4601,7 +4641,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 8.2.3
-    created: "2026-09-15T01:19:14.820081203Z"
+    created: "2026-09-15T01:19:58.32633488Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitmoa.net/bitmoa/
@@ -4645,7 +4685,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 5.2.2
-    created: "2026-09-15T01:19:14.826493964Z"
+    created: "2026-09-15T01:19:58.333448741Z"
     dependencies:
     - condition: db.bundleTestDB
       name: mariadb
@@ -4687,7 +4727,7 @@ entries:
       tanzuCategory: clusterUtility
     apiVersion: v2
     appVersion: 0.47.0
-    created: "2026-09-15T01:19:14.834130148Z"
+    created: "2026-09-15T01:19:58.341315634Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -4721,7 +4761,7 @@ entries:
       tanzuCategory: clusterUtility
     apiVersion: v2
     appVersion: 0.40.0
-    created: "2026-09-15T01:19:14.83065841Z"
+    created: "2026-09-15T01:19:58.337777827Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -4760,7 +4800,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 17.6.0
-    created: "2026-09-15T01:19:14.83959412Z"
+    created: "2026-09-15T01:19:58.346822043Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -4805,7 +4845,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 17.6.0
-    created: "2026-09-15T01:19:14.845601242Z"
+    created: "2026-09-15T01:19:58.352813803Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -4853,7 +4893,7 @@ entries:
       tanzuCategory: clusterUtility
     apiVersion: v2
     appVersion: 3.5.0
-    created: "2026-09-15T01:19:14.849554683Z"
+    created: "2026-09-15T01:19:58.356848114Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -4895,7 +4935,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 2.14.0
-    created: "2026-09-15T01:19:14.854747738Z"
+    created: "2026-09-15T01:19:58.362071613Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -4935,7 +4975,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 2.8.0
-    created: "2026-09-15T01:19:14.852583892Z"
+    created: "2026-09-15T01:19:58.359904475Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -4974,7 +5014,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 4.1.3
-    created: "2026-09-15T01:19:14.863201804Z"
+    created: "2026-09-15T01:19:58.37045846Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -5011,7 +5051,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 4.1.3
-    created: "2026-09-15T01:19:14.858565845Z"
+    created: "2026-09-15T01:19:58.365889938Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -5053,7 +5093,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 2.16.1
-    created: "2026-09-15T01:19:14.871866968Z"
+    created: "2026-09-15T01:19:58.379234287Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -5096,7 +5136,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 2.16.1
-    created: "2026-09-15T01:19:14.867193036Z"
+    created: "2026-09-15T01:19:58.374499193Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -5142,7 +5182,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 8.2.1
-    created: "2026-09-15T01:19:14.878170092Z"
+    created: "2026-09-15T01:19:58.385530955Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -5182,7 +5222,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 8.2.1
-    created: "2026-09-15T01:19:14.882254238Z"
+    created: "2026-09-15T01:19:58.389550528Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -5220,7 +5260,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 6.0.6
-    created: "2026-09-15T01:19:14.895057399Z"
+    created: "2026-09-15T01:19:58.40240203Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -5269,7 +5309,7 @@ entries:
       tanzuCategory: clusterUtility
     apiVersion: v2
     appVersion: 8.0.0
-    created: "2026-09-15T01:19:14.904039006Z"
+    created: "2026-09-15T01:19:58.411592298Z"
     dependencies:
     - condition: kafka.enabled
       name: kafka
@@ -5313,7 +5353,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 2025.2.2
-    created: "2026-09-15T01:19:14.907248803Z"
+    created: "2026-09-15T01:19:58.414657786Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -5349,7 +5389,7 @@ entries:
       tanzuCategory: clusterUtility
     apiVersion: v2
     appVersion: 0.31.0
-    created: "2026-09-15T01:19:14.909537523Z"
+    created: "2026-09-15T01:19:58.416969727Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -5392,7 +5432,7 @@ entries:
       tanzuCategory: clusterUtility
     apiVersion: v2
     appVersion: 3.96.0
-    created: "2026-09-15T01:19:14.927325237Z"
+    created: "2026-09-15T01:19:58.434562657Z"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -5444,7 +5484,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 9.9.0
-    created: "2026-09-15T01:19:14.933127814Z"
+    created: "2026-09-15T01:19:58.440373481Z"
     dependencies:
     - condition: zookeeper.enabled
       name: zookeeper
@@ -5488,7 +5528,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 25.8.0
-    created: "2026-09-15T01:19:14.94188093Z"
+    created: "2026-09-15T01:19:58.449260676Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -5529,7 +5569,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 4.0.0
-    created: "2026-09-15T01:19:14.944802487Z"
+    created: "2026-09-15T01:19:58.452230514Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -5564,7 +5604,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 5.0.0
-    created: "2026-09-15T01:19:14.960929469Z"
+    created: "2026-09-15T01:19:58.468521317Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -5609,7 +5649,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 2.19.1
-    created: "2026-09-15T01:19:14.962863194Z"
+    created: "2026-09-15T01:19:58.4704623Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -5649,7 +5689,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 0.39.2
-    created: "2026-09-15T01:19:14.976869589Z"
+    created: "2026-09-15T01:19:58.484425222Z"
     dependencies:
     - condition: minio.enabled
       name: minio
@@ -5694,7 +5734,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 11.0.10
-    created: "2026-09-15T01:19:14.979439997Z"
+    created: "2026-09-15T01:19:58.487002031Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -5741,7 +5781,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 8.1.3
-    created: "2026-09-15T01:19:14.984974091Z"
+    created: "2026-09-15T01:19:58.49265104Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -5781,7 +5821,7 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 8.1.3
-    created: "2026-09-15T01:19:14.988902806Z"
+    created: "2026-09-15T01:19:58.496534848Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -5824,7 +5864,7 @@ entries:
       tanzuCategory: clusterUtility
     apiVersion: v2
     appVersion: 1.20.2
-    created: "2026-09-15T01:19:14.993812449Z"
+    created: "2026-09-15T01:19:58.501358753Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -5872,7 +5912,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 1.151.0
-    created: "2026-09-15T01:19:15.014788728Z"
+    created: "2026-09-15T01:19:58.522538451Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -5916,7 +5956,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 1.151.0
-    created: "2026-09-15T01:19:15.00756575Z"
+    created: "2026-09-15T01:19:58.516194514Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -5960,7 +6000,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 1.124.0
-    created: "2026-09-15T01:19:15.001114647Z"
+    created: "2026-09-15T01:19:58.508577996Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -5994,7 +6034,7 @@ entries:
       tanzuCategory: clusterUtility
     apiVersion: v2
     appVersion: 0.9.2
-    created: "2026-09-15T01:19:15.016516487Z"
+    created: "2026-09-15T01:19:58.525022599Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -6032,7 +6072,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 37.0.0
-    created: "2026-09-15T01:19:15.019481665Z"
+    created: "2026-09-15T01:19:58.527394071Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -6074,7 +6114,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 6.8.2
-    created: "2026-09-15T01:19:15.029974765Z"
+    created: "2026-09-15T01:19:58.538067815Z"
     dependencies:
     - condition: memcached.enabled
       name: memcached
@@ -6124,7 +6164,7 @@ entries:
       tanzuCategory: application
     apiVersion: v2
     appVersion: 3.5.1
-    created: "2026-09-15T01:19:15.035602695Z"
+    created: "2026-09-15T01:19:58.544271728Z"
     dependencies:
     - condition: cassandra.enabled
       name: cassandra
@@ -6167,7 +6207,7 @@ entries:
       tanzuCategory: clusterUtility
     apiVersion: v2
     appVersion: 3.9.3
-    created: "2026-09-15T01:19:15.039284738Z"
+    created: "2026-09-15T01:19:58.547860774Z"
     dependencies:
     - name: common
       repository: https://charts.bitmoa.net/bitmoa/
@@ -6190,4 +6230,4 @@ entries:
     urls:
     - https://charts.bitmoa.net/bitmoa/zookeeper-13.8.7.tgz
     version: 13.8.7
-generated: "2026-09-15T01:19:14.047308192Z"
+generated: "2026-09-15T01:19:57.578518625Z"
