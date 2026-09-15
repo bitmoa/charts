@@ -1,5 +1,9 @@
 # Changelog
 
+## 8.2.0 (2026-09-15)
+
+* Bump `sonarqube` image to `26.9.0-debian-12-r3` (was `25.8.0-debian-12-r0`)
+
 ## 8.1.17 (2025-08-26)
 
 * [bitnami/sonarqube] :zap: :arrow_up: Update dependency references ([#36191](https://github.com/bitnami/charts/pull/36191))
