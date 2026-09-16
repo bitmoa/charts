@@ -1,5 +1,9 @@
 # Changelog
 
+## 23.2.0 (2026-09-16)
+
+* Bump `drupal` image to `11.4.7-debian-12-r0` (was `11.4.6-debian-12-r4`)
+
 ## 23.1.3 (2026-09-15)
 
 * Bump `drupal` image to `11.4.6-debian-12-r4` (was `11.4.6-debian-12-r3`)
