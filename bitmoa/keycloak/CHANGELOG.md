@@ -1,5 +1,9 @@
 # Changelog
 
+## 25.4.0 (2026-09-16)
+
+* Bump `keycloak` image to `26.7.4-debian-12-r0` (was `26.7.3-debian-12-r1`)
+
 ## 25.3.1 (2026-09-15)
 
 * Bump `keycloak-config-cli` image to `6.5.1-debian-12-r6` (was `6.4.0-debian-12-r0`)
