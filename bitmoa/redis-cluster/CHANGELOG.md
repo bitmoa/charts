@@ -1,5 +1,9 @@
 # Changelog
 
+## 13.2.0 (2026-09-17)
+
+* Bump `redis-cluster` image to `8.10.2-debian-12-r0` (was `8.10.1-debian-12-r1`)
+
 ## 13.1.1 (2026-09-15)
 
 * Bump `os-shell` image to `12-debian-12-r73` (was `12-debian-12-r0`)
