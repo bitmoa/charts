@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.3.0 (2026-09-17)
+
+* Bump `mlflow` image to `3.16.1-debian-12-r0` (was `3.16.0-debian-12-r2`)
+
 ## 5.2.3 (2026-09-16)
 
 * Bump `mlflow` image to `3.16.0-debian-12-r2` (was `3.16.0-debian-12-r1`)
