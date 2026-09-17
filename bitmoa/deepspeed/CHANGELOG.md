@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.4.0 (2026-09-17)
+
+* Bump `deepspeed` image to `0.19.7-debian-12-r0` (was `0.17.5-debian-12-r0`)
+
 ## 2.3.52 (2026-09-15)
 
 * Bump `os-shell` image to `12-debian-12-r73` (was `12-debian-12-r0`)
