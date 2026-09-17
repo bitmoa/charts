@@ -1,5 +1,9 @@
 # Changelog
 
+## 22.2.0 (2026-09-17)
+
+* Bump `redis-sentinel` image to `8.10.2-debian-12-r0` (was `8.10.1-debian-12-r1`)
+
 ## 22.1.1 (2026-09-15)
 
 * Bump `redis` image to `8.10.1-debian-12-r1` (was `8.2.1-debian-12-r0`)
