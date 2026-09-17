@@ -1,5 +1,9 @@
 # Changelog
 
+## 6.2.0 (2026-09-17)
+
+* Bump `grafana-loki` image to `3.7.8-debian-12-r0` (was `3.7.7-debian-12-r2`)
+
 ## 6.1.2 (2026-09-15)
 
 * Bump `nginx` image to `1.31.6-debian-12-r0` (was `1.31.5-debian-12-r2`)
