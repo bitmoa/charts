@@ -5,7 +5,7 @@ annotations:
   category: Infrastructure
   images: |
     - name: argo-workflow-cli
-      image: ghcr.io/bitmoa/argo-workflow-cli:3.7.1-debian-12-r0
+      image: ghcr.io/bitmoa/argo-workflow-cli:4.1.4-debian-12-r0
     - name: argo-workflow-controller
       image: ghcr.io/bitmoa/argo-workflow-controller:4.1.3-debian-12-r0
     - name: argo-workflow-exec
@@ -44,4 +44,4 @@ maintainers:
 name: argo-workflows
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/argo-workflows
-version: 13.1.0
+version: 13.1.1
