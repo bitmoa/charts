@@ -5073,7 +5073,7 @@ memcachedchunks:
   image:
     registry: ghcr.io
     repository: bitmoa/memcached
-    tag: 1.6.45-debian-12-r3
+    tag: 1.6.45-debian-12-r4
     digest: ""
   ## @param memcachedchunks.nameOverride override the subchart name
   ##
@@ -5129,7 +5129,7 @@ memcachedfrontend:
   image:
     registry: ghcr.io
     repository: bitmoa/memcached
-    tag: 1.6.45-debian-12-r3
+    tag: 1.6.45-debian-12-r4
     digest: ""
   ## @param memcachedfrontend.architecture Memcached architecture
   ##
@@ -5185,7 +5185,7 @@ memcachedindex:
   image:
     registry: ghcr.io
     repository: bitmoa/memcached
-    tag: 1.6.45-debian-12-r3
+    tag: 1.6.45-debian-12-r4
     digest: ""
   ## @param memcachedindex.architecture Memcached architecture
   ##
@@ -5241,7 +5241,7 @@ memcachedmetadata:
   image:
     registry: ghcr.io
     repository: bitmoa/memcached
-    tag: 1.6.45-debian-12-r3
+    tag: 1.6.45-debian-12-r4
     digest: ""
   ## @param memcachedmetadata.architecture Memcached architecture
   ##
