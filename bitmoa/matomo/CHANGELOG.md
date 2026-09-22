@@ -1,5 +1,9 @@
 # Changelog
 
+## 11.2.0 (2026-09-22)
+
+* Bump `matomo` image to `5.14.0-debian-12-r0` (was `5.13.0-debian-12-r3`)
+
 ## 11.1.3 (2026-09-15)
 
 * Bump `matomo` image to `5.13.0-debian-12-r3` (was `5.13.0-debian-12-r2`)
