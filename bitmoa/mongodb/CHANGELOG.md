@@ -1,5 +1,9 @@
 # Changelog
 
+## 16.6.0 (2026-09-22)
+
+* Bump `mongodb` image to `8.3.11-debian-12-r1` (was `8.0.13-debian-12-r0`)
+
 ## 16.5.51 (2026-09-17)
 
 * Bump `nginx` image to `1.31.6-debian-12-r1` (was `1.31.6-debian-12-r2`)
