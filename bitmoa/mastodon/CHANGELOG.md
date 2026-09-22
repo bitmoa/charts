@@ -1,5 +1,9 @@
 # Changelog
 
+## 14.2.1 (2026-09-22)
+
+* Bump `mastodon` image to `4.7.2-debian-12-r1` (was `4.7.2-debian-12-r0`)
+
 ## 14.2.0 (2026-09-15)
 
 * Bump `mastodon` image to `4.7.2-debian-12-r0` (was `4.7.1-debian-12-r2`)
