@@ -5,13 +5,13 @@ annotations:
   category: Database
   images: |
     - name: neo4j
-      image: ghcr.io/bitmoa/neo4j:5.26.11-debian-12-r0
+      image: ghcr.io/bitmoa/neo4j:2026.9.0-debian-12-r0
     - name: os-shell
       image: ghcr.io/bitmoa/os-shell:12-debian-12-r73
   licenses: Apache-2.0
   tanzuCategory: service
 apiVersion: v2
-appVersion: 5.26.11
+appVersion: 2026.9.0
 dependencies:
 - name: common
   repository: https://charts.bitmoa.net/bitmoa/
@@ -37,4 +37,4 @@ sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/neo4j
 - https://github.com/bitmoa/containers/tree/main/bitmoa/neo4j
 - https://github.com/neo4j/neo4j
-version: 0.4.15
+version: 0.5.0
