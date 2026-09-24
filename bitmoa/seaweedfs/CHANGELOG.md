@@ -1,5 +1,9 @@
 # Changelog
 
+## 6.0.9 (2026-09-24)
+
+* Bump `postgresql` image to `18.6.0-debian-12-r11` (was `18.6.0-debian-12-r10`)
+
 ## 6.0.8 (2026-09-20)
 
 * Bump `postgresql` image to `18.6.0-debian-12-r10` (was `18.6.0-debian-12-r9`)
