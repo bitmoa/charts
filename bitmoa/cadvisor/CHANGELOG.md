@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.3.0 (2026-09-24)
+
+* Bump `cadvisor` image to `0.60.6-debian-12-r1` (was `0.60.5-debian-12-r9`)
+
 ## 0.2.0 (2026-09-15)
 
 * Bump `cadvisor` image to `0.60.5-debian-12-r9` (was `0.53.0-debian-12-r0`)
