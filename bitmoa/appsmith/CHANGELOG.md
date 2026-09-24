@@ -1,5 +1,9 @@
 # Changelog
 
+## 7.3.0 (2026-09-24)
+
+* Bump `appsmith` image to `2.4.2-debian-12-r0` (was `2.4.1-debian-12-r0`)
+
 ## 7.2.0 (2026-09-17)
 
 * Bump `appsmith` image to `2.4.1-debian-12-r0` (was `2.4.0-debian-12-r0`)
