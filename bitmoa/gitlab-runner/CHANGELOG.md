@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.3.2 (2026-09-24)
+
+* Bump `gitlab-runner-helper` image to `19.4.1-debian-12-r0` (was `19.4.0-debian-12-r0`)
+
 ## 1.3.1 (2026-09-17)
 
 * Bump `gitlab-runner-helper` image to `19.4.0-debian-12-r0` (was `19.3.2-debian-12-r0`)
