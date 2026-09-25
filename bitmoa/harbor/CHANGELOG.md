@@ -1,5 +1,9 @@
 # Changelog
 
+## 27.1.7 (2026-09-25)
+
+* Bump `harbor-registry` image to `2.15.2-debian-12-r10` (was `2.15.2-debian-12-r9`)
+
 ## 27.1.6 (2026-09-17)
 
 * Bump `nginx` image to `1.31.6-debian-12-r1` (was `1.31.6-debian-12-r2`)

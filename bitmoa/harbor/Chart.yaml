@@ -15,7 +15,7 @@ annotations:
     - name: harbor-portal
       image: ghcr.io/bitmoa/harbor-portal:2.13.2-debian-12-r0
     - name: harbor-registry
-      image: ghcr.io/bitmoa/harbor-registry:2.15.2-debian-12-r9
+      image: ghcr.io/bitmoa/harbor-registry:2.15.2-debian-12-r10
     - name: harbor-registryctl
       image: ghcr.io/bitmoa/harbor-registryctl:2.13.2-debian-12-r0
     - name: nginx
@@ -56,4 +56,4 @@ maintainers:
 name: harbor
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/harbor
-version: 27.1.6
+version: 27.1.7
