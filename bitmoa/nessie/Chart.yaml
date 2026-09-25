@@ -9,7 +9,7 @@ annotations:
     - name: os-shell
       image: ghcr.io/bitmoa/os-shell:12-debian-12-r73
     - name: postgresql
-      image: ghcr.io/bitmoa/postgresql:18.6.0-debian-12-r11
+      image: ghcr.io/bitmoa/postgresql:18.6.0-debian-12-r12
   licenses: Apache-2.0
   tanzuCategory: application
 apiVersion: v2
@@ -40,4 +40,4 @@ sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/nessie
 - https://github.com/bitmoa/containers/tree/main/bitmoa/nessie
 - https://github.com/nessie/nessie
-version: 2.1.6
+version: 2.1.7
