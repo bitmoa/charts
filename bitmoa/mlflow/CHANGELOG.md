@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.3.3 (2026-09-26)
+
+* Bump `os-shell` image to `12-debian-12-r74` (was `12-debian-12-r73`)
+
 ## 5.3.2 (2026-09-26)
 
 * Bump `mlflow` image to `3.16.1-debian-12-r1` (was `3.16.1-debian-12-r0`)

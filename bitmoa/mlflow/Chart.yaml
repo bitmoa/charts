@@ -9,7 +9,7 @@ annotations:
     - name: mlflow
       image: ghcr.io/bitmoa/mlflow:3.16.1-debian-12-r1
     - name: os-shell
-      image: ghcr.io/bitmoa/os-shell:12-debian-12-r73
+      image: ghcr.io/bitmoa/os-shell:12-debian-12-r74
   licenses: Apache-2.0
   tanzuCategory: application
 apiVersion: v2
@@ -47,4 +47,4 @@ sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/mlflow
 - https://github.com/bitmoa/containers/tree/main/bitmoa/mlflow
 - https://github.com/mlflow/mlflow
-version: 5.3.2
+version: 5.3.3
