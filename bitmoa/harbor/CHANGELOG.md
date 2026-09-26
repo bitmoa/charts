@@ -1,5 +1,9 @@
 # Changelog
 
+## 27.1.11 (2026-09-26)
+
+* Bump `nginx` image to `1.31.6-debian-12-r3` (was `1.31.6-debian-12-r1`)
+
 ## 27.1.10 (2026-09-26)
 
 * Bump `harbor-portal` image to `2.15.2-debian-12-r7` (was `2.13.2-debian-12-r0`)
