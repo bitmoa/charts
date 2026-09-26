@@ -1,5 +1,9 @@
 # Changelog
 
+## 6.5.2 (2026-09-26)
+
+* Bump `metallb-controller` image to `0.16.1-debian-12-r11` (was `0.16.1-debian-12-r10`)
+
 ## 6.5.1 (2026-09-15)
 
 * Bump `metallb-controller` image to `0.16.1-debian-12-r10` (was `0.15.2-debian-12-r0`)
