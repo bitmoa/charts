@@ -1,5 +1,9 @@
 # Changelog
 
+## 22.2.1 (2026-09-26)
+
+* Bump `elasticsearch-exporter` image to `1.11.0-debian-12-r8` (was `1.11.0-debian-12-r7`)
+
 ## 22.2.0 (2026-09-15)
 
 * Bump `elasticsearch` image to `9.5.4-debian-12-r0` (was `9.1.2-debian-12-r0`)
