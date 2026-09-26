@@ -7,7 +7,7 @@ annotations:
     - name: airflow
       image: ghcr.io/bitmoa/airflow:3.3.2-debian-12-r2
     - name: statsd-exporter
-      image: ghcr.io/bitmoa/statsd-exporter:0.31.0-debian-12-r1
+      image: ghcr.io/bitmoa/statsd-exporter:0.31.0-debian-12-r2
   licenses: Apache-2.0
   tanzuCategory: service
 apiVersion: v2
@@ -42,4 +42,4 @@ maintainers:
 name: airflow
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/airflow
-version: 25.2.2
+version: 25.2.3
