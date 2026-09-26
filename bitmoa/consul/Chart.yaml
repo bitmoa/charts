@@ -5,7 +5,7 @@ annotations:
   category: DeveloperTools
   images: |
     - name: consul
-      image: ghcr.io/bitmoa/consul:2.0.4-debian-12-r0
+      image: ghcr.io/bitmoa/consul:2.0.4-debian-12-r1
     - name: consul-exporter
       image: ghcr.io/bitmoa/consul-exporter:0.13.0-debian-12-r61
     - name: os-shell
@@ -34,4 +34,4 @@ maintainers:
 name: consul
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/consul
-version: 11.5.3
+version: 11.5.4
