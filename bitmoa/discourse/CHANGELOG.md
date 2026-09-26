@@ -1,5 +1,9 @@
 # Changelog
 
+## 17.2.1 (2026-09-26)
+
+* Bump `os-shell` image to `12-debian-12-r74` (was `12-debian-12-r73`)
+
 ## 17.2.0 (2026-09-22)
 
 * Bump `discourse` image to `2026.10.0-debian-12-r0` (was `2026.9.0-debian-12-r4`)
