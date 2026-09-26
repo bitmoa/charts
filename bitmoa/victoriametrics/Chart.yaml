@@ -5,7 +5,7 @@ annotations:
   category: Infrastructure
   images: |
     - name: os-shell
-      image: ghcr.io/bitmoa/os-shell:12-debian-12-r73
+      image: ghcr.io/bitmoa/os-shell:12-debian-12-r74
     - name: victoriametrics-vmagent
       image: ghcr.io/bitmoa/victoriametrics-vmagent:1.151.0-debian-12-r0
     - name: victoriametrics-vmalert
@@ -40,4 +40,4 @@ maintainers:
 name: victoriametrics
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/victoriametrics
-version: 0.2.3
+version: 0.2.4
