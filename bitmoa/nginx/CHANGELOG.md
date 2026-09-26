@@ -1,5 +1,9 @@
 # Changelog
 
+## 21.3.4 (2026-09-26)
+
+* Bump `nginx-exporter` image to `1.5.3-debian-12-r5` (was `1.4.2-debian-12-r0`)
+
 ## 21.3.3 (2026-09-26)
 
 * Bump `git` image to `2.55.0-debian-12-r10` (was `2.51.0-debian-12-r0`)
