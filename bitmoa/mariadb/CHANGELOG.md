@@ -1,5 +1,9 @@
 # Changelog
 
+## 22.2.1 (2026-09-26)
+
+* Bump `mariadb` image to `13.1.1-debian-12-r1` (was `13.1.1-debian-12-r0`)
+
 ## 22.2.0 (2026-09-15)
 
 * Bump `mariadb` image to `13.1.1-debian-12-r0` (was `13.0.2-debian-12-r0`)
