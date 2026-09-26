@@ -5,7 +5,7 @@ annotations:
   category: Database
   images: |
     - name: nessie
-      image: ghcr.io/bitmoa/nessie:0.108.8-debian-12-r0
+      image: ghcr.io/bitmoa/nessie:0.108.8-debian-12-r1
     - name: os-shell
       image: ghcr.io/bitmoa/os-shell:12-debian-12-r73
     - name: postgresql
@@ -40,4 +40,4 @@ sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/nessie
 - https://github.com/bitmoa/containers/tree/main/bitmoa/nessie
 - https://github.com/nessie/nessie
-version: 2.1.7
+version: 2.1.8
