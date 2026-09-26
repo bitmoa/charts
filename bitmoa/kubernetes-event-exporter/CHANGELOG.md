@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.6.4 (2026-09-26)
+
+* Bump `kubernetes-event-exporter` image to `1.7.0-debian-12-r78` (was `1.7.0-debian-12-r0`)
+
 ## 3.6.3 (2025-08-15)
 
 * [bitnami/kubernetes-event-exporter] fix: kubernetes-event-exporter default config layout shows empty logs ([#35983](https://github.com/bitnami/charts/pull/35983))
