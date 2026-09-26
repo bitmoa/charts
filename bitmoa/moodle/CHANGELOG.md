@@ -1,5 +1,9 @@
 # Changelog
 
+## 28.1.4 (2026-09-26)
+
+* Bump `moodle` image to `5.2.3-debian-12-r3` (was `5.2.3-debian-12-r2`)
+
 ## 28.1.3 (2026-09-22)
 
 * Bump `moodle` image to `5.2.3-debian-12-r2` (was `5.2.3-debian-12-r1`)
