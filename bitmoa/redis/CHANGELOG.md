@@ -1,5 +1,9 @@
 # Changelog
 
+## 22.2.8 (2026-09-26)
+
+* Bump `os-shell` image to `12-debian-12-r74` (was `12-debian-12-r0`)
+
 ## 22.2.7 (2026-09-26)
 
 * Bump `redis-exporter` image to `1.92.0-debian-12-r1` (was `1.92.0-debian-12-r0`)
