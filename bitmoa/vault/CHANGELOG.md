@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.11.1 (2026-09-26)
+
+* Bump `vault` image to `2.1.1-debian-12-r1` (was `2.1.1-debian-12-r0`)
+
 ## 1.11.0 (2026-09-17)
 
 * Bump `vault` image to `2.1.1-debian-12-r0` (was `2.1.0-debian-12-r1`)
