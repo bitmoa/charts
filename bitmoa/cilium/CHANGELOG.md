@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.3.3 (2026-09-26)
+
+* Bump `cilium-proxy` image to `1.37.5-debian-12-r3` (was `1.34.5-debian-12-r0`)
+
 ## 3.3.2 (2026-09-26)
 
 * Bump `hubble-ui` image to `0.13.6-debian-12-r1` (was `0.13.6-debian-12-r0`)
