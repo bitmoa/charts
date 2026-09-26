@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.3.3 (2026-09-26)
+
+* Bump `dex` image to `2.45.1-debian-12-r19` (was `2.45.1-debian-12-r18`)
+
 ## 4.3.2 (2026-09-24)
 
 * Bump `chainloop-control-plane-migrations` image to `1.110.2-debian-12-r0` (was `1.110.1-debian-12-r0`)

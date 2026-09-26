@@ -11,7 +11,7 @@ annotations:
     - name: chainloop-control-plane-migrations
       image: ghcr.io/bitmoa/chainloop-control-plane-migrations:1.110.2-debian-12-r0
     - name: dex
-      image: ghcr.io/bitmoa/dex:2.45.1-debian-12-r18
+      image: ghcr.io/bitmoa/dex:2.45.1-debian-12-r19
   license: Apache-2.0
   tanzuCategory: application
 apiVersion: v2
@@ -65,4 +65,4 @@ sources:
 - https://github.com/bitmoa/containers/tree/main/bitmoa/chainloop-control-plane-migrations
 - https://github.com/bitmoa/containers/tree/main/bitmoa/chainloop-artifact-cas
 - https://github.com/chainloop-dev/chainloop
-version: 4.3.2
+version: 4.3.3
