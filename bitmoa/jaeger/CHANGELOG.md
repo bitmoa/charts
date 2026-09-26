@@ -1,5 +1,9 @@
 # Changelog
 
+## 6.2.1 (2026-09-26)
+
+* Bump `jaeger` image to `2.21.0-debian-12-r1` (was `2.21.0-debian-12-r0`)
+
 ## 6.2.0 (2026-09-16)
 
 * Bump `jaeger` image to `2.21.0-debian-12-r0` (was `2.20.0-debian-12-r5`)
