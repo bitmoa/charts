@@ -1,5 +1,9 @@
 # Changelog
 
+## 27.1.8 (2026-09-26)
+
+* Bump `harbor-exporter` image to `2.15.2-debian-12-r19` (was `2.15.2-debian-12-r18`)
+
 ## 27.1.7 (2026-09-25)
 
 * Bump `harbor-registry` image to `2.15.2-debian-12-r10` (was `2.15.2-debian-12-r9`)
