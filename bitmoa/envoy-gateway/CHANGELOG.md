@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.1.4 (2026-09-26)
+
+* Bump `envoy` image to `1.39.1-debian-12-r2` (was `1.35.1-debian-12-r0`)
+
 ## 2.1.3 (2026-09-26)
 
 * Bump `envoy-gateway` image to `1.9.1-debian-12-r3` (was `1.9.1-debian-12-r2`)
