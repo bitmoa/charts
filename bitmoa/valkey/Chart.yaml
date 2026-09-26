@@ -9,7 +9,7 @@ annotations:
     - name: os-shell
       image: ghcr.io/bitmoa/os-shell:12-debian-12-r73
     - name: redis-exporter
-      image: ghcr.io/bitmoa/redis-exporter:1.92.0-debian-12-r0
+      image: ghcr.io/bitmoa/redis-exporter:1.92.0-debian-12-r1
     - name: valkey
       image: ghcr.io/bitmoa/valkey:9.1.2-debian-12-r1
     - name: valkey-sentinel
@@ -39,4 +39,4 @@ maintainers:
 name: valkey
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/valkey
-version: 3.1.6
+version: 3.1.7
