@@ -1,5 +1,9 @@
 # Changelog
 
+## 27.1.9 (2026-09-26)
+
+* Bump `harbor-jobservice` image to `2.15.2-debian-12-r21` (was `2.13.2-debian-12-r0`)
+
 ## 27.1.8 (2026-09-26)
 
 * Bump `harbor-exporter` image to `2.15.2-debian-12-r19` (was `2.15.2-debian-12-r18`)

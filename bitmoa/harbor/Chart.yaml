@@ -11,7 +11,7 @@ annotations:
     - name: harbor-exporter
       image: ghcr.io/bitmoa/harbor-exporter:2.15.2-debian-12-r19
     - name: harbor-jobservice
-      image: ghcr.io/bitmoa/harbor-jobservice:2.13.2-debian-12-r0
+      image: ghcr.io/bitmoa/harbor-jobservice:2.15.2-debian-12-r21
     - name: harbor-portal
       image: ghcr.io/bitmoa/harbor-portal:2.13.2-debian-12-r0
     - name: harbor-registry
@@ -56,4 +56,4 @@ maintainers:
 name: harbor
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/harbor
-version: 27.1.8
+version: 27.1.9
