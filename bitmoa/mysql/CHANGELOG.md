@@ -1,5 +1,9 @@
 # Changelog
 
+## 14.1.2 (2026-09-26)
+
+* Bump `mysql` image to `26.7.0-debian-12-r3` (was `26.7.0-debian-12-r2`)
+
 ## 14.1.1 (2026-09-15)
 
 * Bump `os-shell` image to `12-debian-12-r73` (was `12-debian-12-r0`)
