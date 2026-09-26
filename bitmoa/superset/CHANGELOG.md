@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.1.2 (2026-09-26)
+
+* Bump `superset` image to `6.1.0-debian-12-r13` (was `6.1.0-debian-12-r12`)
+
 ## 5.1.1 (2026-09-16)
 
 * Bump `superset` image to `6.1.0-debian-12-r12` (was `6.1.0-debian-12-r11`)
