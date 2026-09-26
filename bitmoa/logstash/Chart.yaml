@@ -5,7 +5,7 @@ annotations:
   category: LogManagement
   images: |
     - name: logstash
-      image: ghcr.io/bitmoa/logstash:9.5.4-debian-12-r0
+      image: ghcr.io/bitmoa/logstash:9.5.4-debian-12-r1
     - name: os-shell
       image: ghcr.io/bitmoa/os-shell:12-debian-12-r73
   licenses: Apache-2.0
@@ -33,4 +33,4 @@ maintainers:
 name: logstash
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/logstash
-version: 7.1.0
+version: 7.1.1
