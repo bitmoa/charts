@@ -1,5 +1,9 @@
 # Changelog
 
+## 9.7.2 (2026-09-26)
+
+* Bump `os-shell` image to `12-debian-12-r74` (was `12-debian-12-r0`)
+
 ## 9.7.1 (2026-09-26)
 
 * Bump `solr` image to `10.0.0-debian-12-r17` (was `10.0.0-debian-12-r16`)
