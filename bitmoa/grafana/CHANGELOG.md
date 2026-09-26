@@ -1,5 +1,9 @@
 # Changelog
 
+## 12.3.2 (2026-09-26)
+
+* Bump `os-shell` image to `12-debian-12-r74` (was `12-debian-12-r73`)
+
 ## 12.3.1 (2026-09-26)
 
 * Bump `grafana` image to `13.2.2-debian-12-r2` (was `13.2.2-debian-12-r1`)
