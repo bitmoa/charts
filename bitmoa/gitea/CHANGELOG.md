@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.3.2 (2026-09-26)
+
+* Bump `gitea` image to `1.27.3-debian-12-r3` (was `1.27.3-debian-12-r2`)
+
 ## 3.3.1 (2026-09-15)
 
 * Bump `os-shell` image to `12-debian-12-r73` (was `12-debian-12-r0`)
