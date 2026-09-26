@@ -1,5 +1,9 @@
 # Changelog
 
+## 7.1.1 (2026-09-26)
+
+* Bump `dotnet-sdk` image to `10.0.401-debian-12-r1` (was `9.0.304-debian-12-r0`)
+
 ## 7.1.0 (2026-09-26)
 
 * Bump `aspnet-core` image to `10.0.12-debian-12-r1` (was `9.0.8-debian-12-r0`)
