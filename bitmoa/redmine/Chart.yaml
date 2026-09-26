@@ -7,7 +7,7 @@ annotations:
     - name: os-shell
       image: ghcr.io/bitmoa/os-shell:12-debian-12-r73
     - name: redmine
-      image: ghcr.io/bitmoa/redmine:7.0.1-debian-12-r6
+      image: ghcr.io/bitmoa/redmine:7.0.1-debian-12-r7
   licenses: Apache-2.0
   tanzuCategory: application
 apiVersion: v2
@@ -46,4 +46,4 @@ maintainers:
 name: redmine
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/redmine
-version: 34.1.3
+version: 34.1.4
