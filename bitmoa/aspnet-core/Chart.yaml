@@ -9,7 +9,7 @@ annotations:
     - name: dotnet-sdk
       image: ghcr.io/bitmoa/dotnet-sdk:10.0.401-debian-12-r1
     - name: git
-      image: ghcr.io/bitmoa/git:2.55.0-debian-12-r9
+      image: ghcr.io/bitmoa/git:2.55.0-debian-12-r10
   licenses: Apache-2.0
   tanzuCategory: application
 apiVersion: v2
@@ -34,4 +34,4 @@ maintainers:
 name: aspnet-core
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/aspnet-core
-version: 7.1.1
+version: 7.1.2
