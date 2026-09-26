@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.4.43 (2026-09-26)
+
+* Bump `os-shell` image to `12-debian-12-r74` (was `12-debian-12-r73`)
+
 ## 2.4.42 (2026-09-26)
 
 * Bump `fluxcd-helm-controller` image to `1.6.4-debian-12-r3` (was `1.3.0-debian-12-r0`)
