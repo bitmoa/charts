@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.5.2 (2026-09-26)
+
+* Bump `os-shell` image to `12-debian-12-r74` (was `12-debian-12-r73`)
+
 ## 0.5.1 (2026-09-26)
 
 * Bump `neo4j` image to `2026.9.0-debian-12-r1` (was `2026.9.0-debian-12-r0`)
