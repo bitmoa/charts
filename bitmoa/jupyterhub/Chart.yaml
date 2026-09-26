@@ -9,7 +9,7 @@ annotations:
     - name: jupyter-base-notebook
       image: ghcr.io/bitmoa/jupyter-base-notebook:6.0.1-debian-12-r2
     - name: jupyterhub
-      image: ghcr.io/bitmoa/jupyterhub:6.0.1-debian-12-r0
+      image: ghcr.io/bitmoa/jupyterhub:6.0.1-debian-12-r1
     - name: os-shell
       image: ghcr.io/bitmoa/os-shell:12-debian-12-r73
   licenses: Apache-2.0
@@ -40,4 +40,4 @@ maintainers:
 name: jupyterhub
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/jupyterhub
-version: 10.2.3
+version: 10.2.4
