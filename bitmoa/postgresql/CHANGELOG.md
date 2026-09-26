@@ -1,5 +1,9 @@
 # Changelog
 
+## 16.8.9 (2026-09-26)
+
+* Bump `os-shell` image to `12-debian-12-r74` (was `12-debian-12-r73`)
+
 ## 16.8.8 (2026-09-26)
 
 * Bump `postgres-exporter` image to `0.20.1-debian-12-r8` (was `0.20.1-debian-12-r7`)
