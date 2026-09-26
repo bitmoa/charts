@@ -5,7 +5,7 @@ annotations:
   category: Infrastructure
   images: |
     - name: arangodb
-      image: ghcr.io/bitmoa/arangodb:3.11.14-debian-12-r35
+      image: ghcr.io/bitmoa/arangodb:3.11.14-debian-12-r36
     - name: kube-arangodb
       image: ghcr.io/bitmoa/kube-arangodb:1.4.5-debian-12-r1
   licenses: Apache-2.0
@@ -33,4 +33,4 @@ maintainers:
 name: kube-arangodb
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/kube-arangodb
-version: 0.2.0
+version: 0.2.1
