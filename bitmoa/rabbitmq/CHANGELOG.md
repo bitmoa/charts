@@ -1,5 +1,9 @@
 # Changelog
 
+## 16.2.2 (2026-09-26)
+
+* Bump `rabbitmq` image to `4.3.6-debian-12-r1` (was `4.3.6-debian-12-r0`)
+
 ## 16.2.1 (2026-09-15)
 
 * Bump `os-shell` image to `12-debian-12-r73` (was `12-debian-12-r0`)
