@@ -5,7 +5,7 @@ annotations:
   category: Database
   images: |
     - name: influxdb
-      image: ghcr.io/bitmoa/influxdb:3.11.5-debian-12-r0
+      image: ghcr.io/bitmoa/influxdb:3.11.5-debian-12-r1
     - name: kubectl
       image: ghcr.io/bitmoa/kubectl:1.37.1-debian-12-r0
     - name: os-shell
@@ -35,4 +35,4 @@ maintainers:
 name: influxdb
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/influxdb
-version: 7.3.1
+version: 7.3.2
