@@ -5,7 +5,7 @@ annotations:
   category: Infrastructure
   images: |
     - name: haproxy
-      image: ghcr.io/bitmoa/haproxy:3.4.4-debian-12-r3
+      image: ghcr.io/bitmoa/haproxy:3.4.4-debian-12-r4
   licenses: Apache-2.0
   tanzuCategory: clusterUtility
 apiVersion: v2
@@ -31,4 +31,4 @@ maintainers:
 name: haproxy
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/haproxy
-version: 2.3.0
+version: 2.3.1
