@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.5.2 (2026-09-26)
+
+* Bump `rabbitmq` image to `4.3.6-debian-12-r1` (was `4.3.5-debian-12-r1`)
+
 ## 4.5.1 (2026-09-15)
 
 * Bump `rmq-messaging-topology-operator` image to `1.20.3-debian-12-r0` (was `1.17.4-debian-12-r0`)
