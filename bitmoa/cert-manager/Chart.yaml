@@ -5,7 +5,7 @@ annotations:
   category: CertificateAuthority
   images: |
     - name: acmesolver
-      image: ghcr.io/bitmoa/acmesolver:1.21.2-debian-12-r0
+      image: ghcr.io/bitmoa/acmesolver:1.21.2-debian-12-r1
     - name: cainjector
       image: ghcr.io/bitmoa/cainjector:1.21.2-debian-12-r0
     - name: cert-manager
@@ -37,4 +37,4 @@ maintainers:
 name: cert-manager
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/cert-manager
-version: 1.6.1
+version: 1.6.2
