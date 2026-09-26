@@ -7,7 +7,7 @@ annotations:
     - name: clickhouse
       image: ghcr.io/bitmoa/clickhouse:26.8.10-debian-12-r1
     - name: clickhouse-keeper
-      image: ghcr.io/bitmoa/clickhouse-keeper:26.8.11-debian-12-r0
+      image: ghcr.io/bitmoa/clickhouse-keeper:26.8.11-debian-12-r1
     - name: os-shell
       image: ghcr.io/bitmoa/os-shell:12-debian-12-r73
   licenses: Apache-2.0
@@ -34,4 +34,4 @@ maintainers:
 name: clickhouse
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/clickhouse
-version: 9.11.1
+version: 9.11.2
