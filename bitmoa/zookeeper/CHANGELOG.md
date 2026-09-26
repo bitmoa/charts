@@ -1,5 +1,9 @@
 # Changelog
 
+## 13.9.1 (2026-09-26)
+
+* Bump `zookeeper` image to `3.9.6-debian-12-r1` (was `3.9.6-debian-12-r0`)
+
 ## 13.9.0 (2026-09-15)
 
 * Bump `zookeeper` image to `3.9.6-debian-12-r0` (was `3.9.3-debian-12-r0`)
