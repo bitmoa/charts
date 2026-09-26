@@ -9,7 +9,7 @@ annotations:
     - name: mongodb-sharded
       image: ghcr.io/bitmoa/mongodb-sharded:8.3.11-debian-12-r1
     - name: os-shell
-      image: ghcr.io/bitmoa/os-shell:12-debian-12-r73
+      image: ghcr.io/bitmoa/os-shell:12-debian-12-r74
   licenses: Apache-2.0
   tanzuCategory: service
 apiVersion: v2
@@ -38,4 +38,4 @@ maintainers:
 name: mongodb-sharded
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/mongodb-sharded
-version: 9.5.4
+version: 9.5.5
