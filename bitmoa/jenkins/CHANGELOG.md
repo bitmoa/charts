@@ -1,5 +1,9 @@
 # Changelog
 
+## 13.6.21 (2026-09-26)
+
+* Bump `os-shell` image to `12-debian-12-r74` (was `12-debian-12-r73`)
+
 ## 13.6.20 (2026-09-26)
 
 * Bump `jenkins-agent` image to `0.3391.0-debian-12-r3` (was `0.3391.0-debian-12-r2`)
