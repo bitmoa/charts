@@ -9,7 +9,7 @@ annotations:
     - name: os-shell
       image: ghcr.io/bitmoa/os-shell:12-debian-12-r73
     - name: sonarqube
-      image: ghcr.io/bitmoa/sonarqube:26.9.0-debian-12-r3
+      image: ghcr.io/bitmoa/sonarqube:26.9.0-debian-12-r4
   licenses: Apache-2.0
   tanzuCategory: application
 apiVersion: v2
@@ -40,4 +40,4 @@ maintainers:
 name: sonarqube
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/sonarqube
-version: 8.2.1
+version: 8.2.2
