@@ -1,5 +1,9 @@
 # Changelog
 
+## 9.7.1 (2026-09-26)
+
+* Bump `solr` image to `10.0.0-debian-12-r17` (was `10.0.0-debian-12-r16`)
+
 ## 9.7.0 (2026-09-15)
 
 * Bump `solr` image to `10.0.0-debian-12-r16` (was `9.9.0-debian-12-r0`)
