@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.10.3 (2026-09-26)
+
+* Bump `grafana` image to `13.2.2-debian-12-r2` (was `13.2.2-debian-12-r1`)
+
 ## 4.10.2 (2026-09-26)
 
 * Bump `grafana-operator` image to `5.25.0-debian-12-r3` (was `5.25.0-debian-12-r2`)
