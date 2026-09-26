@@ -5,7 +5,7 @@ annotations:
   category: Database
   images: |
     - name: kubectl
-      image: ghcr.io/bitmoa/kubectl:1.37.1-debian-12-r0
+      image: ghcr.io/bitmoa/kubectl:1.37.1-debian-12-r1
     - name: os-shell
       image: ghcr.io/bitmoa/os-shell:12-debian-12-r73
     - name: redis-exporter
@@ -39,4 +39,4 @@ maintainers:
 name: valkey
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/valkey
-version: 3.1.4
+version: 3.1.5
