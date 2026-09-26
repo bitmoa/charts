@@ -7,7 +7,7 @@ annotations:
     - name: grafana-tempo
       image: ghcr.io/bitmoa/grafana-tempo:3.0.3-debian-12-r3
     - name: grafana-tempo-query
-      image: ghcr.io/bitmoa/grafana-tempo-query:3.0.3-debian-12-r3
+      image: ghcr.io/bitmoa/grafana-tempo-query:3.0.3-debian-12-r4
     - name: grafana-tempo-vulture
       image: ghcr.io/bitmoa/grafana-tempo-vulture:3.0.3-debian-12-r3
     - name: os-shell
@@ -42,4 +42,4 @@ maintainers:
 name: grafana-tempo
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/grafana-tempo
-version: 5.1.3
+version: 5.1.4
