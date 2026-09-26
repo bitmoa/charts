@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.1.5 (2026-09-26)
+
+* Bump `os-shell` image to `12-debian-12-r74` (was `12-debian-12-r73`)
+
 ## 5.1.4 (2026-09-26)
 
 * Bump `grafana-tempo-query` image to `3.0.3-debian-12-r4` (was `3.0.3-debian-12-r3`)
