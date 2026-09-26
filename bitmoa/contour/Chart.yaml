@@ -5,7 +5,7 @@ annotations:
   category: Infrastructure
   images: |
     - name: contour
-      image: ghcr.io/bitmoa/contour:1.33.7-debian-12-r0
+      image: ghcr.io/bitmoa/contour:1.33.7-debian-12-r1
     - name: envoy
       image: ghcr.io/bitmoa/envoy:1.39.1-debian-12-r1
     - name: nginx
@@ -34,4 +34,4 @@ maintainers:
 name: contour
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/contour
-version: 21.2.4
+version: 21.2.5
