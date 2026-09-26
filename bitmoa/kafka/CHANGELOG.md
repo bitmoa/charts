@@ -1,5 +1,9 @@
 # Changelog
 
+## 32.5.5 (2026-09-26)
+
+* Bump `os-shell` image to `12-debian-12-r74` (was `12-debian-12-r73`)
+
 ## 32.5.4 (2026-09-26)
 
 * Bump `kafka` image to `4.3.1-debian-12-r5` (was `4.3.1-debian-12-r4`)
