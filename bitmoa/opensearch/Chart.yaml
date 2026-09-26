@@ -5,7 +5,7 @@ annotations:
   category: Analytics
   images: |
     - name: opensearch
-      image: ghcr.io/bitmoa/opensearch:3.8.0-debian-12-r1
+      image: ghcr.io/bitmoa/opensearch:3.8.0-debian-12-r2
     - name: opensearch-dashboards
       image: ghcr.io/bitmoa/opensearch-dashboards:3.2.0-debian-12-r0
     - name: os-shell
@@ -33,4 +33,4 @@ maintainers:
 name: opensearch
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/opensearch
-version: 2.1.1
+version: 2.1.2
