@@ -9,7 +9,7 @@ annotations:
     - name: memcached-exporter
       image: ghcr.io/bitmoa/memcached-exporter:0.17.0-debian-12-r4
     - name: os-shell
-      image: ghcr.io/bitmoa/os-shell:12-debian-12-r0
+      image: ghcr.io/bitmoa/os-shell:12-debian-12-r74
   licenses: Apache-2.0
   tanzuCategory: service
 apiVersion: v2
@@ -34,4 +34,4 @@ maintainers:
 name: memcached
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/memcached
-version: 7.10.2
+version: 7.10.3
