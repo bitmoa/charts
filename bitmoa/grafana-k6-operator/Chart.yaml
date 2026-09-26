@@ -5,7 +5,7 @@ annotations:
   category: Infrastructure
   images: |
     - name: grafana-k6
-      image: ghcr.io/bitmoa/grafana-k6:2.3.0-debian-12-r0
+      image: ghcr.io/bitmoa/grafana-k6:2.3.0-debian-12-r1
     - name: grafana-k6-operator
       image: ghcr.io/bitmoa/grafana-k6-operator:1.6.0-debian-12-r1
     - name: os-shell
@@ -35,4 +35,4 @@ maintainers:
 name: grafana-k6-operator
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/grafana-k6-operator
-version: 1.1.2
+version: 1.1.3

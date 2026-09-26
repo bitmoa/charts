@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.3 (2026-09-26)
+
+* Bump `grafana-k6` image to `2.3.0-debian-12-r1` (was `2.3.0-debian-12-r0`)
+
 ## 1.1.2 (2026-09-22)
 
 * Bump `grafana-k6` image to `2.3.0-debian-12-r0` (was `1.2.3-debian-12-r0`)
