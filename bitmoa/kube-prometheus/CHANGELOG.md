@@ -1,5 +1,9 @@
 # Changelog
 
+## 11.4.4 (2026-09-26)
+
+* Bump `blackbox-exporter` image to `0.28.0-debian-12-r26` (was `0.28.0-debian-12-r25`)
+
 ## 11.4.3 (2026-09-26)
 
 * Bump `alertmanager` image to `0.34.1-debian-12-r1` (was `0.34.1-debian-12-r0`)
