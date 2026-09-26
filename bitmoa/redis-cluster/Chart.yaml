@@ -5,7 +5,7 @@ annotations:
   category: Database
   images: |
     - name: os-shell
-      image: ghcr.io/bitmoa/os-shell:12-debian-12-r73
+      image: ghcr.io/bitmoa/os-shell:12-debian-12-r74
     - name: redis-cluster
       image: ghcr.io/bitmoa/redis-cluster:8.10.2-debian-12-r1
     - name: redis-exporter
@@ -35,4 +35,4 @@ maintainers:
 name: redis-cluster
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/redis-cluster
-version: 13.2.3
+version: 13.2.4
