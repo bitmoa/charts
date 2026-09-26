@@ -5,7 +5,7 @@ annotations:
   category: Analytics
   images: |
     - name: kibana
-      image: ghcr.io/bitmoa/kibana:9.5.4-debian-12-r0
+      image: ghcr.io/bitmoa/kibana:9.5.4-debian-12-r1
     - name: os-shell
       image: ghcr.io/bitmoa/os-shell:12-debian-12-r73
   licenses: Apache-2.0
@@ -35,4 +35,4 @@ maintainers:
 name: kibana
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/kibana
-version: 12.3.0
+version: 12.3.1
