@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.4.4 (2026-09-28)
+
+* Bump `git` image to `2.56.0-debian-12-r0` (was `2.55.0-debian-12-r10`)
+
 ## 2.4.3 (2026-09-26)
 
 * Bump `os-shell` image to `12-debian-12-r74` (was `12-debian-12-r73`)
