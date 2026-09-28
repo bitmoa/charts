@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.5.30 (2026-09-28)
+
+* Bump `redis-exporter` image to `1.92.1-debian-12-r0` (was `1.92.0-debian-12-r1`)
+
 ## 0.5.29 (2026-09-26)
 
 * Bump `redis-exporter` image to `1.92.0-debian-12-r1` (was `1.92.0-debian-12-r0`)
