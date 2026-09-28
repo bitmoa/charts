@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.2.0 (2026-09-28)
+
+* Bump `grafana-alloy` image to `1.20.0-debian-12-r0` (was `1.19.2-debian-12-r3`)
+
 ## 1.1.1 (2026-09-26)
 
 * Bump `grafana-alloy` image to `1.19.2-debian-12-r3` (was `1.19.2-debian-12-r2`)
