@@ -1,5 +1,9 @@
 # Changelog
 
+## 21.3.6 (2026-09-28)
+
+* Bump `git` image to `2.56.0-debian-12-r0` (was `2.55.0-debian-12-r10`)
+
 ## 21.3.5 (2026-09-26)
 
 * Bump `nginx` image to `1.31.6-debian-12-r3` (was `1.31.6-debian-12-r1`)
