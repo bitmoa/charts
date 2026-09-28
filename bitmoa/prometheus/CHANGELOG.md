@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.3.0 (2026-09-28)
+
+* Bump `prometheus` image to `3.15.0-debian-12-r0` (was `3.14.0-debian-12-r3`)
+
 ## 2.2.4 (2026-09-26)
 
 * Bump `os-shell` image to `12-debian-12-r74` (was `12-debian-12-r73`)
