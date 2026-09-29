@@ -1,5 +1,9 @@
 # Changelog
 
+## 11.5.5 (2026-09-29)
+
+* Bump `apache` image to `2.4.68-debian-12-r11` (was `2.4.68-debian-12-r12`)
+
 ## 11.5.4 (2026-09-29)
 
 * Bump `apache` image to `2.4.68-debian-12-r12` (was `2.4.68-debian-12-r10`)
