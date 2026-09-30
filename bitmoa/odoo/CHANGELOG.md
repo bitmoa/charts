@@ -1,5 +1,9 @@
 # Changelog
 
+## 28.4.0 (2026-09-30)
+
+* Bump `odoo` image to `20.0.20260925-debian-12-r0` (was `19.0.20260901-debian-12-r2`)
+
 ## 28.3.1 (2026-09-26)
 
 * Bump `odoo` image to `19.0.20260901-debian-12-r2` (was `19.0.20260901-debian-12-r1`)
