@@ -1,5 +1,9 @@
 # Changelog
 
+## 7.4.0 (2026-10-01)
+
+* Bump `influxdb` image to `3.12.0-debian-12-r0` (was `3.11.5-debian-12-r1`)
+
 ## 7.3.4 (2026-09-26)
 
 * Bump `os-shell` image to `12-debian-12-r74` (was `12-debian-12-r73`)
