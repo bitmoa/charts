@@ -1,5 +1,9 @@
 # Changelog
 
+## 25.6.0 (2026-10-01)
+
+* Bump `keycloak` image to `26.8.0-debian-12-r0` (was `26.7.5-debian-12-r0`)
+
 ## 25.5.0 (2026-09-30)
 
 * Bump `keycloak` image to `26.7.5-debian-12-r0` (was `26.7.4-debian-12-r0`)
