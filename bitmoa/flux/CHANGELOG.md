@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.4.44 (2026-10-01)
+
+* Bump `fluxcd-kustomize-controller` image to `1.9.6-debian-12-r0` (was `1.9.5-debian-12-r2`)
+
 ## 2.4.43 (2026-09-26)
 
 * Bump `os-shell` image to `12-debian-12-r74` (was `12-debian-12-r73`)
