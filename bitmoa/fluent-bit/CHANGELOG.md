@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.3.0 (2026-10-01)
+
+* Bump `fluent-bit` image to `5.1.3-debian-12-r0` (was `5.1.2-debian-12-r1`)
+
 ## 3.2.1 (2026-09-26)
 
 * Bump `fluent-bit` image to `5.1.2-debian-12-r1` (was `5.1.2-debian-12-r0`)
