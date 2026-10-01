@@ -1,5 +1,9 @@
 # Changelog
 
+## 14.3.1 (2026-10-01)
+
+* Bump `mastodon` image to `4.7.3-debian-12-r1` (was `4.7.3-debian-12-r0`)
+
 ## 14.3.0 (2026-10-01)
 
 * Bump `mastodon` image to `4.7.3-debian-12-r0` (was `4.7.2-debian-12-r3`)
