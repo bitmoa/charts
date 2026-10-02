@@ -1,5 +1,9 @@
 # Changelog
 
+## 13.8.1 (2026-10-02)
+
+* Bump `jenkins` image to `2.580.1-debian-12-r1` (was `2.580.1-debian-12-r0`)
+
 ## 13.8.0 (2026-09-30)
 
 * Bump `jenkins` image to `2.580.1-debian-12-r0` (was `2.568.3-debian-12-r4`)
