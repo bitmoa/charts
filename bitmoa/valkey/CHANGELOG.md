@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.1.11 (2026-10-02)
+
+* Bump `kubectl` image to `1.37.1-debian-12-r2` (was `1.37.1-debian-12-r1`)
+
 ## 3.1.10 (2026-10-01)
 
 * Bump `redis-exporter` image to `1.93.0-debian-12-r0` (was `1.92.1-debian-12-r0`)
