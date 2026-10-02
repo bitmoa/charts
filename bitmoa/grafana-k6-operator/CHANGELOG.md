@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.5 (2026-10-02)
+
+* Bump `grafana-k6-operator` image to `1.6.0-debian-12-r2` (was `1.6.0-debian-12-r1`)
+
 ## 1.1.4 (2026-09-26)
 
 * Bump `os-shell` image to `12-debian-12-r74` (was `12-debian-12-r73`)
