@@ -7,11 +7,11 @@ annotations:
     - name: os-shell
       image: ghcr.io/bitmoa/os-shell:12-debian-12-r74
     - name: thanos
-      image: ghcr.io/bitmoa/thanos:0.39.2-debian-12-r0
+      image: ghcr.io/bitmoa/thanos:0.42.4-debian-12-r5
   licenses: Apache-2.0
   tanzuCategory: application
 apiVersion: v2
-appVersion: 0.39.2
+appVersion: 0.42.4
 dependencies:
 - condition: minio.enabled
   name: minio
@@ -38,4 +38,4 @@ maintainers:
 name: thanos
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/thanos
-version: 17.3.3
+version: 17.4.0
