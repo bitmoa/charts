@@ -1,5 +1,9 @@
 # Changelog
 
+## 7.10.4 (2026-10-02)
+
+* Bump `memcached-exporter` image to `0.17.0-debian-12-r5` (was `0.17.0-debian-12-r4`)
+
 ## 7.10.3 (2026-09-26)
 
 * Bump `os-shell` image to `12-debian-12-r74` (was `12-debian-12-r0`)
