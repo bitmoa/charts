@@ -1,5 +1,9 @@
 # Changelog
 
+## 20.1.5 (2026-10-02)
+
+* Bump `phpmyadmin` image to `5.2.3-debian-12-r50` (was `5.2.3-debian-12-r49`)
+
 ## 20.1.4 (2026-09-26)
 
 * Bump `phpmyadmin` image to `5.2.3-debian-12-r49` (was `5.2.3-debian-12-r48`)
