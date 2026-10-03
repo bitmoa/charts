@@ -1,5 +1,9 @@
 # Changelog
 
+## 12.4.1 (2026-10-03)
+
+* Bump `grafana` image to `13.2.3-debian-12-r2` (was `13.2.3-debian-12-r0`)
+
 ## 12.4.0 (2026-09-29)
 
 * Bump `grafana` image to `13.2.3-debian-12-r0` (was `13.2.2-debian-12-r2`)
