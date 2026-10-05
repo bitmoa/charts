@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.2.4 (2026-10-05)
+
+* Bump `os-shell` image to `12-debian-12-r75` (was `12-debian-12-r74`)
+
 ## 5.2.3 (2026-10-05)
 
 * Bump `grafana-tempo-vulture` image to `3.1.0-debian-12-r1` (was `3.0.3-debian-12-r3`)
