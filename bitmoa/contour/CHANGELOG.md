@@ -1,5 +1,9 @@
 # Changelog
 
+## 21.2.10 (2026-10-05)
+
+* Bump `nginx` image to `1.31.6-debian-12-r4` (was `1.31.6-debian-12-r3`)
+
 ## 21.2.9 (2026-10-05)
 
 * Bump `envoy` image to `1.39.2-debian-12-r1` (was `1.39.2-debian-12-r0`)
