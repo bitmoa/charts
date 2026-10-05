@@ -1,5 +1,9 @@
 # Changelog
 
+## 22.2.13 (2026-10-05)
+
+* Bump `redis-exporter` image to `1.93.0-debian-12-r1` (was `1.93.0-debian-12-r0`)
+
 ## 22.2.12 (2026-10-05)
 
 * Bump `redis-sentinel` image to `8.10.2-debian-12-r2` (was `8.10.2-debian-12-r1`)
