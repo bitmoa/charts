@@ -5,7 +5,7 @@ annotations:
   category: E-Learning
   images: |
     - name: apache-exporter
-      image: ghcr.io/bitmoa/apache-exporter:1.0.10-debian-12-r0
+      image: ghcr.io/bitmoa/apache-exporter:1.1.1-debian-12-r10
     - name: moodle
       image: ghcr.io/bitmoa/moodle:5.2.3-debian-12-r4
     - name: os-shell
@@ -39,4 +39,4 @@ maintainers:
 name: moodle
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/moodle
-version: 28.1.6
+version: 28.1.7
