@@ -1,5 +1,9 @@
 # Changelog
 
+## 7.1.5 (2026-10-05)
+
+* Bump `git` image to `2.56.0-debian-12-r1` (was `2.56.0-debian-12-r0`)
+
 ## 7.1.4 (2026-10-05)
 
 * Bump `aspnet-core` image to `10.0.12-debian-12-r2` (was `10.0.12-debian-12-r1`)
