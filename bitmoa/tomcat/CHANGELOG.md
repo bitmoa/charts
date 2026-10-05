@@ -1,5 +1,9 @@
 # Changelog
 
+## 12.1.6 (2026-10-05)
+
+* Bump `jmx-exporter` image to `1.6.0-debian-12-r4` (was `1.6.0-debian-12-r3`)
+
 ## 12.1.5 (2026-10-05)
 
 * Bump `tomcat` image to `11.0.26-debian-12-r3` (was `11.0.26-debian-12-r2`)
