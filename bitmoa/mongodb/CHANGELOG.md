@@ -1,5 +1,9 @@
 # Changelog
 
+## 16.6.9 (2026-10-05)
+
+* Bump `nginx` image to `1.31.6-debian-12-r4` (was `1.31.6-debian-12-r1`)
+
 ## 16.6.8 (2026-10-05)
 
 * Bump `kubectl` image to `1.37.1-debian-12-r3` (was `1.37.1-debian-12-r2`)
