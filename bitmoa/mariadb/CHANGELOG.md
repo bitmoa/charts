@@ -1,5 +1,9 @@
 # Changelog
 
+## 22.2.5 (2026-10-05)
+
+* Bump `mysqld-exporter` image to `0.20.0-debian-12-r6` (was `0.20.0-debian-12-r5`)
+
 ## 22.2.4 (2026-10-05)
 
 * Bump `mariadb` image to `13.1.1-debian-12-r2` (was `13.1.1-debian-12-r1`)
