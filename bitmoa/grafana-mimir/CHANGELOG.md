@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.1.12 (2026-10-05)
+
+* Bump `nginx` image to `1.31.6-debian-12-r4` (was `1.31.6-debian-12-r3`)
+
 ## 3.1.11 (2026-10-05)
 
 * Bump `grafana-mimir` image to `3.2.1-debian-12-r2` (was `3.2.1-debian-12-r1`)
