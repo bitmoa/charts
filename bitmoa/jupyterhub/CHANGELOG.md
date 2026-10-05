@@ -1,5 +1,9 @@
 # Changelog
 
+## 10.2.7 (2026-10-05)
+
+* Bump `jupyterhub` image to `6.0.1-debian-12-r2` (was `6.0.1-debian-12-r1`)
+
 ## 10.2.6 (2026-10-05)
 
 * Bump `jupyter-base-notebook` image to `6.0.1-debian-12-r3` (was `6.0.1-debian-12-r2`)
