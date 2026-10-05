@@ -1,5 +1,9 @@
 # Changelog
 
+## 22.2.12 (2026-10-05)
+
+* Bump `redis-sentinel` image to `8.10.2-debian-12-r2` (was `8.10.2-debian-12-r1`)
+
 ## 22.2.11 (2026-10-02)
 
 * Bump `kubectl` image to `1.37.1-debian-12-r2` (was `1.37.1-debian-12-r1`)
