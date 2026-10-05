@@ -1,5 +1,9 @@
 # Changelog
 
+## 21.2.9 (2026-10-05)
+
+* Bump `envoy` image to `1.39.2-debian-12-r1` (was `1.39.2-debian-12-r0`)
+
 ## 21.2.8 (2026-10-02)
 
 * Bump `envoy` image to `1.39.2-debian-12-r0` (was `1.39.1-debian-12-r2`)
