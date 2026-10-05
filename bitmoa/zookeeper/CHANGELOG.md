@@ -1,5 +1,9 @@
 # Changelog
 
+## 13.9.3 (2026-10-05)
+
+* Bump `zookeeper` image to `3.9.6-debian-12-r2` (was `3.9.6-debian-12-r1`)
+
 ## 13.9.2 (2026-09-26)
 
 * Bump `os-shell` image to `12-debian-12-r74` (was `12-debian-12-r73`)
