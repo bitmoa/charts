@@ -1,5 +1,9 @@
 # Changelog
 
+## 16.6.8 (2026-10-05)
+
+* Bump `kubectl` image to `1.37.1-debian-12-r3` (was `1.37.1-debian-12-r2`)
+
 ## 16.6.7 (2026-10-05)
 
 * Bump `mongodb-exporter` image to `0.53.0-debian-12-r4` (was `0.53.0-debian-12-r3`)
