@@ -1,5 +1,9 @@
 # Changelog
 
+## 15.5.7 (2026-10-05)
+
+* Bump `kong` image to `3.9.3-debian-12-r18` (was `3.9.3-debian-12-r17`)
+
 ## 15.5.6 (2026-10-02)
 
 * Bump `kong` image to `3.9.3-debian-12-r17` (was `3.9.3-debian-12-r16`)
