@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.4.5 (2026-10-05)
+
+* Bump `tensorflow-resnet` image to `2.20.0-debian-12-r5` (was `2.20.0-debian-12-r4`)
+
 ## 4.4.4 (2026-10-05)
 
 * Bump `tensorflow-serving` image to `2.20.0-debian-12-r6` (was `2.20.0-debian-12-r5`)
