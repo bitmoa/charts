@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.3.7 (2026-10-05)
+
+* Bump `git` image to `2.56.0-debian-12-r1` (was `2.56.0-debian-12-r0`)
+
 ## 5.3.6 (2026-10-05)
 
 * Bump `mlflow` image to `3.16.1-debian-12-r3` (was `3.16.1-debian-12-r2`)
