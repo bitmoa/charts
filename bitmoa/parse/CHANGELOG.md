@@ -1,5 +1,9 @@
 # Changelog
 
+## 25.4.1 (2026-10-05)
+
+* Bump `parse-dashboard` image to `9.2.0-debian-12-r4` (was `9.2.0-debian-12-r2`)
+
 ## 25.4.0 (2026-10-03)
 
 * Bump `parse` image to `9.10.2-debian-12-r0` (was `9.10.1-debian-12-r0`)
