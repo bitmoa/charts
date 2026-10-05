@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.2.1 (2026-10-05)
+
+* Bump `grafana-tempo-query` image to `3.1.0-debian-12-r1` (was `3.1.0-debian-12-r0`)
+
 ## 5.2.0 (2026-09-30)
 
 * Bump `grafana-tempo-query` image to `3.1.0-debian-12-r0` (was `3.0.3-debian-12-r4`)
