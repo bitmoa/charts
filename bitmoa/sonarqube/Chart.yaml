@@ -5,7 +5,7 @@ annotations:
   category: DeveloperTools
   images: |
     - name: jmx-exporter
-      image: ghcr.io/bitmoa/jmx-exporter:1.4.0-debian-12-r0
+      image: ghcr.io/bitmoa/jmx-exporter:1.6.0-debian-12-r4
     - name: os-shell
       image: ghcr.io/bitmoa/os-shell:12-debian-12-r74
     - name: sonarqube
@@ -40,4 +40,4 @@ maintainers:
 name: sonarqube
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/sonarqube
-version: 8.2.4
+version: 8.2.5
