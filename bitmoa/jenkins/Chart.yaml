@@ -5,7 +5,7 @@ annotations:
   category: Infrastructure
   images: |
     - name: jenkins
-      image: ghcr.io/bitmoa/jenkins:2.580.1-debian-12-r1
+      image: ghcr.io/bitmoa/jenkins:2.580.1-debian-12-r2
     - name: jenkins-agent
       image: ghcr.io/bitmoa/jenkins-agent:0.3391.0-debian-12-r4
     - name: os-shell
@@ -38,4 +38,4 @@ maintainers:
 name: jenkins
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/jenkins
-version: 13.8.2
+version: 13.8.3
