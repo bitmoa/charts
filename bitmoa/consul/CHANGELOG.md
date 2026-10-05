@@ -1,5 +1,9 @@
 # Changelog
 
+## 11.5.6 (2026-10-05)
+
+* Bump `consul-exporter` image to `0.13.0-debian-12-r62` (was `0.13.0-debian-12-r61`)
+
 ## 11.5.5 (2026-09-26)
 
 * Bump `os-shell` image to `12-debian-12-r74` (was `12-debian-12-r73`)
