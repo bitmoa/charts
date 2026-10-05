@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.3.3 (2026-10-05)
+
+* Bump `os-shell` image to `12-debian-12-r75` (was `12-debian-12-r74`)
+
 ## 2.3.2 (2026-10-05)
 
 * Bump `alertmanager` image to `0.34.1-debian-12-r2` (was `0.34.1-debian-12-r1`)
