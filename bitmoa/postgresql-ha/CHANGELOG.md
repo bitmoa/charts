@@ -1,5 +1,9 @@
 # Changelog
 
+## 16.4.16 (2026-10-05)
+
+* Bump `pgpool` image to `4.7.3-debian-12-r1` (was `4.7.2-debian-12-r5`)
+
 ## 16.4.15 (2026-10-04)
 
 * Bump `postgresql-repmgr` image to `18.6.0-debian-12-r18` (was `18.6.0-debian-12-r17`)
