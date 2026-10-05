@@ -1,5 +1,9 @@
 # Changelog
 
+## 7.3.5 (2026-10-05)
+
+* Bump `appsmith` image to `2.4.2-debian-12-r2` (was `2.4.2-debian-12-r1`)
+
 ## 7.3.4 (2026-09-28)
 
 * Bump `haproxy` image to `3.4.6-debian-12-r0` (was `3.4.5-debian-12-r0`)
