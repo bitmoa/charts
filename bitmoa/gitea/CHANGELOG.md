@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.4.4 (2026-10-05)
+
+* Bump `os-shell` image to `12-debian-12-r75` (was `12-debian-12-r74`)
+
 ## 3.4.3 (2026-10-05)
 
 * Bump `gitea` image to `28.0.0-debian-12-r3` (was `28.0.0-debian-12-r1`)
