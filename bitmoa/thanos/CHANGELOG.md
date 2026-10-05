@@ -1,5 +1,9 @@
 # Changelog
 
+## 17.4.1 (2026-10-05)
+
+* Bump `os-shell` image to `12-debian-12-r75` (was `12-debian-12-r74`)
+
 ## 17.4.0 (2026-10-02)
 
 * Bump `thanos` image to `0.42.4-debian-12-r5` (was `0.39.2-debian-12-r0`)
