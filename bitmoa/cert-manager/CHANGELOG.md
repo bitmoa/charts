@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.6.6 (2026-10-05)
+
+* Bump `cert-manager-webhook` image to `1.21.2-debian-12-r2` (was `1.21.2-debian-12-r1`)
+
 ## 1.6.5 (2026-10-05)
 
 * Bump `acmesolver` image to `1.21.2-debian-12-r2` (was `1.21.2-debian-12-r1`)
