@@ -9,7 +9,7 @@ annotations:
     - name: elasticsearch-exporter
       image: ghcr.io/bitmoa/elasticsearch-exporter:1.11.0-debian-12-r9
     - name: os-shell
-      image: ghcr.io/bitmoa/os-shell:12-debian-12-r74
+      image: ghcr.io/bitmoa/os-shell:12-debian-12-r75
   licenses: Apache-2.0
   tanzuCategory: service
 apiVersion: v2
@@ -36,4 +36,4 @@ maintainers:
 name: elasticsearch
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/elasticsearch
-version: 22.2.3
+version: 22.2.4

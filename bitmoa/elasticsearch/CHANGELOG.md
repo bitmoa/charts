@@ -1,5 +1,9 @@
 # Changelog
 
+## 22.2.4 (2026-10-05)
+
+* Bump `os-shell` image to `12-debian-12-r75` (was `12-debian-12-r74`)
+
 ## 22.2.3 (2026-10-05)
 
 * Bump `elasticsearch-exporter` image to `1.11.0-debian-12-r9` (was `1.11.0-debian-12-r8`)
