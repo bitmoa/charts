@@ -1,5 +1,9 @@
 # Changelog
 
+## 13.1.3 (2026-10-05)
+
+* Bump `argo-workflow-exec` image to `4.1.4-debian-12-r2` (was `4.1.4-debian-12-r1`)
+
 ## 13.1.2 (2026-09-26)
 
 * Bump `argo-workflow-exec` image to `4.1.4-debian-12-r1` (was `3.7.1-debian-12-r0`)
