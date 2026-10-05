@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.4.14 (2026-10-05)
+
+* Bump `janusgraph` image to `1.1.0-debian-12-r47` (was `1.1.0-debian-12-r46`)
+
 ## 1.4.13 (2026-09-26)
 
 * Bump `janusgraph` image to `1.1.0-debian-12-r46` (was `1.1.0-debian-12-r45`)
