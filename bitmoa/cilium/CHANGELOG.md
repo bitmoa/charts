@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.3.5 (2026-10-05)
+
+* Bump `cilium-proxy` image to `1.37.5-debian-12-r4` (was `1.37.5-debian-12-r3`)
+
 ## 3.3.4 (2026-10-05)
 
 * Bump `cilium-operator` image to `1.20.2-debian-12-r2` (was `1.20.2-debian-12-r0`)
