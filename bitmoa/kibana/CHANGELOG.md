@@ -1,5 +1,9 @@
 # Changelog
 
+## 12.3.4 (2026-10-05)
+
+* Bump `kibana` image to `9.5.4-debian-12-r3` (was `9.5.4-debian-12-r2`)
+
 ## 12.3.3 (2026-10-02)
 
 * Bump `kibana` image to `9.5.4-debian-12-r2` (was `9.5.4-debian-12-r1`)
