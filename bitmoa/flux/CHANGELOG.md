@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.4.47 (2026-10-05)
+
+* Bump `fluxcd-kustomize-controller` image to `1.9.6-debian-12-r1` (was `1.9.6-debian-12-r0`)
+
 ## 2.4.46 (2026-10-05)
 
 * Bump `fluxcd-helm-controller` image to `1.6.5-debian-12-r1` (was `1.6.4-debian-12-r3`)
