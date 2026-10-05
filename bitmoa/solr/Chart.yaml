@@ -7,7 +7,7 @@ annotations:
     - name: os-shell
       image: ghcr.io/bitmoa/os-shell:12-debian-12-r74
     - name: solr
-      image: ghcr.io/bitmoa/solr:10.0.0-debian-12-r17
+      image: ghcr.io/bitmoa/solr:10.0.0-debian-12-r18
   licenses: Apache-2.0
   tanzuCategory: service
 apiVersion: v2
@@ -37,4 +37,4 @@ maintainers:
 name: solr
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/solr
-version: 9.7.2
+version: 9.7.3
