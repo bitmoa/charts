@@ -1,5 +1,9 @@
 # Changelog
 
+## 34.2.2 (2026-10-05)
+
+* Bump `redmine` image to `7.0.2-debian-12-r2` (was `7.0.2-debian-12-r1`)
+
 ## 34.2.1 (2026-10-03)
 
 * Bump `redmine` image to `7.0.2-debian-12-r1` (was `7.0.2-debian-12-r0`)
