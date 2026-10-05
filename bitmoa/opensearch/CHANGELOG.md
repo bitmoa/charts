@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.1.5 (2026-10-05)
+
+* Bump `opensearch` image to `3.8.0-debian-12-r3` (was `3.8.0-debian-12-r2`)
+
 ## 2.1.4 (2026-10-05)
 
 * Bump `opensearch-dashboards` image to `3.9.0-debian-12-r1` (was `3.2.0-debian-12-r0`)
