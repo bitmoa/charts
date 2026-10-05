@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.6.5 (2026-10-05)
+
+* Bump `kubernetes-event-exporter` image to `1.7.0-debian-12-r79` (was `1.7.0-debian-12-r78`)
+
 ## 3.6.4 (2026-09-26)
 
 * Bump `kubernetes-event-exporter` image to `1.7.0-debian-12-r78` (was `1.7.0-debian-12-r0`)
