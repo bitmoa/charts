@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.5.1 (2026-10-05)
+
+* Bump `haproxy` image to `3.4.6-debian-12-r1` (was `3.4.6-debian-12-r0`)
+
 ## 2.5.0 (2026-09-28)
 
 * Bump `haproxy` image to `3.4.6-debian-12-r0` (was `3.4.5-debian-12-r0`)
