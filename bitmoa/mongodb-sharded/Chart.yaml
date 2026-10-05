@@ -5,7 +5,7 @@ annotations:
   category: Database
   images: |
     - name: mongodb-exporter
-      image: ghcr.io/bitmoa/mongodb-exporter:0.53.0-debian-12-r3
+      image: ghcr.io/bitmoa/mongodb-exporter:0.53.0-debian-12-r4
     - name: mongodb-sharded
       image: ghcr.io/bitmoa/mongodb-sharded:9.0.2-debian-12-r0
     - name: os-shell
@@ -38,4 +38,4 @@ maintainers:
 name: mongodb-sharded
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/mongodb-sharded
-version: 9.6.0
+version: 9.6.1

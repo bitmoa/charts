@@ -1,5 +1,9 @@
 # Changelog
 
+## 9.6.1 (2026-10-05)
+
+* Bump `mongodb-exporter` image to `0.53.0-debian-12-r4` (was `0.53.0-debian-12-r3`)
+
 ## 9.6.0 (2026-09-30)
 
 * Bump `mongodb-sharded` image to `9.0.2-debian-12-r0` (was `8.3.11-debian-12-r3`)
