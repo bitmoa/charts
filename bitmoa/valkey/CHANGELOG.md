@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.1.13 (2026-10-05)
+
+* Bump `kubectl` image to `1.37.1-debian-12-r3` (was `1.37.1-debian-12-r2`)
+
 ## 3.1.12 (2026-10-05)
 
 * Bump `valkey` image to `9.1.2-debian-12-r3` (was `9.1.2-debian-12-r1`)
