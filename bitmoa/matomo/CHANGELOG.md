@@ -1,5 +1,9 @@
 # Changelog
 
+## 11.3.0 (2026-10-05)
+
+* Bump `matomo` image to `5.14.1-debian-12-r0` (was `5.14.0-debian-12-r2`)
+
 ## 11.2.4 (2026-10-05)
 
 * Bump `apache-exporter` image to `1.1.1-debian-12-r10` (was `1.1.1-debian-12-r9`)
