@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.4.18 (2026-10-06)
+
+* Bump `janusgraph` image to `1.1.0-debian-12-r48` (was `1.1.0-debian-12-r47`)
+
 ## 1.4.17 (2026-10-06)
 
 * Bump `jmx-exporter` image to `1.7.0-debian-12-r0` (was `1.6.0-debian-12-r4`)
