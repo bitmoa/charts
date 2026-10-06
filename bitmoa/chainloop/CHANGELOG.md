@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.5.5 (2026-10-06)
+
+* Bump `chainloop-control-plane-migrations` image to `1.116.0-debian-12-r0` (was `1.115.0-debian-12-r0`)
+
 ## 4.5.4 (2026-10-04)
 
 * Bump `chainloop-control-plane-migrations` image to `1.115.0-debian-12-r0` (was `1.113.1-debian-12-r0`)
