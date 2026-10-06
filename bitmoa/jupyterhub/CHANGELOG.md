@@ -1,5 +1,9 @@
 # Changelog
 
+## 10.2.10 (2026-10-06)
+
+* Bump `configurable-http-proxy` image to `5.3.0-debian-12-r6` (was `5.3.0-debian-12-r5`)
+
 ## 10.2.9 (2026-10-06)
 
 * Bump `jupyter-base-notebook` image to `6.0.1-debian-12-r4` (was `6.0.1-debian-12-r3`)
