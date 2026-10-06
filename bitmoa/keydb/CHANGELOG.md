@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.5.36 (2026-10-06)
+
+* Bump `redis-exporter` image to `1.93.0-debian-12-r2` (was `1.93.0-debian-12-r1`)
+
 ## 0.5.35 (2026-10-06)
 
 * Bump `keydb` image to `6.3.4-debian-12-r50` (was `6.3.4-debian-12-r49`)
