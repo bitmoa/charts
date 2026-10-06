@@ -1,5 +1,9 @@
 # Changelog
 
+## 32.5.12 (2026-10-06)
+
+* Bump `kafka` image to `4.3.1-debian-12-r7` (was `4.3.1-debian-12-r6`)
+
 ## 32.5.11 (2026-10-06)
 
 * Bump `jmx-exporter` image to `1.7.0-debian-12-r0` (was `1.6.0-debian-12-r4`)
