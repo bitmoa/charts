@@ -1,5 +1,9 @@
 # Changelog
 
+## 11.2.9 (2026-10-06)
+
+* Bump `argo-cd` image to `3.5.3-debian-12-r5` (was `3.5.3-debian-12-r4`)
+
 ## 11.2.8 (2026-10-05)
 
 * Bump `redis` image to `8.10.2-debian-12-r2` (was `8.10.2-debian-12-r1`)
