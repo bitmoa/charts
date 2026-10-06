@@ -1,5 +1,9 @@
 # Changelog
 
+## 16.2.7 (2026-10-06)
+
+* Bump `pymilvus` image to `3.0.2-debian-12-r3` (was `3.0.2-debian-12-r0`)
+
 ## 16.2.6 (2026-10-06)
 
 * Bump `milvus` image to `3.0.2-debian-12-r3` (was `3.0.2-debian-12-r2`)
