@@ -1,5 +1,9 @@
 # Changelog
 
+## 11.3.2 (2026-10-06)
+
+* Bump `apache-exporter` image to `1.1.1-debian-12-r11` (was `1.1.1-debian-12-r10`)
+
 ## 11.3.1 (2026-10-05)
 
 * Bump `os-shell` image to `12-debian-12-r75` (was `12-debian-12-r74`)
