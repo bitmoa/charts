@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.1.15 (2026-10-06)
+
+* Bump `grafana-mimir` image to `3.2.1-debian-12-r3` (was `3.2.1-debian-12-r2`)
+
 ## 3.1.14 (2026-10-06)
 
 * Bump `memcached` image to `1.6.45-debian-12-r7` (was `1.6.45-debian-12-r5`)
