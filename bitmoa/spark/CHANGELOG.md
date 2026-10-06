@@ -1,5 +1,9 @@
 # Changelog
 
+## 10.1.3 (2026-10-06)
+
+* Bump `spark` image to `4.2.0-debian-12-r6` (was `4.2.0-debian-12-r5`)
+
 ## 10.1.2 (2026-10-05)
 
 * Bump `spark` image to `4.2.0-debian-12-r5` (was `4.2.0-debian-12-r4`)
