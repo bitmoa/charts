@@ -1,5 +1,9 @@
 # Changelog
 
+## 9.6.4 (2026-10-06)
+
+* Bump `mongodb-sharded` image to `9.0.2-debian-12-r2` (was `9.0.2-debian-12-r1`)
+
 ## 9.6.3 (2026-10-05)
 
 * Bump `os-shell` image to `12-debian-12-r75` (was `12-debian-12-r74`)
