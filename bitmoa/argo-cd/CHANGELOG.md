@@ -1,5 +1,9 @@
 # Changelog
 
+## 11.2.12 (2026-10-06)
+
+* Bump `os-shell` image to `12-debian-12-r76` (was `12-debian-12-r74`)
+
 ## 11.2.11 (2026-10-06)
 
 * Bump `redis` image to `8.10.2-debian-12-r3` (was `8.10.2-debian-12-r2`)
