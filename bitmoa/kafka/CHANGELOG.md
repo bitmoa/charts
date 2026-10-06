@@ -1,5 +1,9 @@
 # Changelog
 
+## 32.5.11 (2026-10-06)
+
+* Bump `jmx-exporter` image to `1.7.0-debian-12-r0` (was `1.6.0-debian-12-r4`)
+
 ## 32.5.10 (2026-10-05)
 
 * Bump `os-shell` image to `12-debian-12-r75` (was `12-debian-12-r74`)
