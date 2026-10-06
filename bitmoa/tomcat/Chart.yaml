@@ -5,7 +5,7 @@ annotations:
   category: ApplicationServer
   images: |
     - name: jmx-exporter
-      image: ghcr.io/bitmoa/jmx-exporter:1.6.0-debian-12-r4
+      image: ghcr.io/bitmoa/jmx-exporter:1.7.0-debian-12-r0
     - name: os-shell
       image: ghcr.io/bitmoa/os-shell:12-debian-12-r75
     - name: tomcat
@@ -38,4 +38,4 @@ maintainers:
 name: tomcat
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/tomcat
-version: 12.1.7
+version: 12.1.8
