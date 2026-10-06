@@ -5,7 +5,7 @@ annotations:
   category: Infrastructure
   images: |
     - name: apache-exporter
-      image: ghcr.io/bitmoa/apache-exporter:1.1.1-debian-12-r10
+      image: ghcr.io/bitmoa/apache-exporter:1.1.1-debian-12-r11
     - name: phpmyadmin
       image: ghcr.io/bitmoa/phpmyadmin:5.2.3-debian-12-r51
   licenses: Apache-2.0
@@ -39,4 +39,4 @@ maintainers:
 name: phpmyadmin
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/phpmyadmin
-version: 20.1.7
+version: 20.1.8
