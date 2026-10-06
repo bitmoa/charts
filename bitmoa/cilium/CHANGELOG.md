@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.3.8 (2026-10-06)
+
+* Bump `hubble-ui-backend` image to `0.13.6-debian-12-r3` (was `0.13.6-debian-12-r2`)
+
 ## 3.3.7 (2026-10-06)
 
 * Bump `hubble-relay` image to `1.20.2-debian-12-r3` (was `1.18.1-debian-12-r0`)

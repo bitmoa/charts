@@ -15,7 +15,7 @@ annotations:
     - name: hubble-ui
       image: ghcr.io/bitmoa/hubble-ui:0.13.6-debian-12-r1
     - name: hubble-ui-backend
-      image: ghcr.io/bitmoa/hubble-ui-backend:0.13.6-debian-12-r2
+      image: ghcr.io/bitmoa/hubble-ui-backend:0.13.6-debian-12-r3
   licenses: Apache-2.0
   tanzuCategory: clusterUtility
 apiVersion: v2
@@ -54,4 +54,4 @@ sources:
 - https://github.com/bitmoa/containers/tree/main/bitmoa/hubble-relay
 - https://github.com/bitmoa/containers/tree/main/bitmoa/hubble-ui
 - https://github.com/bitmoa/containers/tree/main/bitmoa/hubble-ui-backend
-version: 3.3.7
+version: 3.3.8
