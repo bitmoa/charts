@@ -5,7 +5,7 @@ annotations:
   category: Infrastructure
   images: |
     - name: apisix
-      image: ghcr.io/bitmoa/apisix:3.19.0-debian-12-r1
+      image: ghcr.io/bitmoa/apisix:3.19.0-debian-12-r2
     - name: apisix-ingress-controller
       image: ghcr.io/bitmoa/apisix-ingress-controller:2.2.0-debian-12-r5
     - name: os-shell
@@ -46,4 +46,4 @@ sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/apisix
 - https://github.com/bitmoa/charts/tree/main/bitmoa/apisix-dashboard
 - https://github.com/bitmoa/charts/tree/main/bitmoa/apisix-ingress-controller
-version: 6.2.3
+version: 6.2.4
