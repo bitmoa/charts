@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.1.16 (2026-10-06)
+
+* Bump `nessie` image to `0.108.8-debian-12-r3` (was `0.108.8-debian-12-r2`)
+
 ## 2.1.15 (2026-10-05)
 
 * Bump `os-shell` image to `12-debian-12-r75` (was `12-debian-12-r74`)
