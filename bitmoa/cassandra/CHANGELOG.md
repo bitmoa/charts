@@ -1,5 +1,9 @@
 # Changelog
 
+## 12.4.8 (2026-10-06)
+
+* Bump `cassandra-exporter` image to `2.3.8-debian-12-r74` (was `2.3.8-debian-12-r73`)
+
 ## 12.4.7 (2026-10-06)
 
 * Bump `cassandra` image to `5.0.9-debian-12-r5` (was `5.0.9-debian-12-r4`)
