@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.2.3 (2026-10-06)
+
+* Bump `kube-state-metrics` image to `2.20.0-debian-12-r6` (was `2.20.0-debian-12-r5`)
+
 ## 5.2.2 (2026-10-05)
 
 * Bump `kube-state-metrics` image to `2.20.0-debian-12-r5` (was `2.20.0-debian-12-r4`)
