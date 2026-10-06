@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.2.8 (2026-10-06)
+
+* Bump `postgresql` image to `18.6.0-debian-12-r17` (was `18.6.0-debian-12-r15`)
+
 ## 1.2.7 (2026-10-05)
 
 * Bump `plugin-barman-cloud-sidecar` image to `0.15.0-debian-12-r3` (was `0.15.0-debian-12-r1`)
