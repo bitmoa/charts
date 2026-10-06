@@ -1,5 +1,9 @@
 # Changelog
 
+## 9.17.2 (2026-10-06)
+
+* Bump `os-shell` image to `12-debian-12-r76` (was `12-debian-12-r75`)
+
 ## 9.17.1 (2026-10-06)
 
 * Bump `clickhouse-keeper` image to `26.8.19-debian-12-r0` (was `26.8.17-debian-12-r0`)
