@@ -1,5 +1,9 @@
 # Changelog
 
+## 23.3.7 (2026-10-06)
+
+* Bump `os-shell` image to `12-debian-12-r76` (was `12-debian-12-r75`)
+
 ## 23.3.6 (2026-10-06)
 
 * Bump `drupal` image to `11.4.8-debian-12-r3` (was `11.4.8-debian-12-r2`)
