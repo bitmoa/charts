@@ -1,5 +1,9 @@
 # Changelog
 
+## 7.1.5 (2026-10-06)
+
+* Bump `logstash` image to `9.5.4-debian-12-r3` (was `9.5.4-debian-12-r2`)
+
 ## 7.1.4 (2026-10-05)
 
 * Bump `os-shell` image to `12-debian-12-r75` (was `12-debian-12-r74`)
