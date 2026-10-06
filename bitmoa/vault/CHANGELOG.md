@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.11.5 (2026-10-06)
+
+* Bump `vault` image to `2.1.1-debian-12-r3` (was `2.1.1-debian-12-r1`)
+
 ## 1.11.4 (2026-10-05)
 
 * Bump `os-shell` image to `12-debian-12-r75` (was `12-debian-12-r74`)
