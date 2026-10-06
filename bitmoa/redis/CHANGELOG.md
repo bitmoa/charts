@@ -1,5 +1,9 @@
 # Changelog
 
+## 22.2.16 (2026-10-06)
+
+* Bump `redis` image to `8.10.2-debian-12-r3` (was `8.10.2-debian-12-r1`)
+
 ## 22.2.15 (2026-10-06)
 
 * Bump `kubectl` image to `1.37.1-debian-12-r4` (was `1.37.1-debian-12-r2`)
