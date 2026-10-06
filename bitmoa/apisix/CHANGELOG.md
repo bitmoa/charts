@@ -1,5 +1,9 @@
 # Changelog
 
+## 6.2.5 (2026-10-06)
+
+* Bump `os-shell` image to `12-debian-12-r76` (was `12-debian-12-r74`)
+
 ## 6.2.4 (2026-10-06)
 
 * Bump `apisix` image to `3.19.0-debian-12-r2` (was `3.19.0-debian-12-r1`)
