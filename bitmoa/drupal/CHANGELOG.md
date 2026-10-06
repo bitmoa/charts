@@ -1,5 +1,9 @@
 # Changelog
 
+## 23.3.6 (2026-10-06)
+
+* Bump `drupal` image to `11.4.8-debian-12-r3` (was `11.4.8-debian-12-r2`)
+
 ## 23.3.5 (2026-10-06)
 
 * Bump `apache-exporter` image to `1.1.1-debian-12-r11` (was `1.1.1-debian-12-r10`)
