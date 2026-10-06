@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.1.7 (2026-10-06)
+
+* Bump `os-shell` image to `12-debian-12-r76` (was `12-debian-12-r74`)
+
 ## 3.1.6 (2026-10-06)
 
 * Bump `dremio` image to `26.0.5-debian-12-r26` (was `26.0.5-debian-12-r24`)
