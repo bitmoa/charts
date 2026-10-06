@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.6.5 (2026-10-06)
+
+* Bump `kuberay-apiserver` image to `1.7.1-debian-12-r3` (was `1.7.1-debian-12-r2`)
+
 ## 1.6.4 (2026-10-05)
 
 * Bump `ray` image to `2.58.0-debian-12-r3` (was `2.58.0-debian-12-r1`)
