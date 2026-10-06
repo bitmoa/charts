@@ -5,7 +5,7 @@ annotations:
   category: Infrastructure
   images: |
     - name: harbor-adapter-trivy
-      image: ghcr.io/bitmoa/harbor-adapter-trivy:2.13.2-debian-12-r0
+      image: ghcr.io/bitmoa/harbor-adapter-trivy:2.15.2-debian-12-r11
     - name: harbor-core
       image: ghcr.io/bitmoa/harbor-core:2.13.2-debian-12-r0
     - name: harbor-exporter
@@ -56,4 +56,4 @@ maintainers:
 name: harbor
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/harbor
-version: 27.2.2
+version: 27.2.3

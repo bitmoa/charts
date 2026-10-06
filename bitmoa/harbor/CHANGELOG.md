@@ -1,5 +1,9 @@
 # Changelog
 
+## 27.2.3 (2026-10-06)
+
+* Bump `harbor-adapter-trivy` image to `2.15.2-debian-12-r11` (was `2.13.2-debian-12-r0`)
+
 ## 27.2.2 (2026-10-06)
 
 * Bump `nginx` image to `1.31.6-debian-12-r5` (was `1.31.6-debian-12-r4`)
