@@ -5,7 +5,7 @@ annotations:
   category: Infrastructure
   images: |
     - name: memcached
-      image: ghcr.io/bitmoa/memcached:1.6.45-debian-12-r6
+      image: ghcr.io/bitmoa/memcached:1.6.45-debian-12-r7
     - name: memcached-exporter
       image: ghcr.io/bitmoa/memcached-exporter:0.17.0-debian-12-r5
     - name: os-shell
@@ -34,4 +34,4 @@ maintainers:
 name: memcached
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/memcached
-version: 7.10.6
+version: 7.10.7
