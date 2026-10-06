@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.6.9 (2026-10-06)
+
+* Bump `cainjector` image to `1.21.2-debian-12-r3` (was `1.21.2-debian-12-r2`)
+
 ## 1.6.8 (2026-10-06)
 
 * Bump `acmesolver` image to `1.21.2-debian-12-r3` (was `1.21.2-debian-12-r2`)
