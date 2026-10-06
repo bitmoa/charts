@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.6.0 (2026-10-06)
+
+* Bump `chainloop-artifact-cas` image to `1.116.0-debian-12-r0` (was `1.112.0-debian-12-r0`)
+
 ## 4.5.6 (2026-10-06)
 
 * Bump `chainloop-control-plane` image to `1.116.0-debian-12-r0` (was `1.113.1-debian-12-r0`)
