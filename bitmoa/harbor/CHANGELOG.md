@@ -1,5 +1,9 @@
 # Changelog
 
+## 27.2.4 (2026-10-07)
+
+* Bump `os-shell` image to `12-debian-12-r76` (was `12-debian-12-r75`)
+
 ## 27.2.3 (2026-10-06)
 
 * Bump `harbor-adapter-trivy` image to `2.15.2-debian-12-r11` (was `2.13.2-debian-12-r0`)
