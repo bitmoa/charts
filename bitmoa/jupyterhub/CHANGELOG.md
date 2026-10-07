@@ -1,5 +1,9 @@
 # Changelog
 
+## 10.2.12 (2026-10-07)
+
+* Bump `os-shell` image to `12-debian-12-r76` (was `12-debian-12-r74`)
+
 ## 10.2.11 (2026-10-06)
 
 * Bump `jupyterhub` image to `6.0.1-debian-12-r3` (was `6.0.1-debian-12-r2`)
