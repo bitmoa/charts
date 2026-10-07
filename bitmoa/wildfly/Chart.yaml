@@ -5,7 +5,7 @@ annotations:
   category: ApplicationServer
   images: |
     - name: os-shell
-      image: ghcr.io/bitmoa/os-shell:12-debian-12-r75
+      image: ghcr.io/bitmoa/os-shell:12-debian-12-r76
     - name: wildfly
       image: ghcr.io/bitmoa/wildfly:41.0.1-debian-12-r4
   licenses: Apache-2.0
@@ -35,4 +35,4 @@ maintainers:
 name: wildfly
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/wildfly
-version: 25.1.3
+version: 25.1.4
