@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.5.0 (2026-10-07)
+
+* Bump `pytorch` image to `2.14.1-debian-12-r0` (was `2.14.0-debian-12-r3`)
+
 ## 4.4.11 (2026-10-07)
 
 * Bump `os-shell` image to `12-debian-12-r76` (was `12-debian-12-r75`)
