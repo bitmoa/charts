@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.4.19 (2026-10-07)
+
+* Bump `os-shell` image to `12-debian-12-r76` (was `12-debian-12-r75`)
+
 ## 1.4.18 (2026-10-06)
 
 * Bump `janusgraph` image to `1.1.0-debian-12-r48` (was `1.1.0-debian-12-r47`)
