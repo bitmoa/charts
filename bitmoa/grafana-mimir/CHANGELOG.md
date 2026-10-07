@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.1.16 (2026-10-07)
+
+* Bump `os-shell` image to `12-debian-12-r76` (was `12-debian-12-r75`)
+
 ## 3.1.15 (2026-10-06)
 
 * Bump `grafana-mimir` image to `3.2.1-debian-12-r3` (was `3.2.1-debian-12-r2`)
