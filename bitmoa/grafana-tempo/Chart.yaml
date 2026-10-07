@@ -11,7 +11,7 @@ annotations:
     - name: grafana-tempo-vulture
       image: ghcr.io/bitmoa/grafana-tempo-vulture:3.1.0-debian-12-r1
     - name: os-shell
-      image: ghcr.io/bitmoa/os-shell:12-debian-12-r75
+      image: ghcr.io/bitmoa/os-shell:12-debian-12-r76
   licenses: Apache-2.0
   tanzuCategory: application
 apiVersion: v2
@@ -42,4 +42,4 @@ maintainers:
 name: grafana-tempo
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/grafana-tempo
-version: 5.2.4
+version: 5.2.5
