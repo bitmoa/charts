@@ -1,5 +1,9 @@
 # Changelog
 
+## 22.2.9 (2026-10-07)
+
+* Bump `os-shell` image to `12-debian-12-r76` (was `12-debian-12-r75`)
+
 ## 22.2.8 (2026-10-06)
 
 * Bump `mariadb` image to `13.1.1-debian-12-r3` (was `13.1.1-debian-12-r2`)
