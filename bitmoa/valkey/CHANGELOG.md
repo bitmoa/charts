@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.1.18 (2026-10-07)
+
+* Bump `os-shell` image to `12-debian-12-r76` (was `12-debian-12-r75`)
+
 ## 3.1.17 (2026-10-06)
 
 * Bump `valkey-sentinel` image to `9.1.2-debian-12-r4` (was `9.1.2-debian-12-r2`)
