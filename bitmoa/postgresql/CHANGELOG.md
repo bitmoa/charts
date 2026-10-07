@@ -1,5 +1,9 @@
 # Changelog
 
+## 16.8.18 (2026-10-07)
+
+* Bump `os-shell` image to `12-debian-12-r76` (was `12-debian-12-r75`)
+
 ## 16.8.17 (2026-10-06)
 
 * Bump `postgresql` image to `18.6.0-debian-12-r17` (was `18.6.0-debian-12-r16`)
