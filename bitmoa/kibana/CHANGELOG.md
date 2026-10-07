@@ -1,5 +1,9 @@
 # Changelog
 
+## 12.3.7 (2026-10-07)
+
+* Bump `os-shell` image to `12-debian-12-r76` (was `12-debian-12-r75`)
+
 ## 12.3.6 (2026-10-06)
 
 * Bump `kibana` image to `9.5.4-debian-12-r4` (was `9.5.4-debian-12-r3`)
