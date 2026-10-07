@@ -1,5 +1,9 @@
 # Changelog
 
+## 34.2.5 (2026-10-07)
+
+* Bump `os-shell` image to `12-debian-12-r76` (was `12-debian-12-r75`)
+
 ## 34.2.4 (2026-10-06)
 
 * Bump `redmine` image to `7.0.2-debian-12-r3` (was `7.0.2-debian-12-r2`)
