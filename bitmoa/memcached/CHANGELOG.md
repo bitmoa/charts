@@ -1,5 +1,9 @@
 # Changelog
 
+## 7.10.8 (2026-10-07)
+
+* Bump `os-shell` image to `12-debian-12-r76` (was `12-debian-12-r75`)
+
 ## 7.10.7 (2026-10-06)
 
 * Bump `memcached` image to `1.6.45-debian-12-r7` (was `1.6.45-debian-12-r6`)
