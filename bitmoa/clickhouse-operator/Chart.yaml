@@ -11,7 +11,7 @@ annotations:
     - name: clickhouse-operator
       image: ghcr.io/bitmoa/clickhouse-operator:0.27.4-debian-12-r1
     - name: clickhouse-operator-metrics-exporter
-      image: ghcr.io/bitmoa/clickhouse-operator-metrics-exporter:0.27.4-debian-12-r0
+      image: ghcr.io/bitmoa/clickhouse-operator-metrics-exporter:0.27.4-debian-12-r1
   licenses: Apache-2.0
 apiVersion: v2
 appVersion: 0.27.4
@@ -38,4 +38,4 @@ name: clickhouse-operator
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/clickhouse-operator
 - https://github.com/bitmoa/containers/tree/main/bitmoa/clickhouse-operator
-version: 0.4.16
+version: 0.4.17
