@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.4.18 (2026-10-08)
+
+* Bump `clickhouse` image to `26.8.21-debian-12-r0` (was `26.8.20-debian-12-r0`)
+
 ## 0.4.17 (2026-10-08)
 
 * Bump `clickhouse-operator-metrics-exporter` image to `0.27.4-debian-12-r1` (was `0.27.4-debian-12-r0`)
