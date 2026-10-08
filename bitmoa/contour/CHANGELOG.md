@@ -1,5 +1,9 @@
 # Changelog
 
+## 21.2.15 (2026-10-08)
+
+* Bump `contour` image to `1.33.7-debian-12-r4` (was `1.33.7-debian-12-r3`)
+
 ## 21.2.14 (2026-10-07)
 
 * Bump `envoy` image to `1.39.3-debian-12-r0` (was `1.39.2-debian-12-r2`)
