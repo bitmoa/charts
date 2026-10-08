@@ -1,5 +1,9 @@
 # Changelog
 
+## 11.5.8 (2026-10-08)
+
+* Bump `blackbox-exporter` image to `0.29.0-debian-12-r0` (was `0.28.0-debian-12-r28`)
+
 ## 11.5.7 (2026-10-06)
 
 * Bump `prometheus-operator` image to `0.94.1-debian-12-r3` (was `0.94.1-debian-12-r2`)
