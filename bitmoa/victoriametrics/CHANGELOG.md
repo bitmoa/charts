@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.3.3 (2026-10-08)
+
+* Bump `victoriametrics-vmagent` image to `1.153.0-debian-12-r1` (was `1.153.0-debian-12-r0`)
+
 ## 0.3.2 (2026-10-07)
 
 * Bump `os-shell` image to `12-debian-12-r76` (was `12-debian-12-r75`)
