@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.2.10 (2026-10-08)
+
+* Bump `cloudnative-pg` image to `1.30.1-debian-12-r1` (was `1.30.1-debian-12-r0`)
+
 ## 1.2.9 (2026-10-07)
 
 * Bump `plugin-barman-cloud-sidecar` image to `0.15.1-debian-12-r0` (was `0.15.0-debian-12-r3`)
