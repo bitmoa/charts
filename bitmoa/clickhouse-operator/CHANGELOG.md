@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.4.16 (2026-10-08)
+
+* Bump `clickhouse-operator` image to `0.27.4-debian-12-r1` (was `0.25.3-debian-12-r0`)
+
 ## 0.4.15 (2026-10-08)
 
 * Bump `clickhouse-keeper` image to `26.8.20-debian-12-r0` (was `26.8.19-debian-12-r0`)
