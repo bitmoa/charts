@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.4.52 (2026-10-08)
+
+* Bump `fluxcd-notification-controller` image to `1.9.4-debian-12-r6` (was `1.9.4-debian-12-r3`)
+
 ## 2.4.51 (2026-10-07)
 
 * Bump `os-shell` image to `12-debian-12-r76` (was `12-debian-12-r75`)
