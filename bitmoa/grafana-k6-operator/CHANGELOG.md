@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.9 (2026-10-09)
+
+* Bump `grafana-k6-operator` image to `1.6.0-debian-12-r3` (was `1.6.0-debian-12-r2`)
+
 ## 1.1.8 (2026-10-06)
 
 * Bump `grafana-k6` image to `2.3.0-debian-12-r3` (was `2.3.0-debian-12-r2`)
