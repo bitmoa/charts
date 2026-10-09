@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.2.0 (2026-10-09)
+
+* Bump `nessie` image to `0.109.0-debian-12-r0` (was `0.108.8-debian-12-r3`)
+
 ## 2.1.16 (2026-10-06)
 
 * Bump `nessie` image to `0.108.8-debian-12-r3` (was `0.108.8-debian-12-r2`)
