@@ -1,5 +1,9 @@
 # Changelog
 
+## 11.5.10 (2026-10-09)
+
+* Bump `prometheus-operator` image to `0.94.1-debian-12-r4` (was `0.94.1-debian-12-r3`)
+
 ## 11.5.9 (2026-10-08)
 
 * Bump `alertmanager` image to `0.34.1-debian-12-r4` (was `0.34.1-debian-12-r3`)
