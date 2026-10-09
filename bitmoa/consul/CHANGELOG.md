@@ -1,5 +1,9 @@
 # Changelog
 
+## 11.5.12 (2026-10-09)
+
+* Bump `consul` image to `2.0.4-debian-12-r4` (was `2.0.4-debian-12-r3`)
+
 ## 11.5.11 (2026-10-06)
 
 * Bump `os-shell` image to `12-debian-12-r76` (was `12-debian-12-r75`)
