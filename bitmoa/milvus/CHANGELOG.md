@@ -1,5 +1,9 @@
 # Changelog
 
+## 16.2.9 (2026-10-09)
+
+* Bump `milvus` image to `3.0.2-debian-12-r4` (was `3.0.2-debian-12-r3`)
+
 ## 16.2.8 (2026-10-07)
 
 * Bump `os-shell` image to `12-debian-12-r76` (was `12-debian-12-r75`)
