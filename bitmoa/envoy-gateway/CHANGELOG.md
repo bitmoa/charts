@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.2.11 (2026-10-09)
+
+* Bump `envoy-gateway` image to `1.9.2-debian-12-r3` (was `1.9.2-debian-12-r2`)
+
 ## 2.2.10 (2026-10-08)
 
 * Bump `envoy-ratelimit` image to `2026.10.6-debian-12-r1` (was `2026.10.6-debian-12-r0`)
