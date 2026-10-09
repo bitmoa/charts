@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.3.5 (2026-10-09)
+
+* Bump `grafana-alloy` image to `1.20.1-debian-12-r3` (was `1.20.1-debian-12-r2`)
+
 ## 1.3.4 (2026-10-09)
 
 * Bump `configmap-reload` image to `0.15.0-debian-12-r47` (was `0.15.0-debian-12-r46`)
