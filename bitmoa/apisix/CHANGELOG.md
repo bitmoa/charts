@@ -1,5 +1,9 @@
 # Changelog
 
+## 6.2.6 (2026-10-09)
+
+* Bump `apisix-ingress-controller` image to `2.2.0-debian-12-r6` (was `2.2.0-debian-12-r5`)
+
 ## 6.2.5 (2026-10-06)
 
 * Bump `os-shell` image to `12-debian-12-r76` (was `12-debian-12-r74`)
