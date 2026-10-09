@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.3.4 (2026-10-09)
+
+* Bump `configmap-reload` image to `0.15.0-debian-12-r47` (was `0.15.0-debian-12-r46`)
+
 ## 1.3.3 (2026-10-06)
 
 * Bump `configmap-reload` image to `0.15.0-debian-12-r46` (was `0.15.0-debian-12-r45`)
