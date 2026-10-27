@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.6.0 (2026-10-27)
+
+* Bump `rabbitmq-cluster-operator` image to `2.23.1-debian-12-r1` (was `2.23.0-debian-12-r0`)
+
 ## 4.5.6 (2026-10-09)
 
 * Bump `rmq-default-credential-updater` image to `1.0.17-debian-12-r3` (was `1.0.17-debian-12-r2`)
