@@ -1,5 +1,9 @@
 # Changelog
 
+## 7.5.1 (2026-10-27)
+
+* Bump `kubectl` image to `1.37.1-debian-12-r13` (was `1.37.1-debian-12-r5`)
+
 ## 7.5.0 (2026-10-27)
 
 * Bump `influxdb` image to `3.12.1-debian-12-r4` (was `3.12.0-debian-12-r2`)
