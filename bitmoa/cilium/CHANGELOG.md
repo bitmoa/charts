@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.3.13 (2026-10-27)
+
+* Bump `hubble-ui` image to `0.13.6-debian-12-r5` (was `0.13.6-debian-12-r1`)
+
 ## 3.3.12 (2026-10-27)
 
 * Bump `hubble-ui-backend` image to `0.13.6-debian-12-r6` (was `0.13.6-debian-12-r3`)
