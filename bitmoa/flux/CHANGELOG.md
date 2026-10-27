@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.4.54 (2026-10-27)
+
+* Bump `fluxcd-image-reflector-controller` image to `1.2.5-debian-12-r7` (was `1.2.5-debian-12-r5`)
+
 ## 2.4.53 (2026-10-09)
 
 * Bump `fluxcd-helm-controller` image to `1.6.5-debian-12-r3` (was `1.6.5-debian-12-r1`)
