@@ -1,5 +1,9 @@
 # Changelog
 
+## 26.2.3 (2026-10-27)
+
+* Bump `schema-registry` image to `8.3.2-debian-12-r3` (was `8.3.2-debian-12-r2`)
+
 ## 26.2.2 (2026-10-06)
 
 * Bump `schema-registry` image to `8.3.2-debian-12-r2` (was `8.3.2-debian-12-r1`)
