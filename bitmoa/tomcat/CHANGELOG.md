@@ -1,5 +1,9 @@
 # Changelog
 
+## 12.2.3 (2026-10-27)
+
+* Bump `tomcat` image to `11.0.27-debian-12-r5` (was `11.0.27-debian-12-r1`)
+
 ## 12.2.2 (2026-10-08)
 
 * Bump `tomcat` image to `11.0.27-debian-12-r1` (was `11.0.27-debian-12-r0`)
