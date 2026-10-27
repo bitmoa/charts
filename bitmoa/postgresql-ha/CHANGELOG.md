@@ -1,5 +1,9 @@
 # Changelog
 
+## 16.4.26 (2026-10-27)
+
+* Bump `os-shell` image to `12-debian-12-r82` (was `12-debian-12-r76`)
+
 ## 16.4.25 (2026-10-27)
 
 * Bump `postgres-exporter` image to `0.20.1-debian-12-r13` (was `0.20.1-debian-12-r11`)
