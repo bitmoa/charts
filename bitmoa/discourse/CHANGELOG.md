@@ -1,5 +1,9 @@
 # Changelog
 
+## 17.2.12 (2026-10-27)
+
+* Bump `discourse` image to `2026.10.0-debian-12-r13` (was `2026.10.0-debian-12-r9`)
+
 ## 17.2.11 (2026-10-08)
 
 * Bump `discourse` image to `2026.10.0-debian-12-r9` (was `2026.10.0-debian-12-r8`)
