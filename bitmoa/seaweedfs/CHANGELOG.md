@@ -1,5 +1,9 @@
 # Changelog
 
+## 6.2.10 (2026-10-27)
+
+* Bump `seaweedfs` image to `4.48.0-debian-12-r5` (was `4.48.0-debian-12-r0`)
+
 ## 6.2.9 (2026-10-27)
 
 * Bump `mariadb` image to `13.1.1-debian-12-r5` (was `13.1.1-debian-12-r3`)
