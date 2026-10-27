@@ -1,5 +1,9 @@
 # Changelog
 
+## 12.4.12 (2026-10-27)
+
+* Bump `os-shell` image to `12-debian-12-r82` (was `12-debian-12-r76`)
+
 ## 12.4.11 (2026-10-27)
 
 * Bump `cassandra-exporter` image to `2.3.8-debian-12-r75` (was `2.3.8-debian-12-r74`)
