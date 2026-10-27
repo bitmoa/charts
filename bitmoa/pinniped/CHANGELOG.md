@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.5.3 (2026-10-27)
+
+* Bump `pinniped` image to `0.47.0-debian-12-r8` (was `0.47.0-debian-12-r7`)
+
 ## 2.5.2 (2026-10-09)
 
 * Bump `pinniped` image to `0.47.0-debian-12-r7` (was `0.47.0-debian-12-r6`)
