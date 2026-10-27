@@ -1,5 +1,9 @@
 # Changelog
 
+## 7.5.2 (2026-10-27)
+
+* Bump `os-shell` image to `12-debian-12-r82` (was `12-debian-12-r76`)
+
 ## 7.5.1 (2026-10-27)
 
 * Bump `haproxy` image to `3.4.7-debian-12-r3` (was `3.4.6-debian-12-r3`)
