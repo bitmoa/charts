@@ -21,7 +21,7 @@ annotations:
     - name: nginx
       image: ghcr.io/bitmoa/nginx:1.31.8-debian-12-r2
     - name: os-shell
-      image: ghcr.io/bitmoa/os-shell:12-debian-12-r76
+      image: ghcr.io/bitmoa/os-shell:12-debian-12-r82
   licenses: Apache-2.0
   tanzuCategory: application
 apiVersion: v2
@@ -56,4 +56,4 @@ maintainers:
 name: harbor
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/harbor
-version: 27.3.1
+version: 27.3.2
