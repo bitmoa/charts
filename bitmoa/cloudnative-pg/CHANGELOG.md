@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.2.12 (2026-10-27)
+
+* Bump `plugin-barman-cloud` image to `0.15.1-debian-12-r2` (was `0.15.1-debian-12-r1`)
+
 ## 1.2.11 (2026-10-09)
 
 * Bump `plugin-barman-cloud` image to `0.15.1-debian-12-r1` (was `0.15.1-debian-12-r0`)
