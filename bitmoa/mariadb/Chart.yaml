@@ -9,7 +9,7 @@ annotations:
     - name: mysqld-exporter
       image: ghcr.io/bitmoa/mysqld-exporter:0.21.0-debian-12-r1
     - name: os-shell
-      image: ghcr.io/bitmoa/os-shell:12-debian-12-r76
+      image: ghcr.io/bitmoa/os-shell:12-debian-12-r82
   licenses: Apache-2.0
   tanzuCategory: service
 apiVersion: v2
@@ -37,4 +37,4 @@ maintainers:
 name: mariadb
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/mariadb
-version: 22.2.12
+version: 22.2.13
