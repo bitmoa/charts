@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.5.0 (2026-10-27)
+
+* Bump `gitlab-runner-helper` image to `19.4.2-debian-12-r0` (was `19.4.1-debian-12-r5`)
+
 ## 1.4.5 (2026-10-09)
 
 * Bump `gitlab-runner-helper` image to `19.4.1-debian-12-r5` (was `19.4.1-debian-12-r3`)
