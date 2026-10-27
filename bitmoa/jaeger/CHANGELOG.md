@@ -1,5 +1,9 @@
 # Changelog
 
+## 6.3.3 (2026-10-27)
+
+* Bump `cassandra` image to `5.0.9-debian-12-r7` (was `5.0.9-debian-12-r5`)
+
 ## 6.3.2 (2026-10-27)
 
 * Bump `jaeger` image to `2.22.0-debian-12-r3` (was `2.22.0-debian-12-r1`)
