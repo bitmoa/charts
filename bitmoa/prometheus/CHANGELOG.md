@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.4.1 (2026-10-27)
+
+* Bump `thanos` image to `0.42.5-debian-12-r0` (was `0.42.4-debian-12-r5`)
+
 ## 2.4.0 (2026-10-27)
 
 * Bump `prometheus` image to `3.15.1-debian-12-r0` (was `3.15.0-debian-12-r0`)
