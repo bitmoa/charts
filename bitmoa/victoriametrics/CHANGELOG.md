@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.3.6 (2026-10-27)
+
+* Bump `os-shell` image to `12-debian-12-r82` (was `12-debian-12-r76`)
+
 ## 0.3.5 (2026-10-27)
 
 * Bump `victoriametrics-vmalert` image to `1.154.1-debian-12-r0` (was `1.152.0-debian-12-r0`)
