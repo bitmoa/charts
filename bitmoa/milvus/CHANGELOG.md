@@ -1,5 +1,9 @@
 # Changelog
 
+## 16.3.0 (2026-10-27)
+
+* Bump `milvus` image to `3.0.4-debian-12-r1` (was `3.0.2-debian-12-r4`)
+
 ## 16.2.9 (2026-10-09)
 
 * Bump `milvus` image to `3.0.2-debian-12-r4` (was `3.0.2-debian-12-r3`)
