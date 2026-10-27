@@ -1,5 +1,9 @@
 # Changelog
 
+## 9.3.6 (2026-10-27)
+
+* Bump `nats-exporter` image to `0.20.3-debian-12-r1` (was `0.20.2-debian-12-r7`)
+
 ## 9.3.5 (2026-10-09)
 
 * Bump `nats-exporter` image to `0.20.2-debian-12-r7` (was `0.20.2-debian-12-r6`)
