@@ -1,5 +1,9 @@
 # Changelog
 
+## 32.5.16 (2026-10-27)
+
+* Bump `kafka` image to `4.3.1-debian-12-r10` (was `4.3.1-debian-12-r7`)
+
 ## 32.5.15 (2026-10-09)
 
 * Bump `kubectl` image to `1.37.1-debian-12-r5` (was `1.37.1-debian-12-r4`)
