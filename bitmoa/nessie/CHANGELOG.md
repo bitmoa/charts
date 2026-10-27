@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.2.2 (2026-10-27)
+
+* Bump `os-shell` image to `12-debian-12-r82` (was `12-debian-12-r75`)
+
 ## 2.2.1 (2026-10-27)
 
 * Bump `postgresql` image to `18.6.0-debian-12-r24` (was `18.6.0-debian-12-r16`)
