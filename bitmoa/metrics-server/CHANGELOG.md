@@ -1,5 +1,9 @@
 # Changelog
 
+## 7.5.4 (2026-10-27)
+
+* Bump `metrics-server` image to `0.9.0-debian-12-r11` (was `0.9.0-debian-12-r10`)
+
 ## 7.5.3 (2026-10-09)
 
 * Bump `metrics-server` image to `0.9.0-debian-12-r10` (was `0.9.0-debian-12-r9`)
