@@ -1,5 +1,9 @@
 # Changelog
 
+## 20.1.12 (2026-10-27)
+
+* Bump `phpmyadmin` image to `5.2.3-debian-12-r57` (was `5.2.3-debian-12-r52`)
+
 ## 20.1.11 (2026-10-27)
 
 * Bump `apache-exporter` image to `1.1.1-debian-12-r14` (was `1.1.1-debian-12-r12`)
