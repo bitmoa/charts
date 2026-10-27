@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.4.56 (2026-10-27)
+
+* Bump `fluxcd-image-automation-controller` image to `1.3.0-debian-12-r1` (was `1.2.5-debian-12-r4`)
+
 ## 2.4.55 (2026-10-27)
 
 * Bump `fluxcd-helm-controller` image to `1.6.5-debian-12-r4` (was `1.6.5-debian-12-r3`)
