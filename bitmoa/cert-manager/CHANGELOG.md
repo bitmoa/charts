@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.7.0 (2026-10-27)
+
+* Bump `acmesolver` image to `1.21.3-debian-12-r1` (was `1.21.2-debian-12-r4`)
+
 ## 1.6.15 (2026-10-08)
 
 * Bump `cert-manager` image to `1.21.2-debian-12-r4` (was `1.21.2-debian-12-r3`)

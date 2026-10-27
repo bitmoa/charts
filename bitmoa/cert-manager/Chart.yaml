@@ -5,7 +5,7 @@ annotations:
   category: CertificateAuthority
   images: |
     - name: acmesolver
-      image: ghcr.io/bitmoa/acmesolver:1.21.2-debian-12-r4
+      image: ghcr.io/bitmoa/acmesolver:1.21.3-debian-12-r1
     - name: cainjector
       image: ghcr.io/bitmoa/cainjector:1.21.2-debian-12-r4
     - name: cert-manager
@@ -15,7 +15,7 @@ annotations:
   licenses: Apache-2.0
   tanzuCategory: clusterUtility
 apiVersion: v2
-appVersion: 1.21.2
+appVersion: 1.21.3
 dependencies:
 - name: common
   repository: https://charts.bitmoa.net/bitmoa/
@@ -37,4 +37,4 @@ maintainers:
 name: cert-manager
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/cert-manager
-version: 1.6.15
+version: 1.7.0
