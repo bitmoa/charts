@@ -1,5 +1,9 @@
 # Changelog
 
+## 16.7.6 (2026-10-27)
+
+* Bump `mongodb-exporter` image to `0.53.0-debian-12-r11` (was `0.53.0-debian-12-r6`)
+
 ## 16.7.5 (2026-10-09)
 
 * Bump `mongodb-exporter` image to `0.53.0-debian-12-r6` (was `0.53.0-debian-12-r5`)
