@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.6.1 (2026-10-27)
+
+* Bump `sealed-secrets-controller` image to `0.40.0-debian-12-r2` (was `0.40.0-debian-12-r0`)
+
 ## 2.6.0 (2026-09-15)
 
 * Bump `sealed-secrets-controller` image to `0.40.0-debian-12-r0` (was `0.31.0-debian-12-r0`)
