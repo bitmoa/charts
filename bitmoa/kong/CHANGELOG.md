@@ -1,5 +1,9 @@
 # Changelog
 
+## 15.6.2 (2026-10-27)
+
+* Bump `kong-ingress-controller` image to `3.5.14-debian-12-r0` (was `3.5.13-debian-12-r11`)
+
 ## 15.6.1 (2026-10-27)
 
 * Bump `kong-ingress-controller` image to `3.5.13-debian-12-r11` (was `3.5.13-debian-12-r9`)
