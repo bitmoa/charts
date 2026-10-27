@@ -9,7 +9,7 @@ annotations:
     - name: dex
       image: ghcr.io/bitmoa/dex:2.46.1-debian-12-r2
     - name: os-shell
-      image: ghcr.io/bitmoa/os-shell:12-debian-12-r76
+      image: ghcr.io/bitmoa/os-shell:12-debian-12-r82
     - name: redis
       image: ghcr.io/bitmoa/redis:8.10.3-debian-12-r0
   licenses: Apache-2.0
@@ -40,4 +40,4 @@ maintainers:
 name: argo-cd
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/argo-cd
-version: 11.4.2
+version: 11.4.3
