@@ -1,5 +1,9 @@
 # Changelog
 
+## 11.4.2 (2026-10-27)
+
+* Bump `redis` image to `8.10.3-debian-12-r0` (was `8.10.2-debian-12-r3`)
+
 ## 11.4.1 (2026-10-27)
 
 * Bump `dex` image to `2.46.1-debian-12-r2` (was `2.45.1-debian-12-r21`)
