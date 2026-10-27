@@ -1,5 +1,9 @@
 # Changelog
 
+## 12.4.10 (2026-10-27)
+
+* Bump `cassandra` image to `5.0.9-debian-12-r7` (was `5.0.9-debian-12-r5`)
+
 ## 12.4.9 (2026-10-06)
 
 * Bump `os-shell` image to `12-debian-12-r76` (was `12-debian-12-r75`)
