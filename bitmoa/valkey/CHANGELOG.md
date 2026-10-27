@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.2.1 (2026-10-27)
+
+* Bump `valkey` image to `9.1.2-debian-12-r6` (was `9.1.2-debian-12-r4`)
+
 ## 3.2.0 (2026-10-27)
 
 * Bump `valkey-sentinel` image to `9.1.3-debian-12-r0` (was `9.1.2-debian-12-r4`)
