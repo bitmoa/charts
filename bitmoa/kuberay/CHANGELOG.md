@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.6.9 (2026-10-27)
+
+* Bump `kuberay-operator` image to `1.7.1-debian-12-r6` (was `1.7.1-debian-12-r3`)
+
 ## 1.6.8 (2026-10-09)
 
 * Bump `kuberay-apiserver` image to `1.7.1-debian-12-r4` (was `1.7.1-debian-12-r3`)
