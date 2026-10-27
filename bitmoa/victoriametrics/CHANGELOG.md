@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.3.5 (2026-10-27)
+
+* Bump `victoriametrics-vmalert` image to `1.154.1-debian-12-r0` (was `1.152.0-debian-12-r0`)
+
 ## 0.3.4 (2026-10-27)
 
 * Bump `victoriametrics-vmselect` image to `1.153.0-debian-12-r1` (was `1.151.0-debian-12-r1`)
