@@ -9,7 +9,7 @@ annotations:
     - name: drupal
       image: ghcr.io/bitmoa/drupal:11.4.11-debian-12-r5
     - name: os-shell
-      image: ghcr.io/bitmoa/os-shell:12-debian-12-r76
+      image: ghcr.io/bitmoa/os-shell:12-debian-12-r82
   licenses: Apache-2.0
   tanzuCategory: application
 apiVersion: v2
@@ -43,4 +43,4 @@ maintainers:
 name: drupal
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/drupal
-version: 23.4.0
+version: 23.4.1
