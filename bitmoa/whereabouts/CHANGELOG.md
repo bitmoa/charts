@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.3.4 (2026-10-27)
+
+* Bump `whereabouts` image to `0.9.4-debian-12-r15` (was `0.9.4-debian-12-r12`)
+
 ## 1.3.3 (2026-10-06)
 
 * Bump `whereabouts` image to `0.9.4-debian-12-r12` (was `0.9.4-debian-12-r11`)
