@@ -1,5 +1,9 @@
 # Changelog
 
+## 26.4.0 (2026-10-27)
+
+* Bump `wordpress` image to `7.1.3-debian-12-r5` (was `7.1.2-debian-12-r4`)
+
 ## 26.3.10 (2026-10-27)
 
 * Bump `apache-exporter` image to `1.1.1-debian-12-r14` (was `1.1.1-debian-12-r12`)
