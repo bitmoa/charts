@@ -1,5 +1,9 @@
 # Changelog
 
+## 27.2.7 (2026-10-27)
+
+* Bump `harbor-adapter-trivy` image to `2.15.4-debian-12-r2` (was `2.15.2-debian-12-r11`)
+
 ## 27.2.6 (2026-10-27)
 
 * Bump `harbor-registryctl` image to `2.15.4-debian-12-r5` (was `2.15.2-debian-12-r21`)
