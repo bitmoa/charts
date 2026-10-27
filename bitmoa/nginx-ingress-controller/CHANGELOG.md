@@ -1,5 +1,9 @@
 # Changelog
 
+## 12.1.10 (2026-10-27)
+
+* Bump `nginx` image to `1.31.8-debian-12-r2` (was `1.31.6-debian-12-r5`)
+
 ## 12.1.8 (2026-10-06)
 
 * Bump `nginx` image to `1.31.6-debian-12-r5` (was `1.31.6-debian-12-r4`)
