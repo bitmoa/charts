@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.4.1 (2026-10-27)
+
+* Bump `os-shell` image to `12-debian-12-r82` (was `12-debian-12-r76`)
+
 ## 5.4.0 (2026-10-27)
 
 * Bump `concourse` image to `8.3.2-debian-12-r4` (was `8.3.1-debian-12-r3`)
