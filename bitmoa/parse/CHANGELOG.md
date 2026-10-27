@@ -1,5 +1,9 @@
 # Changelog
 
+## 25.5.3 (2026-10-27)
+
+* Bump `os-shell` image to `12-debian-12-r82` (was `12-debian-12-r74`)
+
 ## 25.5.2 (2026-10-27)
 
 * Bump `parse-dashboard` image to `9.2.0-debian-12-r9` (was `9.2.0-debian-12-r5`)
