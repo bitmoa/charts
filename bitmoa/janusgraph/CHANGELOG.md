@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.5.1 (2026-10-27)
+
+* Bump `os-shell` image to `12-debian-12-r82` (was `12-debian-12-r76`)
+
 ## 1.5.0 (2026-10-27)
 
 * Bump `janusgraph` image to `1.2.0-debian-12-r1` (was `1.1.0-debian-12-r51`)
