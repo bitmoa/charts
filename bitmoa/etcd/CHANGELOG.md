@@ -1,5 +1,9 @@
 # Changelog
 
+## 12.3.0 (2026-10-27)
+
+* Bump `etcd` image to `3.7.3-debian-12-r0` (was `3.7.2-debian-12-r3`)
+
 ## 12.2.6 (2026-10-09)
 
 * Bump `etcd` image to `3.7.2-debian-12-r3` (was `3.7.2-debian-12-r2`)
