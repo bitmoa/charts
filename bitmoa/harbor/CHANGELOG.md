@@ -1,5 +1,9 @@
 # Changelog
 
+## 27.3.0 (2026-10-27)
+
+* Bump `harbor-portal` image to `2.15.4-debian-12-r2` (was `2.15.3-debian-12-r0`)
+
 ## 27.2.8 (2026-10-27)
 
 * Bump `harbor-registry` image to `2.15.4-debian-12-r2` (was `2.15.2-debian-12-r10`)
