@@ -1,5 +1,9 @@
 # Changelog
 
+## 16.7.10 (2026-10-27)
+
+* Bump `os-shell` image to `12-debian-12-r82` (was `12-debian-12-r76`)
+
 ## 16.7.9 (2026-10-27)
 
 * Bump `mongodb-exporter` image to `0.54.0-debian-12-r0` (was `0.53.0-debian-12-r11`)
