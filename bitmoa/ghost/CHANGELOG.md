@@ -1,5 +1,9 @@
 # Changelog
 
+## 25.5.0 (2026-10-27)
+
+* Bump `ghost` image to `6.72.0-debian-12-r0` (was `6.67.0-debian-12-r5`)
+
 ## 25.4.3 (2026-10-27)
 
 * Bump `ghost` image to `6.67.0-debian-12-r5` (was `6.67.0-debian-12-r1`)
