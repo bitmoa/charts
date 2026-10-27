@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.3.7 (2026-10-27)
+
+* Bump `alertmanager` image to `0.34.1-debian-12-r6` (was `0.34.1-debian-12-r4`)
+
 ## 2.3.6 (2026-10-08)
 
 * Bump `alertmanager` image to `0.34.1-debian-12-r4` (was `0.34.1-debian-12-r3`)
