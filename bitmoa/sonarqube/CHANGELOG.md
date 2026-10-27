@@ -1,5 +1,9 @@
 # Changelog
 
+## 8.3.1 (2026-10-27)
+
+* Bump `os-shell` image to `12-debian-12-r82` (was `12-debian-12-r76`)
+
 ## 8.3.0 (2026-10-27)
 
 * Bump `sonarqube` image to `26.10.0-debian-12-r2` (was `26.9.0-debian-12-r5`)
