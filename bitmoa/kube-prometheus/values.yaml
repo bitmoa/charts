@@ -1440,7 +1440,7 @@ prometheus:
     image:
       registry: ghcr.io
       repository: bitmoa/thanos
-      tag: 0.42.4-debian-12-r7
+      tag: 0.42.5-debian-12-r0
       digest: ""
       ## ref: https://kubernetes.io/docs/concepts/containers/images/#pre-pulled-images
       ##
@@ -3372,7 +3372,7 @@ thanosRuler:
   image:
     registry: ghcr.io
     repository: bitmoa/thanos
-    tag: 0.42.4-debian-12-r7
+    tag: 0.42.5-debian-12-r0
     digest: ""
     pullPolicy: IfNotPresent
     pullSecrets: []

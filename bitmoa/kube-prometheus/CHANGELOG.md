@@ -1,5 +1,9 @@
 # Changelog
 
+## 11.5.15 (2026-10-27)
+
+* Bump `thanos` image to `0.42.5-debian-12-r0` (was `0.42.4-debian-12-r7`)
+
 ## 11.5.14 (2026-10-27)
 
 * Bump `thanos` image to `0.42.4-debian-12-r7` (was `0.39.2-debian-12-r0`)
