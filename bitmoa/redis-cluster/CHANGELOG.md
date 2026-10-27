@@ -1,5 +1,9 @@
 # Changelog
 
+## 13.3.1 (2026-10-27)
+
+* Bump `redis-exporter` image to `1.93.0-debian-12-r3` (was `1.93.0-debian-12-r2`)
+
 ## 13.3.0 (2026-10-27)
 
 * Bump `redis-cluster` image to `8.10.3-debian-12-r0` (was `8.10.2-debian-12-r3`)
