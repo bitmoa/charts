@@ -1,5 +1,9 @@
 # Changelog
 
+## 25.1.6 (2026-10-27)
+
+* Bump `wildfly` image to `41.0.1-debian-12-r7` (was `41.0.1-debian-12-r5`)
+
 ## 25.1.5 (2026-10-08)
 
 * Bump `wildfly` image to `41.0.1-debian-12-r5` (was `41.0.1-debian-12-r4`)
