@@ -1,5 +1,9 @@
 # Changelog
 
+## 22.3.0 (2026-10-27)
+
+* Bump `redis-sentinel` image to `8.10.3-debian-12-r0` (was `8.10.2-debian-12-r3`)
+
 ## 22.2.18 (2026-10-07)
 
 * Bump `os-shell` image to `12-debian-12-r76` (was `12-debian-12-r75`)
