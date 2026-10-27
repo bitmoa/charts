@@ -1,5 +1,9 @@
 # Changelog
 
+## 22.2.12 (2026-10-27)
+
+* Bump `mysqld-exporter` image to `0.21.0-debian-12-r1` (was `0.20.0-debian-12-r10`)
+
 ## 22.2.11 (2026-10-27)
 
 * Bump `mysqld-exporter` image to `0.20.0-debian-12-r10` (was `0.20.0-debian-12-r7`)
