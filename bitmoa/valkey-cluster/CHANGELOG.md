@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.1.12 (2026-10-27)
+
+* Bump `valkey-cluster` image to `9.1.2-debian-12-r6` (was `9.1.2-debian-12-r3`)
+
 ## 3.1.11 (2026-10-07)
 
 * Bump `os-shell` image to `12-debian-12-r76` (was `12-debian-12-r75`)
