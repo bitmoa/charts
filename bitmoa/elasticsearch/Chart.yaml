@@ -5,7 +5,7 @@ annotations:
   category: Analytics
   images: |
     - name: elasticsearch
-      image: ghcr.io/bitmoa/elasticsearch:9.5.5-debian-12-r0
+      image: ghcr.io/bitmoa/elasticsearch:9.5.5-debian-12-r5
     - name: elasticsearch-exporter
       image: ghcr.io/bitmoa/elasticsearch-exporter:1.11.0-debian-12-r11
     - name: os-shell
@@ -36,4 +36,4 @@ maintainers:
 name: elasticsearch
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/elasticsearch
-version: 22.3.1
+version: 22.3.2
