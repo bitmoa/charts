@@ -1,5 +1,9 @@
 # Changelog
 
+## 11.6.7 (2026-10-27)
+
+* Bump `apache-exporter` image to `1.1.1-debian-12-r14` (was `1.1.1-debian-12-r12`)
+
 ## 11.6.6 (2026-10-09)
 
 * Bump `git` image to `2.56.0-debian-12-r3` (was `2.56.0-debian-12-r2`)
