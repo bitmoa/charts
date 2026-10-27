@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.5.3 (2026-10-27)
+
+* Bump `git` image to `2.56.0-debian-12-r7` (was `2.56.0-debian-12-r3`)
+
 ## 4.5.2 (2026-10-27)
 
 * Bump `pytorch` image to `2.14.1-debian-12-r1` (was `2.14.1-debian-12-r0`)
