@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.6.0 (2026-10-27)
+
+* Bump `neo4j` image to `2026.10.1-debian-12-r1` (was `2026.9.0-debian-12-r4`)
+
 ## 0.5.7 (2026-10-27)
 
 * Bump `neo4j` image to `2026.9.0-debian-12-r4` (was `2026.9.0-debian-12-r3`)
