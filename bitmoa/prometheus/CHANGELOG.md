@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.4.0 (2026-10-27)
+
+* Bump `prometheus` image to `3.15.1-debian-12-r0` (was `3.15.0-debian-12-r0`)
+
 ## 2.3.7 (2026-10-27)
 
 * Bump `alertmanager` image to `0.34.1-debian-12-r6` (was `0.34.1-debian-12-r4`)
