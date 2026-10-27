@@ -1,5 +1,9 @@
 # Changelog
 
+## 16.7.9 (2026-10-27)
+
+* Bump `mongodb-exporter` image to `0.54.0-debian-12-r0` (was `0.53.0-debian-12-r11`)
+
 ## 16.7.8 (2026-10-27)
 
 * Bump `nginx` image to `1.31.8-debian-12-r2` (was `1.31.6-debian-12-r5`)
