@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.6.0 (2026-10-27)
+
+* Bump `gitea` image to `28.2.0-debian-12-r4` (was `28.1.0-debian-12-r1`)
+
 ## 3.5.1 (2026-10-08)
 
 * Bump `gitea` image to `28.1.0-debian-12-r1` (was `28.1.0-debian-12-r0`)
