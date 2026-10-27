@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.5.0 (2026-10-27)
+
+* Bump `janusgraph` image to `1.2.0-debian-12-r1` (was `1.1.0-debian-12-r51`)
+
 ## 1.4.20 (2026-10-27)
 
 * Bump `janusgraph` image to `1.1.0-debian-12-r51` (was `1.1.0-debian-12-r48`)
