@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.4.1 (2026-10-27)
+
+* Bump `os-shell` image to `12-debian-12-r82` (was `12-debian-12-r76`)
+
 ## 5.4.0 (2026-10-27)
 
 * Bump `scylladb` image to `2026.3.4-debian-12-r1` (was `2026.3.3-debian-12-r0`)
