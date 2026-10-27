@@ -1,5 +1,9 @@
 # Changelog
 
+## 7.4.3 (2026-10-27)
+
+* Bump `fluentd` image to `1.19.4-debian-12-r3` (was `1.19.4-debian-12-r2`)
+
 ## 7.4.2 (2026-10-06)
 
 * Bump `fluentd` image to `1.19.4-debian-12-r2` (was `1.19.4-debian-12-r1`)
