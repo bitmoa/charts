@@ -1,5 +1,9 @@
 # Changelog
 
+## 9.2.5 (2026-10-27)
+
+* Bump `external-dns` image to `0.23.0-debian-12-r5` (was `0.23.0-debian-12-r4`)
+
 ## 9.2.4 (2026-10-08)
 
 * Bump `external-dns` image to `0.23.0-debian-12-r4` (was `0.23.0-debian-12-r3`)
