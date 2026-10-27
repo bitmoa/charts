@@ -1,5 +1,9 @@
 # Changelog
 
+## 7.1.9 (2026-10-27)
+
+* Bump `git` image to `2.56.0-debian-12-r7` (was `2.56.0-debian-12-r3`)
+
 ## 7.1.8 (2026-10-09)
 
 * Bump `git` image to `2.56.0-debian-12-r3` (was `2.56.0-debian-12-r1`)
