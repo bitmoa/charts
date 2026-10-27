@@ -1,5 +1,9 @@
 # Changelog
 
+## 8.2.4 (2026-10-27)
+
+* Bump `oauth2-proxy` image to `7.15.5-debian-12-r5` (was `7.15.5-debian-12-r3`)
+
 ## 8.2.3 (2026-10-09)
 
 * Bump `oauth2-proxy` image to `7.15.5-debian-12-r3` (was `7.15.5-debian-12-r2`)
