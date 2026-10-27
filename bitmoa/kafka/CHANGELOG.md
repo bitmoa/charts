@@ -1,5 +1,9 @@
 # Changelog
 
+## 32.6.0 (2026-10-27)
+
+* Bump `kafka` image to `4.3.2-debian-12-r0` (was `4.3.1-debian-12-r10`)
+
 ## 32.5.18 (2026-10-27)
 
 * Bump `os-shell` image to `12-debian-12-r82` (was `12-debian-12-r76`)
