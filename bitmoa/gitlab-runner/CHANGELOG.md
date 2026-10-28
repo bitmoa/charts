@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.7.0 (2026-10-28)
+
+* Bump `gitlab-runner` image to `19.5.2-debian-12-r0` (was `19.5.1-debian-12-r0`)
+
 ## 1.6.0 (2026-10-27)
 
 * Bump `gitlab-runner` image to `19.5.1-debian-12-r0` (was `19.4.2-debian-12-r0`)
