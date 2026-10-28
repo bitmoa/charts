@@ -1,5 +1,9 @@
 # Changelog
 
+## 7.5.3 (2026-10-28)
+
+* Bump `kubectl` image to `1.37.2-debian-12-r0` (was `1.37.1-debian-12-r13`)
+
 ## 7.5.2 (2026-10-27)
 
 * Bump `os-shell` image to `12-debian-12-r82` (was `12-debian-12-r76`)
