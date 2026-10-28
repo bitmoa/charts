@@ -1,5 +1,9 @@
 # Changelog
 
+## 26.5.0 (2026-10-28)
+
+* Bump `wordpress` image to `7.1.4-debian-12-r0` (was `7.1.3-debian-12-r5`)
+
 ## 26.4.1 (2026-10-27)
 
 * Bump `os-shell` image to `12-debian-12-r82` (was `12-debian-12-r76`)
