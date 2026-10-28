@@ -1,5 +1,9 @@
 # Changelog
 
+## 13.9.0 (2026-10-28)
+
+* Bump `jenkins` image to `2.580.2-debian-12-r0` (was `2.580.1-debian-12-r2`)
+
 ## 13.8.9 (2026-10-27)
 
 * Bump `os-shell` image to `12-debian-12-r82` (was `12-debian-12-r76`)
