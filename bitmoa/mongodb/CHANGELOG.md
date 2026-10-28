@@ -1,5 +1,9 @@
 # Changelog
 
+## 16.8.1 (2026-10-28)
+
+* Bump `kubectl` image to `1.37.2-debian-12-r0` (was `1.37.1-debian-12-r13`)
+
 ## 16.8.0 (2026-10-27)
 
 * Bump `mongodb` image to `9.0.4-debian-12-r6` (was `9.0.2-debian-12-r2`)
