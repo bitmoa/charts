@@ -1,5 +1,9 @@
 # Changelog
 
+## 6.3.0 (2026-10-28)
+
+* Bump `seaweedfs` image to `4.51.0-debian-12-r1` (was `4.48.0-debian-12-r5`)
+
 ## 6.2.12 (2026-10-27)
 
 * Bump `os-shell` image to `12-debian-12-r82` (was `12-debian-12-r76`)
