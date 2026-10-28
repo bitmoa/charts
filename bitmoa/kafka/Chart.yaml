@@ -9,7 +9,7 @@ annotations:
     - name: kafka
       image: ghcr.io/bitmoa/kafka:4.3.2-debian-12-r0
     - name: kubectl
-      image: ghcr.io/bitmoa/kubectl:1.37.1-debian-12-r13
+      image: ghcr.io/bitmoa/kubectl:1.37.2-debian-12-r0
     - name: os-shell
       image: ghcr.io/bitmoa/os-shell:12-debian-12-r82
   licenses: Apache-2.0
@@ -38,4 +38,4 @@ maintainers:
 name: kafka
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/kafka
-version: 32.6.0
+version: 32.6.1
