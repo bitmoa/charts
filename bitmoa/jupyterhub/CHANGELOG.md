@@ -1,5 +1,9 @@
 # Changelog
 
+## 10.3.2 (2026-10-28)
+
+* Bump `configurable-http-proxy` image to `5.3.0-debian-12-r7` (was `5.3.0-debian-12-r6`)
+
 ## 10.3.1 (2026-10-27)
 
 * Bump `os-shell` image to `12-debian-12-r82` (was `12-debian-12-r76`)
