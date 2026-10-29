@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.4.58 (2026-10-29)
+
+* Bump `fluxcd-notification-controller` image to `1.10.0-debian-12-r0` (was `1.9.4-debian-12-r6`)
+
 ## 2.4.57 (2026-10-28)
 
 * Bump `fluxcd-kustomize-controller` image to `1.10.1-debian-12-r0` (was `1.9.6-debian-12-r2`)
