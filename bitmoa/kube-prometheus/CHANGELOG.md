@@ -1,5 +1,9 @@
 # Changelog
 
+## 11.5.16 (2026-10-29)
+
+* Bump `alertmanager` image to `0.34.2-debian-12-r0` (was `0.34.1-debian-12-r6`)
+
 ## 11.5.15 (2026-10-27)
 
 * Bump `thanos` image to `0.42.5-debian-12-r0` (was `0.42.4-debian-12-r7`)
