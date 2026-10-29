@@ -1,5 +1,9 @@
 # Changelog
 
+## 14.4.0 (2026-10-29)
+
+* Bump `mastodon` image to `4.7.4-debian-12-r0` (was `4.7.3-debian-12-r7`)
+
 ## 14.3.6 (2026-10-27)
 
 * Bump `os-shell` image to `12-debian-12-r82` (was `12-debian-12-r76`)
