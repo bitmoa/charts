@@ -1,5 +1,9 @@
 # Changelog
 
+## 27.3.3 (2026-10-31)
+
+* Bump `harbor-jobservice` image to `2.15.4-debian-12-r7` (was `2.15.3-debian-12-r1`)
+
 ## 27.3.2 (2026-10-27)
 
 * Bump `os-shell` image to `12-debian-12-r82` (was `12-debian-12-r76`)
