@@ -1,5 +1,9 @@
 # Changelog
 
+## 21.3.0 (2026-10-31)
+
+* Bump `contour` image to `1.33.8-debian-12-r0` (was `1.33.7-debian-12-r6`)
+
 ## 21.2.18 (2026-10-27)
 
 * Bump `nginx` image to `1.31.8-debian-12-r2` (was `1.31.6-debian-12-r5`)
