@@ -1,5 +1,9 @@
 # Changelog
 
+## 11.4.4 (2026-11-01)
+
+* Bump `dex` image to `2.46.1-debian-12-r3` (was `2.46.1-debian-12-r2`)
+
 ## 11.4.3 (2026-10-27)
 
 * Bump `os-shell` image to `12-debian-12-r82` (was `12-debian-12-r76`)
