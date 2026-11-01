@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.2.6 (2026-11-01)
+
+* Bump `kubectl` image to `1.37.2-debian-12-r1` (was `1.37.2-debian-12-r0`)
+
 ## 3.2.5 (2026-10-28)
 
 * Bump `kubectl` image to `1.37.2-debian-12-r0` (was `1.37.1-debian-12-r13`)
