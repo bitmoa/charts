@@ -1,5 +1,9 @@
 # Changelog
 
+## 28.2.6 (2026-11-01)
+
+* Bump `os-shell` image to `12-debian-12-r83` (was `12-debian-12-r82`)
+
 ## 28.2.5 (2026-11-01)
 
 * Bump `moodle` image to `5.3.0-debian-12-r8` (was `5.3.0-debian-12-r7`)
