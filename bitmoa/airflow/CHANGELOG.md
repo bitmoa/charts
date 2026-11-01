@@ -1,5 +1,9 @@
 # Changelog
 
+## 25.2.10 (2026-11-01)
+
+* Bump `airflow` image to `3.3.2-debian-12-r11` (was `3.3.2-debian-12-r10`)
+
 ## 25.2.9 (2026-10-27)
 
 * Bump `airflow` image to `3.3.2-debian-12-r10` (was `3.3.2-debian-12-r5`)
