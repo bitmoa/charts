@@ -1,5 +1,9 @@
 # Changelog
 
+## 16.3.9 (2026-11-01)
+
+* Bump `mariadb-galera` image to `13.1.1-debian-12-r6` (was `13.1.1-debian-12-r5`)
+
 ## 16.3.8 (2026-10-27)
 
 * Bump `mysqld-exporter` image to `0.21.0-debian-12-r1` (was `0.20.0-debian-12-r10`)
