@@ -1,5 +1,9 @@
 # Changelog
 
+## 12.2.6 (2026-11-01)
+
+* Bump `os-shell` image to `12-debian-12-r83` (was `12-debian-12-r82`)
+
 ## 12.2.5 (2026-10-29)
 
 * Bump `tomcat` image to `11.0.27-debian-12-r6` (was `11.0.27-debian-12-r5`)
