@@ -1,5 +1,9 @@
 # Changelog
 
+## 13.9.2 (2026-11-01)
+
+* Bump `jenkins-agent` image to `0.3395.0-debian-12-r2` (was `0.3395.0-debian-12-r1`)
+
 ## 13.9.1 (2026-11-01)
 
 * Bump `jenkins` image to `2.580.2-debian-12-r2` (was `2.580.2-debian-12-r0`)
