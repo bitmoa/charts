@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.4.2 (2026-11-01)
+
+* Bump `os-shell` image to `12-debian-12-r83` (was `12-debian-12-r82`)
+
 ## 3.4.1 (2026-11-01)
 
 * Bump `memcached` image to `1.6.45-debian-12-r9` (was `1.6.45-debian-12-r8`)
