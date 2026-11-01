@@ -1,5 +1,9 @@
 # Changelog
 
+## 10.3.3 (2026-11-01)
+
+* Bump `configurable-http-proxy` image to `5.4.0-debian-12-r0` (was `5.3.0-debian-12-r7`)
+
 ## 10.3.2 (2026-10-28)
 
 * Bump `configurable-http-proxy` image to `5.3.0-debian-12-r7` (was `5.3.0-debian-12-r6`)
