@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.5.43 (2026-11-01)
+
+* Bump `os-shell` image to `12-debian-12-r83` (was `12-debian-12-r82`)
+
 ## 0.5.42 (2026-11-01)
 
 * Bump `keydb` image to `6.3.4-debian-12-r54` (was `6.3.4-debian-12-r53`)
