@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.13.1 (2026-11-01)
+
+* Bump `vault-csi-provider` image to `1.7.4-debian-12-r13` (was `1.7.4-debian-12-r12`)
+
 ## 1.13.0 (2026-10-29)
 
 * Bump `vault` image to `2.2.1-debian-12-r0` (was `2.1.2-debian-12-r0`)
