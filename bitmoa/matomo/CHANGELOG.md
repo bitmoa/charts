@@ -1,5 +1,9 @@
 # Changelog
 
+## 11.4.3 (2026-11-01)
+
+* Bump `os-shell` image to `12-debian-12-r83` (was `12-debian-12-r82`)
+
 ## 11.4.2 (2026-11-01)
 
 * Bump `matomo` image to `5.14.2-debian-12-r3` (was `5.14.2-debian-12-r2`)
