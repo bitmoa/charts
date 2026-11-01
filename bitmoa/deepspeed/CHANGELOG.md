@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.5.3 (2026-11-01)
+
+* Bump `deepspeed` image to `0.19.8-debian-12-r3` (was `0.19.8-debian-12-r2`)
+
 ## 2.5.2 (2026-10-27)
 
 * Bump `os-shell` image to `12-debian-12-r82` (was `12-debian-12-r76`)
