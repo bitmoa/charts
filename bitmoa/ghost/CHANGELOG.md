@@ -1,5 +1,9 @@
 # Changelog
 
+## 25.5.3 (2026-11-01)
+
+* Bump `os-shell` image to `12-debian-12-r83` (was `12-debian-12-r82`)
+
 ## 25.5.2 (2026-11-01)
 
 * Bump `ghost` image to `6.72.0-debian-12-r1` (was `6.72.0-debian-12-r0`)
