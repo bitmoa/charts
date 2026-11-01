@@ -1,5 +1,9 @@
 # Changelog
 
+## 17.3.1 (2026-11-01)
+
+* Bump `os-shell` image to `12-debian-12-r83` (was `12-debian-12-r82`)
+
 ## 17.3.0 (2026-10-31)
 
 * Bump `discourse` image to `2026.11.0-debian-12-r0` (was `2026.10.0-debian-12-r13`)
