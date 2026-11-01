@@ -1,5 +1,9 @@
 # Changelog
 
+## 16.4.27 (2026-11-01)
+
+* Bump `pgpool` image to `4.7.3-debian-12-r5` (was `4.7.3-debian-12-r4`)
+
 ## 16.4.26 (2026-10-27)
 
 * Bump `os-shell` image to `12-debian-12-r82` (was `12-debian-12-r76`)
