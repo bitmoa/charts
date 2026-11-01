@@ -1,5 +1,9 @@
 # Changelog
 
+## 16.4.29 (2026-11-01)
+
+* Bump `os-shell` image to `12-debian-12-r83` (was `12-debian-12-r82`)
+
 ## 16.4.28 (2026-11-01)
 
 * Bump `postgresql-repmgr` image to `18.6.0-debian-12-r29` (was `18.6.0-debian-12-r28`)
