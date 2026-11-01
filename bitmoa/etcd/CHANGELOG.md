@@ -1,5 +1,9 @@
 # Changelog
 
+## 12.3.1 (2026-11-01)
+
+* Bump `os-shell` image to `12-debian-12-r83` (was `12-debian-12-r76`)
+
 ## 12.3.0 (2026-10-27)
 
 * Bump `etcd` image to `3.7.3-debian-12-r0` (was `3.7.2-debian-12-r3`)
