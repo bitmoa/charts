@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.12.4 (2026-11-02)
+
+* Bump `chainloop-artifact-cas` image to `1.130.0-debian-12-r0` (was `1.129.1-debian-12-r0`)
+
 ## 4.12.3 (2026-11-01)
 
 * Bump `dex` image to `2.46.1-debian-12-r3` (was `2.46.1-debian-12-r2`)
