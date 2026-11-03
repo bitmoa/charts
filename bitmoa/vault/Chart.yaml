@@ -11,7 +11,7 @@ annotations:
     - name: vault-csi-provider
       image: ghcr.io/bitmoa/vault-csi-provider:1.7.4-debian-12-r13
     - name: vault-k8s
-      image: ghcr.io/bitmoa/vault-k8s:1.7.0-debian-12-r0
+      image: ghcr.io/bitmoa/vault-k8s:1.7.7-debian-12-r0
   licenses: Apache-2.0
   tanzuCategory: clusterUtility
 apiVersion: v2
@@ -37,4 +37,4 @@ maintainers:
 name: vault
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/vault
-version: 1.13.2
+version: 1.13.3
