@@ -1,5 +1,9 @@
 # Changelog
 
+## 13.3.5 (2026-11-04)
+
+* Bump `redis-exporter` image to `1.97.0-debian-12-r0` (was `1.96.0-debian-12-r1`)
+
 ## 13.3.4 (2026-11-01)
 
 * Bump `os-shell` image to `12-debian-12-r83` (was `12-debian-12-r82`)
