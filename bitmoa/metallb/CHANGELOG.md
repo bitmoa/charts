@@ -1,5 +1,9 @@
 # Changelog
 
+## 6.6.0 (2026-11-04)
+
+* Bump `metallb-speaker` image to `0.16.2-debian-12-r0` (was `0.16.1-debian-12-r20`)
+
 ## 6.5.9 (2026-11-01)
 
 * Bump `metallb-speaker` image to `0.16.1-debian-12-r20` (was `0.16.1-debian-12-r13`)
