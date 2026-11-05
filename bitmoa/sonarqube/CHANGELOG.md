@@ -1,5 +1,9 @@
 # Changelog
 
+## 8.4.1 (2026-11-05)
+
+* Bump `jmx-exporter` image to `1.7.0-debian-12-r1` (was `1.7.0-debian-12-r0`)
+
 ## 8.4.0 (2026-11-04)
 
 * Bump `sonarqube` image to `26.11.0-debian-12-r0` (was `26.10.0-debian-12-r2`)
