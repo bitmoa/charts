@@ -1,5 +1,9 @@
 # Changelog
 
+## 10.4.0 (2026-11-05)
+
+* Bump `jupyterhub` image to `6.2.0-debian-12-r0` (was `6.1.1-debian-12-r2`)
+
 ## 10.3.5 (2026-11-05)
 
 * Bump `jupyterhub` image to `6.1.1-debian-12-r2` (was `6.0.1-debian-12-r3`)
