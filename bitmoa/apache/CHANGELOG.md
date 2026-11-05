@@ -1,5 +1,9 @@
 # Changelog
 
+## 11.6.12 (2026-11-05)
+
+* Bump `apache-exporter` image to `1.1.2-debian-12-r0` (was `1.1.1-debian-12-r14`)
+
 ## 11.6.11 (2026-11-03)
 
 * Bump `apache` image to `2.4.69-debian-12-r7` (was `2.4.69-debian-12-r6`)
