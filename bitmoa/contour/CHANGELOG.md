@@ -1,5 +1,9 @@
 # Changelog
 
+## 21.3.1 (2026-11-06)
+
+* Bump `contour` image to `1.33.8-debian-12-r1` (was `1.33.8-debian-12-r0`)
+
 ## 21.3.0 (2026-10-31)
 
 * Bump `contour` image to `1.33.8-debian-12-r0` (was `1.33.7-debian-12-r6`)
