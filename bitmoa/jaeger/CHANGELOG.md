@@ -1,5 +1,9 @@
 # Changelog
 
+## 6.3.4 (2026-11-06)
+
+* Bump `cassandra` image to `5.0.9-debian-12-r8` (was `5.0.9-debian-12-r7`)
+
 ## 6.3.3 (2026-10-27)
 
 * Bump `cassandra` image to `5.0.9-debian-12-r7` (was `5.0.9-debian-12-r5`)
