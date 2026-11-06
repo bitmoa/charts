@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.4.10 (2026-11-06)
+
+* Bump `cassandra` image to `5.0.9-debian-12-r8` (was `5.0.9-debian-12-r7`)
+
 ## 1.4.9 (2026-10-27)
 
 * Bump `zipkin` image to `3.6.1-debian-12-r13` (was `3.6.1-debian-12-r12`)
