@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.4.23 (2026-11-06)
+
+* Bump `clickhouse-keeper` image to `26.8.34-debian-12-r2` (was `26.8.34-debian-12-r1`)
+
 ## 0.4.22 (2026-11-06)
 
 * Bump `clickhouse` image to `26.8.34-debian-12-r2` (was `26.8.20-debian-12-r1`)
