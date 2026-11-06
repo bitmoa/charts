@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.10.16 (2026-11-06)
+
+* Bump `grafana-operator` image to `5.25.0-debian-12-r9` (was `5.25.0-debian-12-r8`)
+
 ## 4.10.15 (2026-11-01)
 
 * Bump `grafana` image to `13.2.5-debian-12-r1` (was `13.2.5-debian-12-r0`)
