@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.7.5 (2026-11-06)
+
+* Bump `cert-manager-webhook` image to `1.21.3-debian-12-r2` (was `1.21.2-debian-12-r4`)
+
 ## 1.7.4 (2026-11-06)
 
 * Bump `cainjector` image to `1.21.3-debian-12-r2` (was `1.21.3-debian-12-r1`)
