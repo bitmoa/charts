@@ -1,5 +1,9 @@
 # Changelog
 
+## 11.5.1 (2026-11-06)
+
+* Bump `dex` image to `2.46.1-debian-12-r4` (was `2.46.1-debian-12-r3`)
+
 ## 11.5.0 (2026-11-05)
 
 * Bump `argo-cd` image to `3.5.7-debian-12-r0` (was `3.5.6-debian-12-r3`)
