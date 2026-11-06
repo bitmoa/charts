@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.3.1 (2026-11-06)
+
+* Bump `arangodb` image to `3.11.14-debian-12-r40` (was `3.11.14-debian-12-r39`)
+
 ## 0.3.0 (2026-10-27)
 
 * Bump `kube-arangodb` image to `1.4.6-debian-12-r2` (was `1.4.5-debian-12-r5`)
