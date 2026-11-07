@@ -1,5 +1,9 @@
 # Changelog
 
+## 7.3.1 (2026-11-07)
+
+* Bump `logstash` image to `9.5.6-debian-12-r1` (was `9.5.6-debian-12-r0`)
+
 ## 7.3.0 (2026-11-02)
 
 * Bump `logstash` image to `9.5.6-debian-12-r0` (was `9.5.5-debian-12-r4`)
