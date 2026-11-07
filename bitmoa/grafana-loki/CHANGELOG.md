@@ -1,5 +1,9 @@
 # Changelog
 
+## 6.3.4 (2026-11-07)
+
+* Bump `grafana-loki` image to `3.7.9-debian-12-r2` (was `3.7.9-debian-12-r1`)
+
 ## 6.3.3 (2026-11-01)
 
 * Bump `os-shell` image to `12-debian-12-r83` (was `12-debian-12-r82`)
