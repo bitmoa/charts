@@ -1,5 +1,9 @@
 # Changelog
 
+## 27.3.5 (2026-11-07)
+
+* Bump `harbor-registry` image to `2.15.4-debian-12-r3` (was `2.15.4-debian-12-r2`)
+
 ## 27.3.4 (2026-11-01)
 
 * Bump `os-shell` image to `12-debian-12-r83` (was `12-debian-12-r82`)
