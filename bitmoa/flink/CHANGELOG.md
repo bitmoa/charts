@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.1.4 (2026-11-07)
+
+* Bump `flink` image to `2.3.0-debian-12-r12` (was `2.3.0-debian-12-r11`)
+
 ## 2.1.3 (2026-11-01)
 
 * Bump `flink` image to `2.3.0-debian-12-r11` (was `2.3.0-debian-12-r10`)
