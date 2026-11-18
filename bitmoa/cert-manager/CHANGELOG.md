@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.7.9 (2026-11-18)
+
+* Bump `cert-manager-webhook` image to `1.21.3-debian-12-r3` (was `1.21.3-debian-12-r2`)
+
 ## 1.7.8 (2026-11-18)
 
 * Bump `cert-manager` image to `1.21.3-debian-12-r3` (was `1.21.3-debian-12-r1`)
