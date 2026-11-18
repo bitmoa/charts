@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.2.9 (2026-11-18)
+
+* Bump `valkey` image to `9.1.3-debian-12-r1` (was `9.1.2-debian-12-r6`)
+
 ## 3.2.8 (2026-11-04)
 
 * Bump `redis-exporter` image to `1.97.0-debian-12-r0` (was `1.96.0-debian-12-r1`)
