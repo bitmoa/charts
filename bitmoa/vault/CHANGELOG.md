@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.13.4 (2026-11-18)
+
+* Bump `vault-k8s` image to `1.7.7-debian-12-r2` (was `1.7.7-debian-12-r0`)
+
 ## 1.13.3 (2026-11-03)
 
 * Bump `vault-k8s` image to `1.7.7-debian-12-r0` (was `1.7.0-debian-12-r0`)
