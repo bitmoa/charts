@@ -1,5 +1,9 @@
 # Changelog
 
+## 28.3.0 (2026-11-18)
+
+* Bump `moodle` image to `5.3.1-debian-12-r0` (was `5.3.0-debian-12-r8`)
+
 ## 28.2.9 (2026-11-18)
 
 * Bump `apache-exporter` image to `1.1.3-debian-12-r1` (was `1.1.3-debian-12-r0`)
