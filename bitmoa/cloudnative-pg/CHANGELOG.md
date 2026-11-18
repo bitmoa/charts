@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.3.0 (2026-11-18)
+
+* Bump `cloudnative-pg` image to `1.30.2-debian-12-r0` (was `1.30.1-debian-12-r1`)
+
 ## 1.2.14 (2026-11-03)
 
 * Bump `postgresql` image to `18.6.0-debian-12-r26` (was `18.6.0-debian-12-r17`)
