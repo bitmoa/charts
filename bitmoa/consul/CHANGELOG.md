@@ -1,5 +1,9 @@
 # Changelog
 
+## 11.6.4 (2026-11-18)
+
+* Bump `consul` image to `2.1.0-debian-12-r4` (was `2.1.0-debian-12-r2`)
+
 ## 11.6.3 (2026-11-06)
 
 * Bump `consul` image to `2.1.0-debian-12-r2` (was `2.1.0-debian-12-r1`)
