@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.5.1 (2026-11-18)
+
+* Bump `hubble-ui-backend` image to `0.13.6-debian-12-r8` (was `0.13.6-debian-12-r6`)
+
 ## 3.5.0 (2026-11-18)
 
 * Bump `cilium-operator` image to `1.20.5-debian-12-r0` (was `1.20.4-debian-12-r2`)
