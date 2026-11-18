@@ -1,5 +1,9 @@
 # Changelog
 
+## 7.2.3 (2026-11-18)
+
+* Bump `git` image to `2.56.1-debian-12-r0` (was `2.56.0-debian-12-r8`)
+
 ## 7.2.2 (2026-11-18)
 
 * Bump `dotnet-sdk` image to `10.0.404-debian-12-r1` (was `10.0.403-debian-12-r3`)
