@@ -1,5 +1,9 @@
 # Changelog
 
+## 7.2.2 (2026-11-18)
+
+* Bump `dotnet-sdk` image to `10.0.404-debian-12-r1` (was `10.0.403-debian-12-r3`)
+
 ## 7.2.1 (2026-11-06)
 
 * Bump `dotnet-sdk` image to `10.0.403-debian-12-r3` (was `10.0.401-debian-12-r3`)
