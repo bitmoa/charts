@@ -7,13 +7,13 @@ annotations:
     - name: git
       image: ghcr.io/bitmoa/git:2.56.0-debian-12-r8
     - name: mlflow
-      image: ghcr.io/bitmoa/mlflow:3.17.2-debian-12-r3
+      image: ghcr.io/bitmoa/mlflow:3.18.0-debian-12-r0
     - name: os-shell
       image: ghcr.io/bitmoa/os-shell:12-debian-12-r82
   licenses: Apache-2.0
   tanzuCategory: application
 apiVersion: v2
-appVersion: 3.17.2
+appVersion: 3.18.0
 dependencies:
 - condition: minio.enabled
   name: minio
@@ -47,4 +47,4 @@ sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/mlflow
 - https://github.com/bitmoa/containers/tree/main/bitmoa/mlflow
 - https://github.com/mlflow/mlflow
-version: 5.5.3
+version: 5.6.0
