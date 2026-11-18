@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.7.0 (2026-11-18)
+
+* Bump `rabbitmq-cluster-operator` image to `2.23.3-debian-12-r0` (was `2.23.1-debian-12-r1`)
+
 ## 4.6.3 (2026-11-01)
 
 * Bump `rabbitmq` image to `4.3.7-debian-12-r3` (was `4.3.7-debian-12-r2`)
