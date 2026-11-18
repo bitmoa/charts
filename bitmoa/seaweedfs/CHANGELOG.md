@@ -1,5 +1,9 @@
 # Changelog
 
+## 6.6.1 (2026-11-18)
+
+* Bump `postgresql` image to `18.7.0-debian-12-r4` (was `18.6.0-debian-12-r25`)
+
 ## 6.6.0 (2026-11-18)
 
 * Bump `seaweedfs` image to `4.54.0-debian-12-r0` (was `4.53.0-debian-12-r1`)
