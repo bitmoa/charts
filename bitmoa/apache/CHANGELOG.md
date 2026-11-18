@@ -1,5 +1,9 @@
 # Changelog
 
+## 11.7.1 (2026-11-18)
+
+* Bump `git` image to `2.56.1-debian-12-r0` (was `2.56.0-debian-12-r7`)
+
 ## 11.7.0 (2026-11-18)
 
 * Bump `apache` image to `2.4.71-debian-12-r0` (was `2.4.69-debian-12-r7`)
