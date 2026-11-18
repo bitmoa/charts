@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.14 (2026-11-18)
+
+* Bump `grafana-k6` image to `2.3.0-debian-12-r8` (was `2.3.0-debian-12-r6`)
+
 ## 1.1.13 (2026-11-01)
 
 * Bump `os-shell` image to `12-debian-12-r83` (was `12-debian-12-r82`)
