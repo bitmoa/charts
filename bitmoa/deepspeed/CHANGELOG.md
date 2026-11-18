@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.7.1 (2026-11-18)
+
+* Bump `git` image to `2.56.1-debian-12-r0` (was `2.56.0-debian-12-r8`)
+
 ## 2.7.0 (2026-11-18)
 
 * Bump `deepspeed` image to `0.20.0-debian-12-r1` (was `0.19.9-debian-12-r0`)
