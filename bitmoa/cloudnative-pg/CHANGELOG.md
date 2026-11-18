@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.3.2 (2026-11-18)
+
+* Bump `postgresql` image to `18.7.0-debian-12-r4` (was `18.6.0-debian-12-r26`)
+
 ## 1.3.1 (2026-11-18)
 
 * Bump `plugin-barman-cloud` image to `0.16.0-debian-12-r1` (was `0.15.1-debian-12-r2`)
