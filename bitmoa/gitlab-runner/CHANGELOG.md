@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.8.1 (2026-11-18)
+
+* Bump `gitlab-runner` image to `19.5.3-debian-12-r1` (was `19.5.2-debian-12-r1`)
+
 ## 1.8.0 (2026-11-05)
 
 * Bump `gitlab-runner-helper` image to `19.5.3-debian-12-r0` (was `19.5.2-debian-12-r1`)
