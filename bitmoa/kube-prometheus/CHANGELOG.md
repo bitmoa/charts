@@ -1,5 +1,9 @@
 # Changelog
 
+## 11.8.0 (2026-11-18)
+
+* Bump `prometheus-operator` image to `0.95.2-debian-12-r0` (was `0.95.1-debian-12-r0`)
+
 ## 11.7.4 (2026-11-18)
 
 * Bump `prometheus` image to `3.15.1-debian-12-r1` (was `3.15.1-debian-12-r0`)
