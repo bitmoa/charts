@@ -1,5 +1,9 @@
 # Changelog
 
+## 27.4.0 (2026-11-18)
+
+* Bump `harbor-registry` image to `2.16.0-debian-12-r1` (was `2.15.4-debian-12-r3`)
+
 ## 27.3.5 (2026-11-07)
 
 * Bump `harbor-registry` image to `2.15.4-debian-12-r3` (was `2.15.4-debian-12-r2`)
