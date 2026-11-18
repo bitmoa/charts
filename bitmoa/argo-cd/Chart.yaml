@@ -5,7 +5,7 @@ annotations:
   category: Infrastructure
   images: |
     - name: argo-cd
-      image: ghcr.io/bitmoa/argo-cd:3.5.7-debian-12-r0
+      image: ghcr.io/bitmoa/argo-cd:3.5.7-debian-12-r1
     - name: dex
       image: ghcr.io/bitmoa/dex:2.46.1-debian-12-r4
     - name: os-shell
@@ -40,4 +40,4 @@ maintainers:
 name: argo-cd
 sources:
 - https://github.com/bitmoa/charts/tree/main/bitmoa/argo-cd
-version: 11.5.1
+version: 11.5.2
