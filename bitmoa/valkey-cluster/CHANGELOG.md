@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.2.1 (2026-11-18)
+
+* Bump `redis-exporter` image to `1.97.0-debian-12-r2` (was `1.97.0-debian-12-r0`)
+
 ## 3.2.0 (2026-11-18)
 
 * Bump `valkey-cluster` image to `9.1.3-debian-12-r1` (was `9.1.2-debian-12-r6`)
