@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.3.0 (2026-11-18)
+
+* Bump `opensearch` image to `3.10.0-debian-12-r0` (was `3.9.0-debian-12-r6`)
+
 ## 2.2.3 (2026-11-01)
 
 * Bump `os-shell` image to `12-debian-12-r83` (was `12-debian-12-r82`)
