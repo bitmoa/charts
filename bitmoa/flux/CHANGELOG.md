@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.4.64 (2026-11-18)
+
+* Bump `fluxcd-image-reflector-controller` image to `1.3.0-debian-12-r3` (was `1.2.5-debian-12-r7`)
+
 ## 2.4.63 (2026-11-18)
 
 * Bump `fluxcd-notification-controller` image to `1.10.0-debian-12-r2` (was `1.10.0-debian-12-r0`)
