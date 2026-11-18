@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.4.63 (2026-11-18)
+
+* Bump `fluxcd-notification-controller` image to `1.10.0-debian-12-r2` (was `1.10.0-debian-12-r0`)
+
 ## 2.4.62 (2026-11-18)
 
 * Bump `fluxcd-helm-controller` image to `1.7.1-debian-12-r2` (was `1.6.5-debian-12-r4`)
