@@ -1,5 +1,9 @@
 # Changelog
 
+## 16.4.2 (2026-11-18)
+
+* Bump `pymilvus` image to `3.0.3-debian-12-r0` (was `3.0.2-debian-12-r3`)
+
 ## 16.4.1 (2026-11-01)
 
 * Bump `os-shell` image to `12-debian-12-r83` (was `12-debian-12-r82`)
