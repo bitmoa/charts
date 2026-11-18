@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.6.2 (2026-11-18)
+
+* Bump `haproxy` image to `3.4.7-debian-12-r7` (was `3.4.7-debian-12-r4`)
+
 ## 2.6.1 (2026-10-28)
 
 * Bump `haproxy` image to `3.4.7-debian-12-r4` (was `3.4.7-debian-12-r3`)
