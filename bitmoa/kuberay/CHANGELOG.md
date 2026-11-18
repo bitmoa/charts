@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.7.0 (2026-11-18)
+
+* Bump `kuberay-operator` image to `1.7.2-debian-12-r1` (was `1.7.1-debian-12-r6`)
+
 ## 1.6.11 (2026-10-27)
 
 * Bump `ray` image to `2.59.0-debian-12-r1` (was `2.58.0-debian-12-r4`)
