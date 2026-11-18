@@ -1,5 +1,9 @@
 # Changelog
 
+## 16.5.0 (2026-11-18)
+
+* Bump `postgresql-repmgr` image to `18.7.0-debian-12-r3` (was `18.6.0-debian-12-r31`)
+
 ## 16.4.30 (2026-11-03)
 
 * Bump `postgresql-repmgr` image to `18.6.0-debian-12-r31` (was `18.6.0-debian-12-r29`)
