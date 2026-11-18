@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.4.1 (2026-11-18)
+
+* Bump `multus-cni` image to `4.3.2-debian-12-r1` (was `4.3.2-debian-12-r0`)
+
 ## 2.4.0 (2026-11-05)
 
 * Bump `multus-cni` image to `4.3.2-debian-12-r0` (was `4.3.1-debian-12-r4`)
