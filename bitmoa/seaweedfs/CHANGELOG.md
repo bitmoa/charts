@@ -1,5 +1,9 @@
 # Changelog
 
+## 6.6.0 (2026-11-18)
+
+* Bump `seaweedfs` image to `4.54.0-debian-12-r0` (was `4.53.0-debian-12-r1`)
+
 ## 6.5.0 (2026-11-18)
 
 * Bump `seaweedfs` image to `4.53.0-debian-12-r1` (was `4.52.0-debian-12-r0`)
