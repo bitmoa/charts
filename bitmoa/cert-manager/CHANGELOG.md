@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.7.8 (2026-11-18)
+
+* Bump `cert-manager` image to `1.21.3-debian-12-r3` (was `1.21.3-debian-12-r1`)
+
 ## 1.7.7 (2026-11-18)
 
 * Bump `cainjector` image to `1.21.3-debian-12-r3` (was `1.21.3-debian-12-r2`)
