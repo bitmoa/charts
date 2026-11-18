@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.5.0 (2026-11-18)
+
+* Bump `concourse` image to `8.3.3-debian-12-r3` (was `8.3.2-debian-12-r6`)
+
 ## 5.4.4 (2026-11-06)
 
 * Bump `concourse` image to `8.3.2-debian-12-r6` (was `8.3.2-debian-12-r5`)
