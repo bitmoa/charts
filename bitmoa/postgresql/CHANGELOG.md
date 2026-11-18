@@ -1,5 +1,9 @@
 # Changelog
 
+## 16.8.25 (2026-11-18)
+
+* Bump `postgres-exporter` image to `0.20.1-debian-12-r15` (was `0.20.1-debian-12-r13`)
+
 ## 16.8.24 (2026-11-03)
 
 * Bump `postgresql` image to `18.6.0-debian-12-r26` (was `18.6.0-debian-12-r24`)
