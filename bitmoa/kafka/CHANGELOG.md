@@ -1,5 +1,9 @@
 # Changelog
 
+## 32.6.6 (2026-11-18)
+
+* Bump `kubectl` image to `1.37.2-debian-12-r3` (was `1.37.2-debian-12-r1`)
+
 ## 32.6.5 (2026-11-05)
 
 * Bump `jmx-exporter` image to `1.7.0-debian-12-r1` (was `1.7.0-debian-12-r0`)
