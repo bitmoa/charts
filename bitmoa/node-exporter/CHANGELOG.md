@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.7.0 (2026-11-19)
+
+* Bump `node-exporter` image to `1.13.0-debian-12-r0` (was `1.12.1-debian-12-r14`)
+
 ## 4.6.6 (2026-11-18)
 
 * Bump `node-exporter` image to `1.12.1-debian-12-r14` (was `1.12.1-debian-12-r12`)
