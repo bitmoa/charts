@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.1.13 (2026-11-19)
+
+* Bump `dremio` image to `26.0.5-debian-12-r30` (was `26.0.5-debian-12-r29`)
+
 ## 3.1.12 (2026-11-18)
 
 * Bump `dremio` image to `26.0.5-debian-12-r29` (was `26.0.5-debian-12-r27`)
