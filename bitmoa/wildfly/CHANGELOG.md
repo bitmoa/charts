@@ -1,5 +1,9 @@
 # Changelog
 
+## 25.1.9 (2026-11-19)
+
+* Bump `wildfly` image to `41.0.1-debian-12-r9` (was `41.0.1-debian-12-r7`)
+
 ## 25.1.8 (2026-11-01)
 
 * Bump `os-shell` image to `12-debian-12-r83` (was `12-debian-12-r82`)
