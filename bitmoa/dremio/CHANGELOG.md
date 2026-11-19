@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.1.14 (2026-11-19)
+
+* Bump `jmx-exporter` image to `1.7.0-debian-12-r2` (was `1.7.0-debian-12-r1`)
+
 ## 3.1.13 (2026-11-19)
 
 * Bump `dremio` image to `26.0.5-debian-12-r30` (was `26.0.5-debian-12-r29`)
