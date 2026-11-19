@@ -1,5 +1,9 @@
 # Changelog
 
+## 21.3.3 (2026-11-19)
+
+* Bump `nginx` image to `1.31.9-debian-12-r0` (was `1.31.8-debian-12-r2`)
+
 ## 21.3.2 (2026-11-18)
 
 * Bump `envoy` image to `1.40.2-debian-12-r0` (was `1.39.6-debian-12-r0`)
