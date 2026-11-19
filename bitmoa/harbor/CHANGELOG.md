@@ -1,5 +1,9 @@
 # Changelog
 
+## 27.4.2 (2026-11-19)
+
+* Bump `harbor-portal` image to `2.16.0-debian-12-r1` (was `2.15.4-debian-12-r2`)
+
 ## 27.4.1 (2026-11-18)
 
 * Bump `harbor-exporter` image to `2.16.0-debian-12-r1` (was `2.15.3-debian-12-r0`)
