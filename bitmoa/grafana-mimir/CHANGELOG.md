@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.4.4 (2026-11-19)
+
+* Bump `nginx` image to `1.31.9-debian-12-r0` (was `1.31.8-debian-12-r2`)
+
 ## 3.4.3 (2026-11-07)
 
 * Bump `memcached` image to `1.6.45-debian-12-r10` (was `1.6.45-debian-12-r9`)
